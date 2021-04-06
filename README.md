@@ -22,6 +22,11 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Perguntas de Pesquisa
 > Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
 
+- Podemos direta ou indiretamente relacionar o aumento de casos de zoonoses ao desmatamento da amazônia?
+  - Existe relação entre o aumento do desmatamento e o aumento de casos de doenças transmitidas por insetos?
+  - Existe relação entre o aumento da área para agropecuária e o aumento de casos de doenças transmitidas por mamíferos?
+
+
 # Bases de Dados
 > Elencar bases de dados candidatas a serem utilizadas no projeto.
 
