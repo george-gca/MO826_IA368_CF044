@@ -22,9 +22,10 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Perguntas de Pesquisa
 - O desmatamento contribui para o surgimento de doenças emergentes/reemergentes?
   - Existe relação entre o aumento da área desmatada para agropecuária e o aumento de casos de doenças transmitidas por animais domésticos?
+  - Existe relação entre o aumento da área desmatada e o aumento de casos de doenças transmitidas por insetos?
 
 # Bases de Dados
-> Elencar bases de dados candidatas a serem utilizadas no projeto.
+
 
 # Metodologia
 Para a realização deste trabalho os seguintes passos serão necessários:
