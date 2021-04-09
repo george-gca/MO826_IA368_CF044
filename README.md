@@ -25,7 +25,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
   - Existe relação entre o aumento da área desmatada e o aumento de casos de doenças transmitidas por insetos?
 
 # Bases de Dados
-
+Para informações sobre o desmatamento podemos utilizar a base de dados criada pelo Instituto Nacional de Pesquisas Espaciais (INPE) e disponibilizada através do portal TerraBrasilis. Quanto a informações sobre doenças podemos utilizar informações públicas fornecidas pelo DATASUS.
 
 # Metodologia
 Para a realização deste trabalho os seguintes passos serão necessários:
