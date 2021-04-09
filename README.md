@@ -6,13 +6,13 @@
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação [*Ciência e Visualização de Dados em Saúde*](https://github.com/datasci4health/home), oferecida no primeiro semestre de 2021, na Unicamp.
 
 # Equipe
-| Nome                    | RA     | Especialização |
-|-------------------------|--------|----------------|
-| Beatriz Cunha Freire    | 261067 | Computação |
-| Bruna Moraes Lopes      | 216050 | Engenharia |
-| George Corrêa de Araújo | 191075 | Computação |
-| Luidy Kazuo Issayama    | 136703 | Saúde |
-| Stephanie               | XXXXXX | Saúde |
+| Nome                         | RA     | Especialização |
+|------------------------------|--------|----------------|
+| Beatriz Cunha Freire         | 261067 | Computação |
+| Bruna Moraes Lopes           | 216050 | Engenharia |
+| George Corrêa de Araújo      | 191075 | Computação |
+| Luidy Kazuo Issayama         | 136703 | Saúde |
+| Stephanie Villa-Nova Pereira | 154410 | Saúde |
 
 # Descrição Resumida do Projeto
 > Descrição do tema do projeto, incluindo motivação e contexto gerador.
