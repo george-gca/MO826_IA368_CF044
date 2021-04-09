@@ -1,4 +1,4 @@
-# Projeto Desmatamento x Doenças emergentes: Os impactos da exploração ambiental no aumento de zoonoses
+# Projeto Desmatamento vs. Doenças emergentes: Os impactos da exploração ambiental no aumento de zoonoses
 # Project Deforestation vs. Emerging diseases: The impacts of environmental exploitation on the increase in zoonoses
 
 # Apresentação
