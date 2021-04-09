@@ -20,18 +20,22 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
 
 # Perguntas de Pesquisa
-> Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
-
-- Podemos direta ou indiretamente relacionar o aumento de casos de zoonoses ao desmatamento da amazônia?
-  - Existe relação entre o aumento do desmatamento e o aumento de casos de doenças transmitidas por insetos?
-  - Existe relação entre o aumento da área para agropecuária e o aumento de casos de doenças transmitidas por mamíferos?
-
+- O desmatamento contribui para o surgimento de doenças emergentes/reemergentes?
+  - Existe relação entre o aumento da área desmatada para agropecuária e o aumento de casos de doenças transmitidas por animais domésticos?
 
 # Bases de Dados
 > Elencar bases de dados candidatas a serem utilizadas no projeto.
 
 # Metodologia
-> Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
+Para a realização deste trabalho os seguintes passos serão necessários:
+- análise dos dados, interpretação e seleção de subconjuntos de interesse;
+- limpeza e normalização dos dados;
+- análise de métodos de data mining aplicáveis ao problema;
+- realização de data mining;
+- avaliação e visualização dos resultados;
+- publicação dos resultados obtidos.
+
+O ciclo de análise dos dados à avaliação dos resultados poderá ser repetido diversas vezes, até o momento em que o conhecimento necessário para a resposta das perguntas de pesquisa seja obtido.
 
 # Ferramentas
 > Ferramentas a serem utilizadas (com base na visão atual do grupo sobre o projeto).
