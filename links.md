@@ -6,3 +6,5 @@
 
 ### Cursos
 - [Análise de dados com Python](https://pt.coursera.org/learn/data-analysis-with-python-pt)
+- [Análise Exploratória de Dados](https://www.coursera.org/learn/exploratory-data-analysis#syllabus)
+- [As Ferramentas do Cientista de Dados](https://www.coursera.org/learn/data-scientists-tools?#syllabus)
