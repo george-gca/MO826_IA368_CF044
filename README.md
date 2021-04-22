@@ -48,12 +48,12 @@ O ciclo de análise dos dados à avaliação dos resultados poderá ser repetido
 Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
 
 # Cronograma
-| Atividade                                         | 30/04 | 07/05 | 14/05 | 21/05 | 28/05 | 04/06 | 11/06 | 18/06 | 25/06 | 02/07 | 09/07 |
-| ------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Download das bases de dados                       |   *   |       |       |       |       |       |       |       |       |       |       |
-| Análise das bases de dados                        |   *   |   *   |   *   |   *   |   *   |       |       |       |       |       |       |
-| Limpeza e normalização dos dados                  |       |   *   |   *   |   *   |   *   |   *   |   *   |       |       |       |       |
-| Verificação de métodos de data mining             |       |       |       |   *   |   *   |       |       |       |       |       |       |
-| Data mining                                       |       |       |       |       |   *   |   *   |   *   |   *   |   *   |       |       |
-| Avaliação dos resultados                          |       |       |       |       |       |   *   |   *   |   *   |   *   |       |       |
-| Publicação e apresentação dos resultados obtidos  |       |       |       |       |       |       |       |       |       |   *   |   *   |
+| Atividade                                         | 22/04 | 29/04 | 06/05 | 13/05 | 20/05 | 27/05 | 03/06 | 10/06 | 17/06 | 24/06 |
+| ------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Download das bases de dados                       |   *   |       |       |       |       |       |       |       |       |       |
+| Análise das bases de dados                        |   *   |   *   |   *   |   *   |   *   |       |       |       |       |       |
+| Limpeza e normalização dos dados                  |       |   *   |   *   |   *   |   *   |   *   |   *   |       |       |       |
+| Verificação de métodos de data mining             |       |       |       |   *   |   *   |       |       |       |       |       |
+| Data mining                                       |       |       |       |       |   *   |   *   |   *   |   *   |   *   |       |
+| Avaliação dos resultados                          |       |       |       |       |       |   *   |   *   |   *   |   *   |       |
+| Publicação e apresentação dos resultados obtidos  |       |       |       |       |       |       |       |       |       |   *   |
