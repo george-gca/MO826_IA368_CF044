@@ -1,0 +1,11 @@
+Dados:
+	internações
+	valor gasto total
+	taxa de mortalidade
+	óbitos
+
+Tipo de dado:
+	Mês/ano de atendimento
+	2007-2021
+	Por município
+	Amazonia legal
