@@ -1,0 +1,20 @@
+ Mortalidade - Rio Grande do Sul
+Óbitos p/Residênc por Município
+Município: 432020 Seberi
+Causa - CID-BR-10: . 045 Neoplasia maligna da próstata
+Faixa Etária OPS: 25 a 34 anos, 35 a 44 anos, 45 a 54 anos, 55 a 64 anos
+Sexo: Masc
+Período:2019
+"Município";"Óbitos_p/Residênc"
+"432020 Seberi";1
+"Total";1
+ Fonte: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade - SIM
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
+ Nota:
+ 
+ Em 2011, houve uma mudança no conteúdo da Declaração de Óbito, com maior detalhamento das informações coletadas. Para este ano, foram
+ utilizados simultaneamente os dois formulários. Para mais detalhes sobre as mudanças ocorridas e os seus efeitos, veja o documento
+ "Sistema de Informações sobre Mortalidade - SIM. Consolidação da base de dados de 2011".
+ No dia 13/06/2019, os arquivos do SIM referentes ao ano de notificação 2017 foram atualizados, com alteração das causas básicas de 2 registros e exclusão de 1 registro.
+ No dia 01/04/2020, os arquivos do SIM referentes ao ano de notificação 2019 foram atualizados, com alteração das causas básicas de 4 registros e exclusão de 1 registro.
+ 

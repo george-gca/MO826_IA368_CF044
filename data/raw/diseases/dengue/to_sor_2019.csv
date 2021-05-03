@@ -1,0 +1,16 @@
+ Morbidade Hospitalar do SUS - por local de internação - Brasil
+Taxa mortalidade por Região e Região
+Período:Dez/2019
+"Região";"1 Região Norte";"2 Região Nordeste";"3 Região Sudeste";"4 Região Sul";"5 Região Centro-Oeste";"Total"
+"1 Região Norte";2,72;...;...;...;...;2,72
+"2 Região Nordeste";...;3,82;...;...;...;3,82
+"3 Região Sudeste";...;...;5,09;...;...;5,09
+"4 Região Sul";...;...;...;4,31;...;4,31
+"5 Região Centro-Oeste";...;...;...;...;3,39;3,39
+"Total";2,72;3,82;5,09;4,31;3,39;4,28
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Situação da base de dados nacional em 29/04/2016.
+ Dados de janeiro de 2015 até março de 2016 sujeitos a retificação.
+ 

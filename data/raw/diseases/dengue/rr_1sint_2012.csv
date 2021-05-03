@@ -1,0 +1,40 @@
+ Produção Ambulatorial do SUS - por gestor -  Minas Gerais
+Qtd.aprovadaValor aprovadoQtd.apresentadaValor apresentado por Município gestor
+Município gestor: 313900 Machado, 313940 Manhuaçu, 314000 Mariana, 314310 Monte Carmelo, 314330 Montes Claros, 314390 Muriaé, 314430 Nanuque, 314480 Nova Lima, 314520 Nova Serrana, 314610 Ouro Preto, 314710 Pará de Minas, 314700 Paracatu, 314790 Passos, 314800 Patos de Minas, 314810 Patrocínio, 314930 Pedro Leopoldo, 315120 Pirapora, 315180 Poços de Caldas, 315210 Ponte Nova, 315250 Pouso Alegre
+Esfera Jurídica: Administração Pública Municipal
+Período:2019-2020
+"Município gestor";"Qtd.aprovada";"Valor_aprovado";"Qtd.apresentada";"Valor_apresentado"
+"313900 Machado";547423;364581,17;550928;395596,81
+"313940 Manhuaçu";3257963;10507697,08;3475115;11893478,54
+"314000 Mariana";270261;5570,00;272414;12140,00
+"314310 Monte Carmelo";781788;2600467,80;860633;4344088,60
+"314330 Montes Claros";4770420;8679636,98;4844224;9421021,02
+"314390 Muriaé";382508;-;383103;-
+"314430 Nanuque";89764;165351,93;93061;190907,30
+"314480 Nova Lima";641397;1102297,25;761923;1666539,67
+"314520 Nova Serrana";1667964;6218371,03;1669664;6218372,92
+"314610 Ouro Preto";476257;2704371,93;484679;2704371,93
+"314710 Pará de Minas";1404667;5029265,01;1407420;5040654,14
+"314700 Paracatu";904265;6679925,02;1328943;8803148,49
+"314790 Passos";1922331;7810,57;1933282;8723,21
+"314800 Patos de Minas";1775821;8788429,70;1833361;9410065,84
+"314810 Patrocínio";3286155;5377961,47;3296346;5499726,47
+"314930 Pedro Leopoldo";1182397;5550236,74;1187985;5579352,62
+"315120 Pirapora";465181;2315154,80;473719;2408570,32
+"315180 Poços de Caldas";2575280;9055941,74;3225350;9243018,21
+"315210 Ponte Nova";923343;1504427,19;948766;1775841,95
+"315250 Pouso Alegre";1962280;1984266,57;2501912;4663186,30
+"Total";29287465;78641763,98;31532828;89278804,34
+ Fonte: Ministério da Saúde - Sistema de Informações Ambulatoriais do SUS (SIA/SUS)
+ Notas:
+ 
+ Situação da base de dados nacional em 29/04/2016.
+ Dados de janeiro de 2015 até março de 2016 sujeitos a retificação.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.

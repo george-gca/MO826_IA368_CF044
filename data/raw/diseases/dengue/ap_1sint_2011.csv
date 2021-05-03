@@ -1,0 +1,202 @@
+ Mortalidade - Ceará
+Óbitos p/Residênc por Município
+Categoria CID-10: I50   Insuf cardiaca
+Sexo: Masc, Fem
+Período:2010-2019
+"Município";"Óbitos_p/Residênc"
+"230010 Abaiara";11
+"230015 Acarape";14
+"230020 Acaraú";83
+"230030 Acopiara";75
+"230040 Aiuaba";30
+"230050 Alcântaras";9
+"230060 Altaneira";12
+"230070 Alto Santo";32
+"230075 Amontada";34
+"230080 Antonina do Norte";18
+"230090 Apuiarés";29
+"230100 Aquiraz";68
+"230110 Aracati";78
+"230120 Aracoiaba";37
+"230125 Ararendá";27
+"230130 Araripe";32
+"230140 Aratuba";19
+"230150 Arneiroz";16
+"230160 Assaré";43
+"230170 Aurora";54
+"230180 Baixio";13
+"230185 Banabuiú";17
+"230190 Barbalha";82
+"230195 Barreira";32
+"230200 Barro";32
+"230205 Barroquinha";25
+"230210 Baturité";58
+"230220 Beberibe";75
+"230230 Bela Cruz";45
+"230240 Boa Viagem";49
+"230250 Brejo Santo";69
+"230260 Camocim";81
+"230270 Campos Sales";50
+"230280 Canindé";115
+"230290 Capistrano";37
+"230300 Caridade";18
+"230310 Cariré";30
+"230320 Caririaçu";40
+"230330 Cariús";30
+"230340 Carnaubal";18
+"230350 Cascavel";116
+"230360 Catarina";19
+"230365 Catunda";18
+"230370 Caucaia";239
+"230380 Cedro";64
+"230390 Chaval";14
+"230393 Choró";12
+"230395 Chorozinho";26
+"230400 Coreaú";20
+"230410 Crateús";125
+"230420 Crato";166
+"230423 Croatá";24
+"230425 Cruz";32
+"230426 Deputado Irapuan Pinheiro";23
+"230427 Ererê";18
+"230428 Eusébio";37
+"230430 Farias Brito";30
+"230435 Forquilha";30
+"230440 Fortaleza";1921
+"230445 Fortim";16
+"230450 Frecheirinha";25
+"230460 General Sampaio";11
+"230465 Graça";22
+"230470 Granja";50
+"230480 Granjeiro";10
+"230490 Groaíras";25
+"230495 Guaiúba";40
+"230500 Guaraciaba do Norte";40
+"230510 Guaramiranga";7
+"230520 Hidrolândia";29
+"230523 Horizonte";60
+"230526 Ibaretama";9
+"230530 Ibiapina";29
+"230533 Ibicuitinga";6
+"230535 Icapuí";21
+"230540 Icó";101
+"230550 Iguatu";178
+"230560 Independência";28
+"230565 Ipaporanga";18
+"230570 Ipaumirim";15
+"230580 Ipu";41
+"230590 Ipueiras";59
+"230600 Iracema";37
+"230610 Irauçuba";24
+"230620 Itaiçaba";9
+"230625 Itaitinga";34
+"230630 Itapagé";44
+"230640 Itapipoca";238
+"230650 Itapiúna";32
+"230655 Itarema";48
+"230660 Itatira";35
+"230670 Jaguaretama";78
+"230680 Jaguaribara";14
+"230690 Jaguaribe";43
+"230700 Jaguaruana";43
+"230710 Jardim";36
+"230720 Jati";13
+"230725 Jijoca de Jericoacoara";19
+"230730 Juazeiro do Norte";316
+"230740 Jucás";47
+"230750 Lavras da Mangabeira";61
+"230760 Limoeiro do Norte";81
+"230763 Madalena";8
+"230765 Maracanaú";195
+"230770 Maranguape";117
+"230780 Marco";30
+"230790 Martinópole";15
+"230800 Massapê";33
+"230810 Mauriti";63
+"230820 Meruoca";19
+"230830 Milagres";39
+"230835 Milhã";51
+"230837 Miraíma";20
+"230840 Missão Velha";61
+"230850 Mombaça";67
+"230860 Monsenhor Tabosa";20
+"230870 Morada Nova";77
+"230880 Moraújo";7
+"230890 Morrinhos";16
+"230900 Mucambo";22
+"230910 Mulungu";12
+"230920 Nova Olinda";25
+"230930 Nova Russas";45
+"230940 Novo Oriente";33
+"230945 Ocara";31
+"230950 Orós";41
+"230960 Pacajus";88
+"230970 Pacatuba";50
+"230980 Pacoti";15
+"230990 Pacujá";9
+"231000 Palhano";12
+"231010 Palmácia";68
+"231020 Paracuru";78
+"231025 Paraipaba";36
+"231030 Parambu";56
+"231040 Paramoti";12
+"231050 Pedra Branca";58
+"231060 Penaforte";25
+"231070 Pentecoste";46
+"231080 Pereiro";36
+"231085 Pindoretama";43
+"231090 Piquet Carneiro";17
+"231095 Pires Ferreira";12
+"231100 Poranga";21
+"231110 Porteiras";26
+"231120 Potengi";31
+"231123 Potiretama";10
+"231126 Quiterianópolis";30
+"231130 Quixadá";95
+"231135 Quixelô";33
+"231140 Quixeramobim";110
+"231150 Quixeré";27
+"231160 Redenção";61
+"231170 Reriutaba";29
+"231180 Russas";108
+"231190 Saboeiro";24
+"231195 Salitre";15
+"231220 Santa Quitéria";422
+"231200 Santana do Acaraú";29
+"231210 Santana do Cariri";30
+"231230 São Benedito";83
+"231240 São Gonçalo do Amarante";48
+"231250 São João do Jaguaribe";16
+"231260 São Luís do Curu";10
+"231270 Senador Pompeu";42
+"231280 Senador Sá";7
+"231290 Sobral";162
+"231300 Solonópole";27
+"231310 Tabuleiro do Norte";48
+"231320 Tamboril";50
+"231325 Tarrafas";9
+"231330 Tauá";79
+"231335 Tejuçuoca";19
+"231340 Tianguá";87
+"231350 Trairi";70
+"231355 Tururu";19
+"231360 Ubajara";49
+"231370 Umari";16
+"231375 Umirim";35
+"231380 Uruburetama";33
+"231390 Uruoca";28
+"231395 Varjota";54
+"231400 Várzea Alegre";67
+"231410 Viçosa do Ceará";48
+"230000 Município ignorado - CE";1
+"Total";10579
+ Fonte: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade - SIM
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
+ Nota:
+ 
+ Em 2011, houve uma mudança no conteúdo da Declaração de Óbito, com maior detalhamento das informações coletadas. Para este ano, foram
+ utilizados simultaneamente os dois formulários. Para mais detalhes sobre as mudanças ocorridas e os seus efeitos, veja o documento
+ "Sistema de Informações sobre Mortalidade - SIM. Consolidação da base de dados de 2011".
+ No dia 13/06/2019, os arquivos do SIM referentes ao ano de notificação 2017 foram atualizados, com alteração das causas básicas de 2 registros e exclusão de 1 registro.
+ No dia 01/04/2020, os arquivos do SIM referentes ao ano de notificação 2019 foram atualizados, com alteração das causas básicas de 4 registros e exclusão de 1 registro.
+ 

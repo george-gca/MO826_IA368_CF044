@@ -1,0 +1,86 @@
+DENGUE - Notificações registradas no Sistema de Informação de Agravos de Notificação - Rondônia
+Casos Prováveis por Município infecção e Mês 1º Sintoma(s)
+Período:2010
+"Município infecção";"Jan";"Fev";"Mar";"Abr";"Mai";"Jun";"Jul";"Ago";"Set";"Out";"Nov";"Dez";"Total"
+"110001 Alta Floresta D'Oeste";1;7;-;-;1;-;-;-;-;-;1;-;10
+"110037 Alto Alegre dos Parecis";18;3;-;-;-;-;-;-;-;-;-;4;25
+"110040 Alto Paraíso";3;2;11;10;-;-;1;-;-;1;1;1;30
+"110034 Alvorada D'Oeste";8;5;7;1;1;-;-;-;-;1;16;30;69
+"110002 Ariquemes";102;50;42;12;3;-;3;1;-;-;1;9;223
+"110045 Buritis";386;142;61;10;7;4;3;-;2;3;5;11;634
+"110003 Cabixi";21;22;13;1;3;-;-;-;-;-;-;2;62
+"110060 Cacaulândia";1;2;-;-;-;-;-;-;-;-;-;-;3
+"110004 Cacoal";549;181;62;11;3;1;5;-;4;3;6;77;902
+"110070 Campo Novo de Rondônia";10;2;4;2;2;-;-;-;-;-;-;2;22
+"110080 Candeias do Jamari";61;30;9;2;8;2;2;1;-;-;1;10;126
+"110005 Cerejeiras";49;15;10;12;3;4;-;1;3;-;2;19;118
+"110092 Chupinguaia";12;2;-;-;-;1;1;-;-;-;-;-;16
+"110006 Colorado do Oeste";53;30;34;43;22;19;6;10;9;15;68;155;464
+"110007 Corumbiara";3;7;22;5;-;2;-;1;-;-;-;-;40
+"110008 Costa Marques";80;220;30;5;4;-;-;-;-;1;-;9;349
+"110094 Cujubim";55;12;11;4;-;-;-;-;3;-;-;6;91
+"110009 Espigão D'Oeste";284;178;38;13;3;1;2;-;1;3;26;6;555
+"110100 Governador Jorge Teixeira";31;8;7;3;1;-;1;-;-;1;-;6;58
+"110010 Guajará-Mirim";150;34;10;-;2;-;-;-;-;-;-;32;228
+"110110 Itapuã do Oeste";70;43;25;15;12;22;10;1;1;-;-;10;209
+"110011 Jaru";402;140;64;40;11;1;3;4;2;5;4;24;700
+"110012 Ji-Paraná";60;6;3;-;1;-;-;-;-;-;-;9;79
+"110013 Machadinho D'Oeste";94;189;115;15;7;7;3;5;7;6;12;60;520
+"110120 Ministro Andreazza";15;14;5;-;-;-;-;-;-;-;-;2;36
+"110130 Mirante da Serra";2;-;-;-;-;-;-;-;-;-;-;-;2
+"110140 Monte Negro";75;35;8;4;4;3;8;5;1;-;32;40;215
+"110014 Nova Brasilândia D'Oeste";268;215;115;30;19;13;10;1;1;9;9;54;744
+"110033 Nova Mamoré";62;33;9;1;1;1;-;-;-;1;-;5;113
+"110143 Nova União";19;5;4;3;3;1;-;1;-;2;6;23;67
+"110050 Novo Horizonte do Oeste";142;70;24;-;1;-;-;1;2;1;6;17;264
+"110015 Ouro Preto do Oeste";200;44;15;5;8;4;2;2;3;6;8;62;359
+"110145 Parecis";5;1;2;-;-;-;-;-;-;-;-;-;8
+"110018 Pimenta Bueno";556;438;269;153;30;5;1;-;-;1;1;28;1482
+"110146 Pimenteiras do Oeste";1;-;-;-;-;-;-;-;-;-;1;2;4
+"110020 Porto Velho";1823;1068;119;14;1;10;5;1;4;7;10;119;3181
+"110025 Presidente Médici";41;25;8;2;-;-;-;-;-;-;-;3;79
+"110147 Primavera de Rondônia";-;-;2;-;-;-;-;-;-;-;-;-;2
+"110026 Rio Crespo";2;2;9;7;1;3;1;1;-;-;1;2;29
+"110028 Rolim de Moura";784;289;44;-;3;-;-;1;1;-;-;35;1157
+"110029 Santa Luzia D'Oeste";24;6;2;-;-;-;-;-;-;-;-;2;34
+"110148 São Felipe D'Oeste";29;49;7;4;-;10;5;-;-;-;-;4;108
+"110149 São Francisco do Guaporé";9;1;1;-;-;-;-;-;-;-;1;1;13
+"110032 São Miguel do Guaporé";45;58;5;10;3;-;-;-;-;1;-;2;124
+"110150 Seringueiras";54;26;2;-;-;-;-;-;-;-;-;-;82
+"110155 Teixeirópolis";60;26;4;-;-;-;-;-;-;-;-;4;94
+"110160 Theobroma";14;11;2;4;1;1;-;-;-;-;2;-;35
+"110170 Urupá";212;13;-;-;1;-;-;-;-;1;4;50;281
+"110175 Vale do Anari";16;8;2;-;-;-;-;-;-;-;-;3;29
+"110180 Vale do Paraíso";1;2;-;1;-;-;-;-;-;1;-;1;6
+"110030 Vilhena";254;275;265;149;112;35;1;1;-;1;2;42;1137
+"120070 Xapuri";1;-;-;-;-;-;-;-;-;-;-;-;1
+"130170 Humaitá";1;-;-;-;-;-;-;-;-;-;-;-;1
+"311860 Contagem";1;-;-;-;-;-;-;-;-;-;-;-;1
+"320530 Vitória";-;-;-;-;-;-;-;-;-;-;-;1;1
+"500270 Campo Grande";1;-;-;-;-;-;-;-;-;-;-;-;1
+"510140 Aripuanã";-;-;-;-;-;-;-;-;-;-;-;1;1
+"510180 Barra do Garças";-;1;-;-;-;-;-;-;-;-;-;-;1
+"510325 Colniza";1;-;-;-;-;-;-;-;-;-;-;-;1
+"510330 Comodoro";-;-;1;-;-;-;-;-;-;-;-;-;1
+"510340 Cuiabá";1;-;-;-;-;-;-;-;-;-;-;-;1
+"510515 Juína";1;-;-;-;-;-;-;-;-;-;-;-;1
+"510787 Sapezal";-;1;-;-;-;-;-;-;-;-;-;-;1
+"510840 Várzea Grande";-;1;-;-;-;-;-;-;-;-;-;-;1
+"000000 Ignorado ou exterior";2711;1416;376;262;77;44;24;47;33;104;479;668;6241
+"Total";9934;5463;1878;853;359;194;97;85;77;174;705;1653;21472
+ Fonte: Ministério da Saúde/SVS - Sistema de Informação de Agravos de Notificação - Sinan Net
+ Notas:
+ 
+ ncluídas notificações de indivíduos residentes no Brasil, independente de sua confirmação, exceto os descartados, pois em situações de epidemia nem sempre é possível confirmar todos os casos.
+ Para tabular os óbitos por dengue até 2012, deve-se considerar apenas os casos graves (DCC, FHD, SCD, DSA, DG) em que a evolução seja "óbito pelo agravo notificado" com critério de confirmação laboratorial e clínico-epidemiológico. A partir de 2013,
+ Períodos Disponíveis ou período - Correspondem aos anos de notificação dos casos.
+ Para cálculo da incidência utilize locais de residência.
+ Dados de 2007 atualizados em 30/08/2009.
+ Dados de 2008 atualizados em 17/03/2011.
+ Dados de 2009 atualizados em 23/06/2011.
+ Dados de 2010 atualizados em 18/06/2011.
+ Dados de 2011 atualizados em 11/01/2012.
+ Dados de 2012 atualizados em 25/07/2013.
+ Dados de 2013 atualizados em 10/07/2014.
+ Data da publicação dos dados 04/02/2019.
+ 

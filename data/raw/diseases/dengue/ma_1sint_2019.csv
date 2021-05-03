@@ -1,0 +1,15 @@
+CNES - Recursos Físicos - Hospitalar - Leitos de internação - São Paulo
+Qtd existente por Município
+Município: 352230 Itapetininga
+Período:Mar/2021
+"Município";"Qtd_existente"
+"352230 Itapetininga";162
+"Total";162
+ Fonte: Ministério da Saúde - Cadastro Nacional dos Estabelecimentos de Saúde do Brasil - CNES
+ Nota:
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+ 
+ Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+ De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+ A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+ 

@@ -1,0 +1,71 @@
+DENGUE - Notificações registradas no Sistema de Informação de Agravos de Notificação - Amazonas
+Casos Prováveis por Município infecção e Mês 1º Sintoma(s)
+Período:2011
+"Município infecção";"Jan";"Fev";"Mar";"Abr";"Mai";"Jun";"Jul";"Ago";"Set";"Out";"Nov";"Dez";"Total"
+"110020 Porto Velho";-;-;1;-;-;-;-;-;-;-;-;-;1
+"120040 Rio Branco";1;1;-;-;-;-;-;-;-;-;-;1;3
+"130002 Alvarães";2;1;-;-;-;-;-;-;-;-;-;1;4
+"130008 Anamã";1;-;1;-;-;-;-;-;-;-;-;-;2
+"130010 Anori";-;-;1;1;-;-;-;-;-;-;-;-;2
+"130014 Apuí";-;-;-;-;-;1;-;-;-;-;-;-;1
+"130020 Atalaia do Norte";-;-;1;-;-;-;-;-;-;-;-;-;1
+"130030 Autazes";1;1;2;-;-;-;-;-;-;-;-;-;4
+"130040 Barcelos";45;1;1;-;-;-;-;-;1;-;2;10;60
+"130060 Benjamin Constant";3;-;-;-;-;-;-;-;-;-;-;-;3
+"130068 Boa Vista do Ramos";1;-;-;-;-;-;-;-;-;-;-;-;1
+"130070 Boca do Acre";16;6;3;-;1;1;-;-;-;-;1;1;29
+"130080 Borba";4;21;-;-;1;-;-;-;-;-;-;-;26
+"130100 Carauari";-;1;-;-;-;-;-;-;-;-;-;-;1
+"130110 Careiro";44;18;14;10;8;1;1;-;-;-;-;2;98
+"130115 Careiro da Várzea";1;2;3;-;-;-;-;-;-;-;-;-;6
+"130120 Coari";112;81;15;12;3;3;-;-;-;1;-;10;237
+"130130 Codajás";10;24;15;2;-;-;-;-;-;-;-;-;51
+"130140 Eirunepé";-;1;-;-;-;-;-;-;-;-;-;-;1
+"130150 Envira";-;-;1;-;-;-;-;-;-;-;-;-;1
+"130170 Humaitá";2;6;11;2;1;2;-;-;-;-;-;-;24
+"130185 Iranduba";1;3;14;-;1;-;-;-;-;-;-;-;19
+"130190 Itacoatiara";133;215;417;245;43;7;1;1;1;-;1;2;1066
+"130195 Itamarati";-;-;1;-;-;-;-;-;-;-;-;-;1
+"130210 Japurá";13;2;1;2;-;-;-;-;-;-;-;-;18
+"130230 Jutaí";1;4;5;-;-;-;-;-;-;-;-;-;10
+"130240 Lábrea";177;180;60;5;5;3;-;-;-;-;1;5;436
+"130250 Manacapuru";353;355;246;31;33;21;-;-;-;-;1;15;1055
+"130255 Manaquiri";-;3;5;4;-;-;-;-;-;-;-;-;12
+"130260 Manaus";5960;14716;10951;2880;1087;781;221;117;79;67;93;454;37406
+"130270 Manicoré";-;3;-;-;-;-;-;-;-;1;3;2;9
+"130290 Maués";2;23;19;5;-;-;-;1;-;1;-;-;51
+"130310 Nova Olinda do Norte";25;124;58;5;1;-;-;-;1;-;-;-;214
+"130320 Novo Airão";1;6;2;-;-;-;-;-;-;-;-;3;12
+"130330 Novo Aripuanã";48;82;73;28;7;3;2;1;-;2;-;-;246
+"130340 Parintins";24;25;17;3;-;-;-;-;-;-;-;1;70
+"130353 Presidente Figueiredo";2;5;7;1;3;-;-;-;-;-;-;-;18
+"130356 Rio Preto da Eva";3;3;7;-;-;-;-;1;-;-;-;1;15
+"130370 Santo Antônio do Içá";1;-;-;-;-;-;-;-;-;-;-;-;1
+"130380 São Gabriel da Cachoeira";5;21;33;8;16;6;5;9;41;38;54;8;244
+"130400 Silves";-;1;-;-;-;-;-;-;-;-;-;-;1
+"130406 Tabatinga";1;2;5;20;63;29;6;3;1;-;-;-;130
+"130410 Tapauá";1;-;-;-;-;-;-;-;-;-;-;-;1
+"130420 Tefé";1025;416;120;27;18;20;34;14;1;9;15;57;1756
+"130440 Urucurituba";-;2;2;-;1;-;-;-;-;-;-;-;5
+"130000 Município ignorado - AM";-;-;-;-;-;-;-;-;-;-;-;1;1
+"150140 Belém";-;-;1;-;-;-;-;-;-;-;-;-;1
+"150680 Santarém";1;-;-;-;-;-;-;-;-;-;-;-;1
+"240810 Natal";1;-;-;-;-;-;-;-;-;-;-;-;1
+"000000 Ignorado ou exterior";2104;5650;6708;1932;876;259;298;356;210;207;165;139;18904
+"Total";10125;22005;18821;5223;2168;1137;568;503;335;326;336;713;62260
+ Fonte: Ministério da Saúde/SVS - Sistema de Informação de Agravos de Notificação - Sinan Net
+ Notas:
+ 
+ ncluídas notificações de indivíduos residentes no Brasil, independente de sua confirmação, exceto os descartados, pois em situações de epidemia nem sempre é possível confirmar todos os casos.
+ Para tabular os óbitos por dengue até 2012, deve-se considerar apenas os casos graves (DCC, FHD, SCD, DSA, DG) em que a evolução seja "óbito pelo agravo notificado" com critério de confirmação laboratorial e clínico-epidemiológico. A partir de 2013,
+ Períodos Disponíveis ou período - Correspondem aos anos de notificação dos casos.
+ Para cálculo da incidência utilize locais de residência.
+ Dados de 2007 atualizados em 30/08/2009.
+ Dados de 2008 atualizados em 17/03/2011.
+ Dados de 2009 atualizados em 23/06/2011.
+ Dados de 2010 atualizados em 18/06/2011.
+ Dados de 2011 atualizados em 11/01/2012.
+ Dados de 2012 atualizados em 25/07/2013.
+ Dados de 2013 atualizados em 10/07/2014.
+ Data da publicação dos dados 04/02/2019.
+ 

@@ -1,0 +1,140 @@
+ Mortalidade - Rio Grande do Sul
+Óbitos p/Residênc por Município
+Grupo CID-10: Doenças cardíaca pulmonar e da circulação pulmonar
+Período:2019
+"Município";"Óbitos_p/Residênc"
+"430010 Agudo";1
+"430020 Ajuricaba";1
+"430040 Alegrete";1
+"430047 Almirante Tamandaré do Sul";1
+"430070 Anta Gorda";1
+"430100 Arroio do Meio";4
+"430120 Arroio do Tigre";1
+"430130 Arroio Grande";1
+"430140 Arvorezinha";1
+"430160 Bagé";5
+"430163 Balneário Pinhal";2
+"430185 Barra do Guarita";1
+"430225 Boa Vista do Sul";1
+"430270 Butiá";2
+"430280 Caçapava do Sul";3
+"430300 Cachoeira do Sul";5
+"430310 Cachoeirinha";2
+"430320 Cacique Doble";1
+"430350 Camaquã";3
+"430390 Campo Bom";4
+"430420 Candelária";1
+"430435 Candiota";1
+"430450 Canguçu";2
+"430460 Canoas";4
+"430463 Capão da Canoa";3
+"430466 Capão do Leão";2
+"430470 Carazinho";3
+"430485 Carlos Gomes";1
+"430510 Caxias do Sul";11
+"430515 Cerro Grande";1
+"430530 Chapada";1
+"430560 Colorado";1
+"430587 Coronel Barros";1
+"430610 Cruz Alta";3
+"430660 Dom Pedrito";6
+"430655 Dom Pedro de Alcântara";1
+"430670 Dona Francisca";1
+"430673 Doutor Maurício Cardoso";1
+"430693 Entre-Ijuís";1
+"430700 Erechim";2
+"430760 Estância Velha";2
+"430770 Esteio";4
+"430790 Farroupilha";3
+"430800 Faxinal do Soturno";1
+"430810 Feliz";2
+"430820 Flores da Cunha";1
+"430845 Fortaleza dos Valos";1
+"430860 Garibaldi";7
+"430910 Gramado";1
+"430915 Gramado Xavier";1
+"430920 Gravataí";7
+"430930 Guaíba";1
+"431010 Igrejinha";2
+"431020 Ijuí";2
+"431043 Ipê";1
+"431060 Itaqui";1
+"431100 Jaguarão";1
+"431120 Júlio de Castilhos";3
+"431127 Lagoa dos Três Cantos";1
+"431140 Lajeado";1
+"431164 Linha Nova";1
+"431173 Mampituba";1
+"431205 Marques de Souza";1
+"431210 Mata";1
+"431240 Montenegro";4
+"431250 Mostardas";1
+"431301 Nova Candelária";1
+"431330 Nova Prata";3
+"431337 Nova Santa Rita";1
+"431340 Novo Hamburgo";2
+"431360 Paim Filho";1
+"431370 Palmeira das Missões";1
+"431390 Panambi";1
+"431410 Passo Fundo";2
+"431440 Pelotas";10
+"431442 Picada Café";1
+"431490 Porto Alegre";23
+"431515 Progresso";1
+"431550 Restinga Seca";1
+"431560 Rio Grande";17
+"431640 Rosário do Sul";2
+"431660 Sananduva";1
+"431710 Sant'Ana do Livramento";11
+"431680 Santa Cruz do Sul";5
+"431690 Santa Maria";14
+"431720 Santa Rosa";4
+"431740 Santiago";3
+"431750 Santo Ângelo";2
+"431760 Santo Antônio da Patrulha";2
+"431810 São Francisco de Assis";1
+"431820 São Francisco de Paula";2
+"431840 São Jerônimo";4
+"431870 São Leopoldo";6
+"431880 São Lourenço do Sul";1
+"431890 São Luiz Gonzaga";2
+"431910 São Martinho";1
+"431950 São Sebastião do Caí";5
+"431980 São Vicente do Sul";1
+"432000 Sapucaia do Sul";6
+"432010 Sarandi";1
+"432070 Sobradinho";1
+"432080 Soledade";2
+"432100 Tapera";2
+"432120 Taquara";1
+"432130 Taquari";1
+"432140 Tenente Portela";2
+"432145 Teutônia";1
+"432180 Três de Maio";1
+"432190 Três Passos";1
+"432200 Triunfo";1
+"432210 Tucunduva";1
+"432218 Tupanci do Sul";2
+"432220 Tupanciretã";1
+"432230 Tuparendi";1
+"432240 Uruguaiana";6
+"432250 Vacaria";1
+"432253 Vale do Sol";2
+"432252 Vale Verde";1
+"432260 Venâncio Aires";3
+"432270 Vera Cruz";1
+"432280 Veranópolis";1
+"432300 Viamão";9
+"432310 Vicente Dutra";1
+"432377 Westfalia";1
+"Total";323
+ Fonte: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade - SIM
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
+ Nota:
+ 
+ Em 2011, houve uma mudança no conteúdo da Declaração de Óbito, com maior detalhamento das informações coletadas. Para este ano, foram
+ utilizados simultaneamente os dois formulários. Para mais detalhes sobre as mudanças ocorridas e os seus efeitos, veja o documento
+ "Sistema de Informações sobre Mortalidade - SIM. Consolidação da base de dados de 2011".
+ No dia 13/06/2019, os arquivos do SIM referentes ao ano de notificação 2017 foram atualizados, com alteração das causas básicas de 2 registros e exclusão de 1 registro.
+ No dia 01/04/2020, os arquivos do SIM referentes ao ano de notificação 2019 foram atualizados, com alteração das causas básicas de 4 registros e exclusão de 1 registro.
+ 
