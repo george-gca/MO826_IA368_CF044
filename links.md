@@ -1,6 +1,7 @@
 # Links Úteis
 
 - [Como organizar a estrutura de pastas](https://drivendata.github.io/cookiecutter-data-science/)
+- [Dados de doenças em animais - pecuária](http://indicadores.agricultura.gov.br/saudeanimal/index.htm)
 
 ## Estatística
 - [Canal no Youtube com conceitos de estatística](https://www.youtube.com/channel/UCx1vXgGDXc7BH7bI1KC_o7Q)
