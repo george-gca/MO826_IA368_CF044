@@ -1,0 +1,2191 @@
+Doença,Espécie,Ano,Mês,UF,Quantidade de casos
+Raiva,BOV,2008,Ago,PA,1
+Raiva,BOV,2008,Ago,TO,4
+Raiva,BOV,2008,Ago,MT,9
+Raiva,BOV,2008,Mar,MT,17
+Carbúnculo hemático/Antraz,BOV,2008,Abr,PA,21
+Raiva,BOV,2008,Abr,MT,46
+Raiva,BOV,2008,Jun,RO,3
+Raiva,BOV,2008,Jun,MT,9
+Raiva,BOV,2008,Jun,AC,22
+Raiva,BOV,2008,Jul,PA,1
+Raiva,BOV,2008,Jul,RO,1
+Raiva,BOV,2008,Jul,MT,7
+Raiva,BOV,2008,Nov,RO,1
+Raiva,BOV,2008,Nov,AC,4
+Raiva,BOV,2008,Nov,MT,9
+Estomatite vesicular,BOV,2008,Nov,TO,12
+Raiva,BOV,2008,Nov,TO,12
+Raiva,BOV,2008,Nov,PA,22
+Raiva,BOV,2008,Mai,MA,1
+Raiva,BOV,2008,Mai,PA,1
+Raiva,BOV,2008,Mai,TO,4
+Raiva,BOV,2008,Mai,RR,8
+Raiva,BOV,2008,Mai,MT,22
+Raiva,BOV,2008,Jan,MA,2
+Raiva,BOV,2008,Jan,TO,3
+Raiva,BOV,2008,Jan,RO,7
+Raiva,BOV,2008,Jan,PA,29
+Raiva,BOV,2008,Jan,MT,54
+Raiva,BOV,2008,Fev,AC,1
+Raiva,BOV,2008,Fev,MA,2
+Estomatite vesicular,BOV,2008,Fev,MT,8
+Raiva,BOV,2008,Fev,RO,10
+Raiva,BOV,2008,Fev,MT,31
+Raiva,BOV,2008,Fev,TO,33
+Raiva,BOV,2008,Set,PA,1
+Raiva,BOV,2008,Set,RO,1
+Estomatite vesicular,BOV,2008,Set,TO,8
+Raiva,BOV,2008,Set,TO,8
+Raiva,BOV,2008,Set,MT,22
+Raiva,BOV,2008,Out,AP,3
+Raiva,BOV,2008,Out,RO,3
+Raiva,BOV,2008,Out,TO,3
+Raiva,BOV,2008,Out,MT,6
+Raiva,BOV,2008,Out,PA,11
+Raiva,BOV,2008,Dez,MA,2
+Raiva,BOV,2008,Dez,TO,11
+Raiva,BOV,2008,Dez,MT,17
+Raiva,BOV,2009,Ago,PA,1
+Raiva,BOV,2009,Ago,RR,2
+Raiva,BOV,2009,Ago,RO,4
+Raiva,BOV,2009,Ago,MT,6
+Raiva,BOV,2009,Ago,TO,10
+Raiva,BOV,2009,Mar,MA,1
+Raiva,BOV,2009,Mar,PA,4
+Raiva,BOV,2009,Mar,TO,8
+Raiva,BOV,2009,Mar,RO,17
+Raiva,BOV,2009,Mar,MT,45
+Raiva,BOV,2009,Abr,PA,2
+Raiva,BOV,2009,Abr,MT,16
+Raiva,BOV,2009,Abr,TO,19
+Raiva,BOV,2009,Jun,RO,14
+Raiva,BOV,2009,Jun,MT,23
+Raiva,BOV,2009,Jul,PA,1
+Raiva,BOV,2009,Jul,RO,1
+Raiva,BOV,2009,Jul,TO,3
+Raiva,BOV,2009,Jul,MT,22
+Raiva,BOV,2009,Nov,TO,3
+Raiva,BOV,2009,Nov,MT,65
+Raiva,BOV,2009,Mai,PA,1
+Raiva,BOV,2009,Mai,TO,2
+Raiva,BOV,2009,Mai,MT,19
+Raiva,BOV,2009,Mai,RO,22
+Raiva,BOV,2009,Jan,RO,1
+Estomatite vesicular,BOV,2009,Jan,TO,1
+Raiva,BOV,2009,Jan,TO,16
+Raiva,BOV,2009,Jan,MT,29
+Raiva,BOV,2009,Fev,TO,6
+Raiva,BOV,2009,Fev,MT,78
+Raiva,BOV,2009,Set,AM,2
+Raiva,BOV,2009,Set,TO,11
+Raiva,BOV,2009,Set,MT,31
+Raiva,BOV,2009,Out,RO,1
+Raiva,BOV,2009,Out,TO,9
+Raiva,BOV,2009,Out,MT,13
+Raiva,BOV,2009,Dez,RO,1
+Raiva,BOV,2009,Dez,MT,55
+Raiva,BOV,2010,Ago,TO,1
+Raiva,BOV,2010,Ago,MA,5
+Raiva,BOV,2010,Ago,RO,10
+Raiva,BOV,2010,Ago,MT,97
+Raiva,BOV,2010,Mar,RO,1
+Raiva,BOV,2010,Mar,MA,2
+Raiva,BOV,2010,Mar,PA,3
+Raiva,BOV,2010,Mar,AC,6
+Raiva,BOV,2010,Mar,MT,31
+Raiva,BOV,2010,Mar,TO,41
+Raiva,BOV,2010,Abr,MT,10
+Raiva,BOV,2010,Abr,PA,16
+Raiva,BOV,2010,Jun,MT,11
+Raiva,BOV,2010,Jun,RO,14
+Raiva,BOV,2010,Jun,PA,96
+Raiva,BOV,2010,Jul,RO,7
+Raiva,BOV,2010,Jul,TO,27
+Raiva,BOV,2010,Jul,MT,28
+Raiva,BOV,2010,Nov,MT,3
+Raiva,BOV,2010,Mai,RO,1
+Raiva,BOV,2010,Mai,MT,54
+Raiva,BOV,2010,Jan,MA,1
+Raiva,BOV,2010,Jan,PA,3
+Raiva,BOV,2010,Jan,RO,3
+Raiva,BOV,2010,Jan,MT,17
+Raiva,BOV,2010,Jan,TO,30
+Raiva,BOV,2010,Fev,MA,2
+Raiva,BOV,2010,Fev,TO,3
+Raiva,BOV,2010,Fev,MT,28
+Raiva,BOV,2010,Set,AM,1
+Raiva,BOV,2010,Set,MT,57
+Raiva,BOV,2010,Out,PA,6
+Raiva,BOV,2010,Out,MT,7
+Raiva,BOV,2010,Dez,MA,3
+Raiva,BOV,2010,Dez,PA,3
+Raiva,BOV,2010,Dez,MT,8
+Raiva,BOV,2011,Ago,MT,21
+Raiva,BOV,2011,Mar,MA,1
+Raiva,BOV,2011,Mar,MT,6
+Raiva,BOV,2011,Mar,TO,7
+Raiva,BOV,2011,Abr,MA,2
+Raiva,BOV,2011,Abr,TO,3
+Raiva,BOV,2011,Abr,PA,7
+Raiva,BOV,2011,Abr,MT,21
+Estomatite vesicular,BOV,2011,Jun,TO,1
+Raiva,BOV,2011,Jun,TO,5
+Raiva,BOV,2011,Jun,PA,11
+Raiva,BOV,2011,Jun,MT,38
+Raiva,BOV,2011,Jul,PA,24
+Raiva,BOV,2011,Jul,MT,55
+Raiva,BOV,2011,Nov,MA,6
+Raiva,BOV,2011,Nov,TO,23
+Raiva,BOV,2011,Nov,MT,26
+Raiva,BOV,2011,Mai,MT,32
+Raiva,BOV,2011,Jan,MA,1
+Raiva,BOV,2011,Jan,PA,12
+Raiva,BOV,2011,Jan,MT,15
+Raiva,BOV,2011,Fev,MA,1
+Raiva,BOV,2011,Fev,TO,1
+Raiva,BOV,2011,Fev,MT,4
+Raiva,BOV,2011,Set,RO,1
+Raiva,BOV,2011,Set,MT,4
+Raiva,BOV,2011,Out,MA,1
+Raiva,BOV,2011,Out,MT,13
+Raiva,BOV,2011,Dez,MT,7
+Raiva,BOV,2012,Ago,PA,1
+Brucelose (Brucella abortus),BOV,2012,Ago,MT,2
+Raiva,BOV,2012,Ago,TO,2
+Brucelose (Brucella abortus),BOV,2012,Ago,AM,5
+Raiva,BOV,2012,Ago,AC,6
+Brucelose (Brucella abortus),BOV,2012,Ago,RR,7
+Raiva,BOV,2012,Ago,MT,15
+Tuberculose Bovina,BOV,2012,Ago,MA,24
+Tuberculose Bovina,BOV,2012,Ago,PA,41
+Brucelose (Brucella abortus),BOV,2012,Ago,MA,89
+Brucelose (Brucella abortus),BOV,2012,Ago,PA,149
+Raiva,BOV,2012,Mar,MA,1
+Raiva,BOV,2012,Mar,TO,1
+Brucelose (Brucella abortus),BOV,2012,Mar,AM,2
+Tuberculose Bovina,BOV,2012,Mar,TO,2
+Tuberculose Bovina,BOV,2012,Mar,PA,6
+Brucelose (Brucella abortus),BOV,2012,Mar,RR,8
+Brucelose (Brucella abortus),BOV,2012,Mar,TO,9
+Brucelose (Brucella abortus),BOV,2012,Mar,RO,15
+Brucelose (Brucella abortus),BOV,2012,Mar,PA,41
+Raiva,BOV,2012,Mar,MT,57
+Brucelose (Brucella abortus),BOV,2012,Mar,AC,60
+Raiva,BOV,2012,Abr,PA,1
+Tuberculose Bovina,BOV,2012,Abr,AC,2
+Raiva,BOV,2012,Abr,MA,3
+Brucelose (Brucella abortus),BOV,2012,Abr,RO,3
+Brucelose (Brucella abortus),BOV,2012,Abr,AC,4
+Brucelose (Brucella abortus),BOV,2012,Abr,AM,10
+Tuberculose Bovina,BOV,2012,Abr,MA,20
+Brucelose (Brucella abortus),BOV,2012,Abr,RR,42
+Brucelose (Brucella abortus),BOV,2012,Abr,MA,171
+Brucelose (Brucella abortus),BOV,2012,Abr,PA,180
+Tuberculose Bovina,BOV,2012,Abr,PA,242
+Brucelose (Brucella abortus),BOV,2012,Jun,MT,1
+Raiva,BOV,2012,Jun,PA,1
+Brucelose (Brucella abortus),BOV,2012,Jun,TO,2
+Estomatite vesicular,BOV,2012,Jun,TO,2
+Raiva,BOV,2012,Jun,AC,3
+Brucelose (Brucella abortus),BOV,2012,Jun,RR,3
+Brucelose (Brucella abortus),BOV,2012,Jun,AM,4
+Brucelose (Brucella abortus),BOV,2012,Jun,AC,10
+Raiva,BOV,2012,Jun,MT,20
+Brucelose (Brucella abortus),BOV,2012,Jun,MA,28
+Tuberculose Bovina,BOV,2012,Jun,PA,30
+Brucelose (Brucella abortus),BOV,2012,Jun,PA,93
+Raiva,BOV,2012,Jul,PA,3
+Brucelose (Brucella abortus),BOV,2012,Jul,TO,6
+Brucelose (Brucella abortus),BOV,2012,Jul,AM,7
+Raiva,BOV,2012,Jul,MT,8
+Brucelose (Brucella abortus),BOV,2012,Jul,MT,10
+Brucelose (Brucella abortus),BOV,2012,Jul,MA,11
+Tuberculose Bovina,BOV,2012,Jul,PA,28
+Brucelose (Brucella abortus),BOV,2012,Jul,RR,37
+Brucelose (Brucella abortus),BOV,2012,Jul,PA,149
+Brucelose (Brucella abortus),BOV,2012,Nov,PA,1
+Raiva,BOV,2012,Nov,MT,3
+Brucelose (Brucella abortus),BOV,2012,Nov,MT,4
+Raiva,BOV,2012,Nov,TO,4
+Raiva,BOV,2012,Nov,AM,5
+Raiva,BOV,2012,Nov,MA,5
+Brucelose (Brucella abortus),BOV,2012,Nov,MA,66
+Brucelose (Brucella abortus),BOV,2012,Nov,RR,77
+Tuberculose Bovina,BOV,2012,Mai,TO,1
+Brucelose (Brucella abortus),BOV,2012,Mai,TO,2
+Tuberculose Bovina,BOV,2012,Mai,PA,3
+Brucelose (Brucella abortus),BOV,2012,Mai,AC,4
+Raiva,BOV,2012,Mai,MT,6
+Brucelose (Brucella abortus),BOV,2012,Mai,AM,20
+Brucelose (Brucella abortus),BOV,2012,Mai,PA,24
+Brucelose (Brucella abortus),BOV,2012,Mai,MT,60
+Brucelose (Brucella abortus),BOV,2012,Mai,MA,61
+Brucelose (Brucella abortus),BOV,2012,Jan,RR,1
+Brucelose (Brucella abortus),BOV,2012,Jan,AM,2
+Brucelose (Brucella abortus),BOV,2012,Jan,TO,4
+Raiva,BOV,2012,Jan,MA,8
+Tuberculose Bovina,BOV,2012,Jan,PA,9
+Raiva,BOV,2012,Jan,TO,20
+Raiva,BOV,2012,Jan,MT,23
+Brucelose (Brucella abortus),BOV,2012,Jan,MA,76
+Brucelose (Brucella abortus),BOV,2012,Jan,PA,179
+Tuberculose Bovina,BOV,2012,Fev,AM,1
+Raiva,BOV,2012,Fev,RO,1
+Raiva,BOV,2012,Fev,MA,3
+Raiva,BOV,2012,Fev,PA,3
+Raiva,BOV,2012,Fev,TO,6
+Tuberculose Bovina,BOV,2012,Fev,TO,9
+Brucelose (Brucella abortus),BOV,2012,Fev,MT,10
+Tuberculose Bovina,BOV,2012,Fev,MA,15
+Brucelose (Brucella abortus),BOV,2012,Fev,AC,21
+Brucelose (Brucella abortus),BOV,2012,Fev,AM,23
+Raiva,BOV,2012,Fev,MT,23
+Tuberculose Bovina,BOV,2012,Fev,PA,23
+Brucelose (Brucella abortus),BOV,2012,Fev,TO,24
+Brucelose (Brucella abortus),BOV,2012,Fev,RR,47
+Brucelose (Brucella abortus),BOV,2012,Fev,PA,52
+Brucelose (Brucella abortus),BOV,2012,Fev,MA,94
+Raiva,BOV,2012,Set,TO,1
+Raiva,BOV,2012,Set,MA,2
+Brucelose (Brucella abortus),BOV,2012,Set,RO,5
+Raiva,BOV,2012,Set,MT,6
+Brucelose (Brucella abortus),BOV,2012,Set,RR,11
+Brucelose (Brucella abortus),BOV,2012,Set,AC,20
+Brucelose (Brucella abortus),BOV,2012,Set,AM,30
+Tuberculose Bovina,BOV,2012,Set,PA,32
+Brucelose (Brucella abortus),BOV,2012,Set,MA,56
+Brucelose (Brucella abortus),BOV,2012,Set,PA,313
+Tuberculose Bovina,BOV,2012,Out,MA,1
+Brucelose (Brucella abortus),BOV,2012,Out,RR,2
+Brucelose (Brucella abortus),BOV,2012,Out,TO,3
+Raiva,BOV,2012,Out,MT,8
+Raiva,BOV,2012,Out,TO,10
+Brucelose (Brucella abortus),BOV,2012,Out,MT,21
+Brucelose (Brucella abortus),BOV,2012,Out,MA,72
+Brucelose (Brucella abortus),BOV,2012,Dez,RO,1
+Brucelose (Brucella abortus),BOV,2012,Dez,MA,2
+Raiva,BOV,2012,Dez,RO,2
+Raiva,BOV,2012,Dez,MT,4
+Brucelose (Brucella abortus),BOV,2012,Dez,MT,6
+Brucelose (Brucella abortus),BOV,2012,Dez,RR,6
+Raiva,BOV,2012,Dez,MA,9
+Tuberculose Bovina,BOV,2012,Dez,PA,30
+Tuberculose Bovina,BOV,2012,Dez,AM,34
+Brucelose (Brucella abortus),BOV,2012,Dez,PA,41
+Raiva,BOV,2013,Ago,AC,1
+Raiva,BOV,2013,Ago,PA,1
+Brucelose (Brucella abortus),BOV,2013,Ago,RO,1
+Raiva,BOV,2013,Ago,TO,1
+Brucelose (Brucella abortus),BOV,2013,Ago,MA,4
+Raiva,BOV,2013,Ago,MT,4
+Raiva,BOV,2013,Ago,RO,5
+Brucelose (Brucella abortus),BOV,2013,Ago,PA,12
+Brucelose (Brucella abortus),BOV,2013,Ago,RR,13
+Brucelose (Brucella abortus),BOV,2013,Ago,TO,13
+Brucelose (Brucella abortus),BOV,2013,Ago,AC,20
+Raiva,BOV,2013,Mar,TO,1
+Raiva,BOV,2013,Mar,PA,3
+Brucelose (Brucella abortus),BOV,2013,Mar,RR,5
+Tuberculose Bovina,BOV,2013,Mar,TO,5
+Raiva,BOV,2013,Mar,RO,6
+Raiva,BOV,2013,Mar,AC,7
+Brucelose (Brucella abortus),BOV,2013,Mar,RO,7
+Brucelose (Brucella abortus),BOV,2013,Mar,MA,21
+Brucelose (Brucella abortus),BOV,2013,Mar,AC,27
+Brucelose (Brucella abortus),BOV,2013,Mar,TO,44
+Raiva,BOV,2013,Mar,MT,50
+Tuberculose Bovina,BOV,2013,Mar,PA,75
+Brucelose (Brucella abortus),BOV,2013,Mar,PA,114
+Brucelose (Brucella abortus),BOV,2013,Abr,TO,1
+Brucelose (Brucella abortus),BOV,2013,Abr,AM,3
+Brucelose (Brucella abortus),BOV,2013,Abr,MA,4
+Brucelose (Brucella abortus),BOV,2013,Abr,MT,4
+Raiva,BOV,2013,Abr,MT,4
+Raiva,BOV,2013,Abr,RO,4
+Brucelose (Brucella abortus),BOV,2013,Abr,PA,6
+Brucelose (Brucella abortus),BOV,2013,Abr,RO,10
+Brucelose (Brucella abortus),BOV,2013,Abr,RR,12
+Raiva,BOV,2013,Abr,MA,36
+Brucelose (Brucella abortus),BOV,2013,Abr,AC,38
+Tuberculose Bovina,BOV,2013,Jun,RO,1
+Raiva,BOV,2013,Jun,MA,2
+Raiva,BOV,2013,Jun,MT,2
+Raiva,BOV,2013,Jun,PA,2
+Brucelose (Brucella abortus),BOV,2013,Jun,TO,3
+Brucelose (Brucella abortus),BOV,2013,Jun,RO,10
+Brucelose (Brucella abortus),BOV,2013,Jun,RR,14
+Brucelose (Brucella abortus),BOV,2013,Jun,AC,22
+Tuberculose Bovina,BOV,2013,Jun,PA,42
+Brucelose (Brucella abortus),BOV,2013,Jun,PA,255
+Raiva,BOV,2013,Jul,MA,1
+Raiva,BOV,2013,Jul,PA,1
+Carbúnculo hemático/Antraz,BOV,2013,Jul,RO,1
+Tuberculose Bovina,BOV,2013,Jul,RO,1
+Tuberculose Bovina,BOV,2013,Jul,PA,2
+Brucelose (Brucella abortus),BOV,2013,Jul,RR,2
+Tuberculose Bovina,BOV,2013,Jul,MA,5
+Brucelose (Brucella abortus),BOV,2013,Jul,AM,11
+Raiva,BOV,2013,Jul,MT,12
+Brucelose (Brucella abortus),BOV,2013,Jul,AC,31
+Brucelose (Brucella abortus),BOV,2013,Jul,RO,31
+Brucelose (Brucella abortus),BOV,2013,Jul,PA,224
+Tuberculose Bovina,BOV,2013,Nov,AM,1
+Brucelose (Brucella abortus),BOV,2013,Nov,AM,2
+Raiva,BOV,2013,Nov,PA,4
+Tuberculose Bovina,BOV,2013,Nov,PA,5
+Raiva,BOV,2013,Nov,MA,7
+Raiva,BOV,2013,Nov,MT,8
+Brucelose (Brucella abortus),BOV,2013,Nov,AP,9
+Brucelose (Brucella abortus),BOV,2013,Nov,RR,9
+Brucelose (Brucella abortus),BOV,2013,Nov,RO,10
+Brucelose (Brucella abortus),BOV,2013,Nov,MT,11
+Brucelose (Brucella abortus),BOV,2013,Nov,AC,15
+Brucelose (Brucella abortus),BOV,2013,Nov,PA,21
+Brucelose (Brucella abortus),BOV,2013,Nov,MA,544
+Brucelose (Brucella abortus),BOV,2013,Mai,MA,1
+Raiva,BOV,2013,Mai,PA,1
+Raiva,BOV,2013,Mai,RO,1
+Brucelose (Brucella abortus),BOV,2013,Mai,RR,8
+Brucelose (Brucella abortus),BOV,2013,Mai,AC,16
+Raiva,BOV,2013,Mai,TO,17
+Raiva,BOV,2013,Mai,MT,18
+Brucelose (Brucella abortus),BOV,2013,Mai,PA,45
+Raiva,BOV,2013,Jan,PA,1
+Brucelose (Brucella abortus),BOV,2013,Jan,TO,3
+Brucelose (Brucella abortus),BOV,2013,Jan,AC,5
+Brucelose (Brucella abortus),BOV,2013,Jan,RR,7
+Brucelose (Brucella abortus),BOV,2013,Jan,MA,8
+Raiva,BOV,2013,Jan,MA,12
+Raiva,BOV,2013,Jan,MT,26
+Brucelose (Brucella abortus),BOV,2013,Jan,PA,107
+Brucelose (Brucella abortus),BOV,2013,Fev,AM,1
+Brucelose (Brucella abortus),BOV,2013,Fev,PA,1
+Raiva,BOV,2013,Fev,PA,1
+Raiva,BOV,2013,Fev,MT,3
+Tuberculose Bovina,BOV,2013,Fev,TO,3
+Brucelose (Brucella abortus),BOV,2013,Fev,TO,4
+Brucelose (Brucella abortus),BOV,2013,Fev,MA,28
+Raiva,BOV,2013,Fev,MA,36
+Brucelose (Brucella abortus),BOV,2013,Fev,AC,41
+Brucelose (Brucella abortus),BOV,2013,Fev,RR,138
+Raiva,BOV,2013,Set,MA,1
+Tuberculose Bovina,BOV,2013,Set,MA,1
+Raiva,BOV,2013,Set,PA,1
+Raiva,BOV,2013,Set,TO,1
+Raiva,BOV,2013,Set,AC,2
+Brucelose (Brucella abortus),BOV,2013,Set,PA,2
+Brucelose (Brucella abortus),BOV,2013,Set,RO,2
+Raiva,BOV,2013,Set,RO,3
+Brucelose (Brucella abortus),BOV,2013,Set,RR,5
+Brucelose (Brucella abortus),BOV,2013,Set,TO,7
+Brucelose (Brucella abortus),BOV,2013,Set,AP,8
+Brucelose (Brucella abortus),BOV,2013,Set,MT,12
+Brucelose (Brucella abortus),BOV,2013,Set,AC,16
+Raiva,BOV,2013,Set,MT,25
+Brucelose (Brucella abortus),BOV,2013,Set,MA,57
+Brucelose (Brucella abortus),BOV,2013,Out,AP,1
+Raiva,BOV,2013,Out,PA,1
+Brucelose (Brucella abortus),BOV,2013,Out,MT,2
+Raiva,BOV,2013,Out,TO,2
+Brucelose (Brucella abortus),BOV,2013,Out,AM,4
+Raiva,BOV,2013,Out,MA,4
+Brucelose (Brucella abortus),BOV,2013,Out,RO,5
+Brucelose (Brucella abortus),BOV,2013,Out,AC,16
+Brucelose (Brucella abortus),BOV,2013,Out,PA,17
+Raiva,BOV,2013,Out,MT,18
+Brucelose (Brucella abortus),BOV,2013,Out,MA,66
+Brucelose (Brucella abortus),BOV,2013,Dez,AP,1
+Tuberculose Bovina,BOV,2013,Dez,AP,1
+Tuberculose Bovina,BOV,2013,Dez,MA,1
+Raiva,BOV,2013,Dez,PA,1
+Brucelose (Brucella abortus),BOV,2013,Dez,AM,3
+Raiva,BOV,2013,Dez,TO,8
+Raiva,BOV,2013,Dez,MT,9
+Brucelose (Brucella abortus),BOV,2013,Dez,MT,14
+Brucelose (Brucella abortus),BOV,2013,Dez,RR,20
+Brucelose (Brucella abortus),BOV,2013,Dez,PA,21
+Brucelose (Brucella abortus),BOV,2013,Dez,AC,66
+Brucelose (Brucella abortus),BOV,2013,Dez,MA,75
+Raiva,BOV,2014,Ago,PA,1
+Tuberculose Bovina,BOV,2014,Ago,AM,2
+Raiva,BOV,2014,Ago,MA,2
+Brucelose (Brucella abortus),BOV,2014,Ago,RO,2
+Brucelose (Brucella abortus),BOV,2014,Ago,TO,2
+Brucelose (Brucella abortus),BOV,2014,Ago,AM,3
+Brucelose (Brucella abortus),BOV,2014,Ago,MT,4
+Brucelose (Brucella abortus),BOV,2014,Ago,RR,5
+Raiva,BOV,2014,Ago,TO,6
+Raiva,BOV,2014,Ago,MT,7
+Brucelose (Brucella abortus),BOV,2014,Ago,PA,8
+Brucelose (Brucella abortus),BOV,2014,Ago,MA,22
+Encefalopatia espongiforme bovina,BOV,2014,Mar,MT,1
+Raiva,BOV,2014,Mar,RO,2
+Brucelose (Brucella abortus),BOV,2014,Mar,AC,7
+Raiva,BOV,2014,Mar,MA,8
+Raiva,BOV,2014,Mar,TO,8
+Brucelose (Brucella abortus),BOV,2014,Mar,RR,9
+Raiva,BOV,2014,Mar,MT,11
+Tuberculose Bovina,BOV,2014,Mar,PA,13
+Brucelose (Brucella abortus),BOV,2014,Mar,MA,18
+Brucelose (Brucella abortus),BOV,2014,Mar,PA,222
+Raiva,BOV,2014,Abr,AC,1
+Brucelose (Brucella abortus),BOV,2014,Abr,AP,1
+Raiva,BOV,2014,Abr,PA,1
+Brucelose (Brucella abortus),BOV,2014,Abr,AM,4
+Tuberculose Bovina,BOV,2014,Abr,RO,4
+Brucelose (Brucella abortus),BOV,2014,Abr,AC,8
+Brucelose (Brucella abortus),BOV,2014,Abr,RR,9
+Brucelose (Brucella abortus),BOV,2014,Abr,MA,34
+Raiva,BOV,2014,Jun,MT,2
+Tuberculose Bovina,BOV,2014,Jun,RO,4
+Brucelose (Brucella abortus),BOV,2014,Jun,AM,9
+Brucelose (Brucella abortus),BOV,2014,Jun,RR,9
+Brucelose (Brucella abortus),BOV,2014,Jun,PA,10
+Brucelose (Brucella abortus),BOV,2014,Jun,AC,14
+Brucelose (Brucella abortus),BOV,2014,Jun,MA,26
+Brucelose (Brucella abortus),BOV,2014,Jul,MT,1
+Raiva,BOV,2014,Jul,PA,1
+Tuberculose Bovina,BOV,2014,Jul,RO,3
+Raiva,BOV,2014,Jul,TO,3
+Brucelose (Brucella abortus),BOV,2014,Jul,PA,10
+Brucelose (Brucella abortus),BOV,2014,Jul,MA,12
+Brucelose (Brucella abortus),BOV,2014,Jul,RR,31
+Estomatite vesicular,BOV,2014,Jul,MT,38
+Brucelose (Brucella abortus),BOV,2014,Jul,AC,147
+Raiva,BOV,2014,Nov,PA,3
+Raiva,BOV,2014,Nov,RO,3
+Raiva,BOV,2014,Nov,TO,3
+Tuberculose Bovina,BOV,2014,Nov,RO,4
+Tuberculose Bovina,BOV,2014,Nov,PA,5
+Brucelose (Brucella abortus),BOV,2014,Nov,PA,10
+Brucelose (Brucella abortus),BOV,2014,Nov,RR,14
+Raiva,BOV,2014,Nov,MT,18
+Brucelose (Brucella abortus),BOV,2014,Nov,MA,26
+Brucelose (Brucella abortus),BOV,2014,Nov,AC,31
+Tuberculose Bovina,BOV,2014,Mai,AM,1
+Brucelose (Brucella abortus),BOV,2014,Mai,TO,1
+Brucelose (Brucella abortus),BOV,2014,Mai,AP,2
+Tuberculose Bovina,BOV,2014,Mai,RO,3
+Raiva,BOV,2014,Mai,MT,5
+Brucelose (Brucella abortus),BOV,2014,Mai,RR,16
+Brucelose (Brucella abortus),BOV,2014,Mai,MA,26
+Brucelose (Brucella abortus),BOV,2014,Mai,AM,42
+Raiva,BOV,2014,Jan,MA,2
+Tuberculose Bovina,BOV,2014,Jan,MT,2
+Brucelose (Brucella abortus),BOV,2014,Jan,TO,2
+Tuberculose Bovina,BOV,2014,Jan,MA,3
+Raiva,BOV,2014,Jan,TO,4
+Brucelose (Brucella abortus),BOV,2014,Jan,MT,5
+Estomatite vesicular,BOV,2014,Jan,MA,7
+Raiva,BOV,2014,Jan,MT,18
+Brucelose (Brucella abortus),BOV,2014,Jan,AC,25
+Brucelose (Brucella abortus),BOV,2014,Jan,MA,31
+Brucelose (Brucella abortus),BOV,2014,Jan,RR,37
+Raiva,BOV,2014,Fev,PA,1
+Brucelose (Brucella abortus),BOV,2014,Fev,AM,2
+Raiva,BOV,2014,Fev,RO,2
+Brucelose (Brucella abortus),BOV,2014,Fev,RO,6
+Raiva,BOV,2014,Fev,MA,8
+Brucelose (Brucella abortus),BOV,2014,Fev,RR,9
+Brucelose (Brucella abortus),BOV,2014,Fev,TO,9
+Brucelose (Brucella abortus),BOV,2014,Fev,PA,12
+Brucelose (Brucella abortus),BOV,2014,Fev,MA,18
+Brucelose (Brucella abortus),BOV,2014,Set,RO,1
+Raiva,BOV,2014,Set,MT,2
+Tuberculose Bovina,BOV,2014,Set,AP,3
+Raiva,BOV,2014,Set,PA,3
+Raiva,BOV,2014,Set,TO,3
+Tuberculose Bovina,BOV,2014,Set,AM,4
+Brucelose (Brucella abortus),BOV,2014,Set,PA,4
+Brucelose (Brucella abortus),BOV,2014,Set,AP,5
+Brucelose (Brucella abortus),BOV,2014,Set,MT,5
+Brucelose (Brucella abortus),BOV,2014,Set,AM,11
+Brucelose (Brucella abortus),BOV,2014,Set,RR,13
+Brucelose (Brucella abortus),BOV,2014,Set,MA,26
+Brucelose (Brucella abortus),BOV,2014,Out,PA,3
+Tuberculose Bovina,BOV,2014,Out,PA,3
+Brucelose (Brucella abortus),BOV,2014,Out,RR,4
+Brucelose (Brucella abortus),BOV,2014,Out,MA,5
+Raiva,BOV,2014,Out,PA,5
+Raiva,BOV,2014,Out,TO,7
+Tuberculose Bovina,BOV,2014,Out,AM,8
+Brucelose (Brucella abortus),BOV,2014,Out,AC,9
+Brucelose (Brucella abortus),BOV,2014,Out,AM,9
+Raiva,BOV,2014,Out,MT,15
+Brucelose (Brucella abortus),BOV,2014,Dez,AM,1
+Brucelose (Brucella abortus),BOV,2014,Dez,MA,1
+Raiva,BOV,2014,Dez,PA,1
+Raiva,BOV,2014,Dez,TO,17
+Brucelose (Brucella abortus),BOV,2014,Dez,PA,36
+Brucelose (Brucella abortus),BOV,2015,Ago,RO,1
+Brucelose (Brucella abortus),BOV,2015,Ago,RR,1
+Brucelose (Brucella abortus),BOV,2015,Ago,AM,2
+Raiva,BOV,2015,Ago,PA,3
+Raiva,BOV,2015,Ago,TO,4
+Brucelose (Brucella abortus),BOV,2015,Ago,MA,15
+Raiva,BOV,2015,Ago,MT,28
+Raiva,BOV,2015,Mar,PA,1
+Tuberculose Bovina,BOV,2015,Mar,RO,2
+Brucelose (Brucella abortus),BOV,2015,Mar,RR,3
+Raiva,BOV,2015,Mar,AM,4
+Raiva,BOV,2015,Mar,MT,5
+Raiva,BOV,2015,Mar,RO,6
+Brucelose (Brucella abortus),BOV,2015,Mar,MA,26
+Brucelose (Brucella abortus),BOV,2015,Abr,AC,1
+Brucelose (Brucella abortus),BOV,2015,Abr,MA,1
+Raiva,BOV,2015,Abr,PA,1
+Estomatite vesicular,BOV,2015,Abr,TO,1
+Raiva,BOV,2015,Abr,TO,1
+Tuberculose Bovina,BOV,2015,Abr,RO,2
+Raiva,BOV,2015,Abr,MT,5
+Tuberculose Bovina,BOV,2015,Abr,PA,12
+Brucelose (Brucella abortus),BOV,2015,Abr,RR,13
+Brucelose (Brucella abortus),BOV,2015,Abr,PA,16
+Raiva,BOV,2015,Jun,MT,1
+Raiva,BOV,2015,Jun,PA,1
+Brucelose (Brucella abortus),BOV,2015,Jun,AM,2
+Brucelose (Brucella abortus),BOV,2015,Jun,MA,3
+Brucelose (Brucella abortus),BOV,2015,Jun,TO,4
+Raiva,BOV,2015,Jun,MA,6
+Tuberculose Bovina,BOV,2015,Jun,PA,13
+Raiva,BOV,2015,Jun,TO,14
+Brucelose (Brucella abortus),BOV,2015,Jun,AC,21
+Brucelose (Brucella abortus),BOV,2015,Jun,PA,21
+Brucelose (Brucella abortus),BOV,2015,Jun,RR,38
+Raiva,BOV,2015,Jul,PA,1
+Brucelose (Brucella abortus),BOV,2015,Jul,RR,2
+Tuberculose Bovina,BOV,2015,Jul,PA,7
+Brucelose (Brucella abortus),BOV,2015,Jul,PA,18
+Raiva,BOV,2015,Jul,MT,61
+Brucelose (Brucella abortus),BOV,2015,Jul,AC,89
+Brucelose (Brucella abortus),BOV,2015,Jul,MA,230
+Tuberculose Bovina,BOV,2015,Nov,AM,1
+Brucelose (Brucella abortus),BOV,2015,Nov,PA,1
+Raiva,BOV,2015,Nov,PA,1
+Brucelose (Brucella abortus),BOV,2015,Nov,RR,3
+Raiva,BOV,2015,Nov,MT,4
+Raiva,BOV,2015,Nov,AM,6
+Tuberculose Bovina,BOV,2015,Nov,PA,11
+Raiva,BOV,2015,Nov,TO,11
+Brucelose (Brucella abortus),BOV,2015,Nov,AM,15
+Brucelose (Brucella abortus),BOV,2015,Nov,MA,19
+Brucelose (Brucella abortus),BOV,2015,Mai,MT,1
+Brucelose (Brucella abortus),BOV,2015,Mai,RO,1
+Raiva,BOV,2015,Mai,TO,1
+Brucelose (Brucella abortus),BOV,2015,Mai,PA,2
+Raiva,BOV,2015,Mai,PA,2
+Raiva,BOV,2015,Mai,AC,4
+Tuberculose Bovina,BOV,2015,Mai,MT,4
+Brucelose (Brucella abortus),BOV,2015,Mai,AM,6
+Brucelose (Brucella abortus),BOV,2015,Mai,MA,7
+Raiva,BOV,2015,Mai,MT,7
+Brucelose (Brucella abortus),BOV,2015,Mai,RR,12
+Tuberculose Bovina,BOV,2015,Jan,RO,1
+Brucelose (Brucella abortus),BOV,2015,Jan,RR,1
+Brucelose (Brucella abortus),BOV,2015,Jan,RO,2
+Raiva,BOV,2015,Jan,MT,3
+Brucelose (Brucella abortus),BOV,2015,Jan,MA,6
+Tuberculose Bovina,BOV,2015,Fev,RO,1
+Raiva,BOV,2015,Fev,TO,1
+Brucelose (Brucella abortus),BOV,2015,Fev,RO,2
+Raiva,BOV,2015,Fev,AM,4
+Brucelose (Brucella abortus),BOV,2015,Fev,MA,98
+Tuberculose Bovina,BOV,2015,Set,MA,1
+Brucelose (Brucella abortus),BOV,2015,Set,RR,1
+Brucelose (Brucella abortus),BOV,2015,Set,AM,2
+Brucelose (Brucella abortus),BOV,2015,Set,PA,2
+Tuberculose Bovina,BOV,2015,Set,TO,2
+Raiva,BOV,2015,Set,TO,13
+Raiva,BOV,2015,Set,MT,15
+Brucelose (Brucella abortus),BOV,2015,Set,MA,17
+Brucelose (Brucella abortus),BOV,2015,Set,AC,48
+Tuberculose Bovina,BOV,2015,Out,TO,1
+Brucelose (Brucella abortus),BOV,2015,Out,RR,2
+Brucelose (Brucella abortus),BOV,2015,Out,AM,3
+Raiva,BOV,2015,Out,MT,3
+Raiva,BOV,2015,Out,PA,6
+Brucelose (Brucella abortus),BOV,2015,Out,MA,9
+Raiva,BOV,2015,Out,TO,12
+Brucelose (Brucella abortus),BOV,2015,Out,MT,40
+Brucelose (Brucella abortus),BOV,2015,Out,PA,74
+Raiva,BOV,2015,Dez,AC,1
+Raiva,BOV,2015,Dez,PA,1
+Brucelose (Brucella abortus),BOV,2015,Dez,MA,2
+Tuberculose Bovina,BOV,2015,Dez,MT,4
+Raiva,BOV,2015,Dez,TO,4
+Brucelose (Brucella abortus),BOV,2015,Dez,PA,6
+Tuberculose Bovina,BOV,2015,Dez,PA,6
+Brucelose (Brucella abortus),BOV,2015,Dez,AM,8
+Raiva,BOV,2015,Dez,AM,8
+Raiva,BOV,2015,Dez,MA,8
+Brucelose (Brucella abortus),BOV,2015,Dez,AC,28
+Raiva,BOV,2015,Dez,MT,56
+Brucelose (Brucella abortus),BOV,2016,Ago,AC,1
+Raiva,BOV,2016,Ago,PA,1
+Brucelose (Brucella abortus),BOV,2016,Ago,RO,1
+Raiva,BOV,2016,Ago,AM,2
+Brucelose (Brucella abortus),BOV,2016,Ago,MA,5
+Raiva,BOV,2016,Ago,MA,5
+Raiva,BOV,2016,Ago,MT,5
+Brucelose (Brucella abortus),BOV,2016,Ago,PA,5
+Tuberculose Bovina,BOV,2016,Ago,PA,5
+Tuberculose Bovina,BOV,2016,Ago,TO,7
+Brucelose (Brucella abortus),BOV,2016,Ago,AM,8
+Raiva,BOV,2016,Ago,TO,26
+Raiva,BOV,2016,Mar,PA,1
+Brucelose (Brucella abortus),BOV,2016,Mar,RO,1
+Tuberculose Bovina,BOV,2016,Mar,RO,1
+Brucelose (Brucella abortus),BOV,2016,Mar,TO,1
+Tuberculose Bovina,BOV,2016,Mar,MT,2
+Brucelose (Brucella abortus),BOV,2016,Mar,PA,2
+Tuberculose Bovina,BOV,2016,Mar,TO,2
+Raiva,BOV,2016,Mar,MT,3
+Brucelose (Brucella abortus),BOV,2016,Mar,RR,5
+Brucelose (Brucella abortus),BOV,2016,Mar,MA,7
+Brucelose (Brucella abortus),BOV,2016,Mar,AC,8
+Raiva,BOV,2016,Mar,AM,57
+Brucelose (Brucella abortus),BOV,2016,Abr,RO,1
+Brucelose (Brucella abortus),BOV,2016,Abr,RR,1
+Brucelose (Brucella abortus),BOV,2016,Abr,TO,1
+Tuberculose Bovina,BOV,2016,Abr,TO,1
+Brucelose (Brucella abortus),BOV,2016,Abr,AM,2
+Tuberculose Bovina,BOV,2016,Abr,RO,2
+Raiva,BOV,2016,Abr,MT,3
+Brucelose (Brucella abortus),BOV,2016,Abr,PA,6
+Brucelose (Brucella abortus),BOV,2016,Abr,MA,7
+Raiva,BOV,2016,Abr,RO,7
+Raiva,BOV,2016,Abr,TO,7
+Brucelose (Brucella abortus),BOV,2016,Abr,AC,11
+Brucelose (Brucella abortus),BOV,2016,Jun,AM,1
+Tuberculose Bovina,BOV,2016,Jun,PA,1
+Raiva,BOV,2016,Jun,TO,2
+Brucelose (Brucella abortus),BOV,2016,Jun,MA,5
+Raiva,BOV,2016,Jun,MT,13
+Brucelose (Brucella abortus),BOV,2016,Jun,PA,66
+Tuberculose Bovina,BOV,2016,Jul,RO,1
+Raiva,BOV,2016,Jul,TO,2
+Brucelose (Brucella abortus),BOV,2016,Jul,MA,6
+Tuberculose Bovina,BOV,2016,Jul,MT,8
+Brucelose (Brucella abortus),BOV,2016,Jul,AC,14
+Brucelose (Brucella abortus),BOV,2016,Jul,PA,55
+Tuberculose Bovina,BOV,2016,Nov,RO,1
+Raiva,BOV,2016,Nov,PA,2
+Brucelose (Brucella abortus),BOV,2016,Nov,MA,3
+Raiva,BOV,2016,Nov,MT,7
+Tuberculose Bovina,BOV,2016,Nov,PA,7
+Brucelose (Brucella abortus),BOV,2016,Nov,PA,9
+Brucelose (Brucella abortus),BOV,2016,Mai,AM,2
+Brucelose (Brucella abortus),BOV,2016,Mai,MA,4
+Brucelose (Brucella abortus),BOV,2016,Mai,AC,7
+Raiva,BOV,2016,Mai,MT,10
+Raiva,BOV,2016,Mai,TO,16
+Brucelose (Brucella abortus),BOV,2016,Mai,PA,45
+Estomatite vesicular,BOV,2016,Jan,MA,1
+Raiva,BOV,2016,Jan,PA,1
+Brucelose (Brucella abortus),BOV,2016,Jan,RO,1
+Tuberculose Bovina,BOV,2016,Jan,TO,1
+Raiva,BOV,2016,Jan,MT,4
+Brucelose (Brucella abortus),BOV,2016,Jan,AM,6
+Tuberculose Bovina,BOV,2016,Jan,PA,6
+Raiva,BOV,2016,Jan,TO,10
+Brucelose (Brucella abortus),BOV,2016,Jan,PA,14
+Tuberculose Bovina,BOV,2016,Fev,MA,1
+Brucelose (Brucella abortus),BOV,2016,Fev,PA,1
+Tuberculose Bovina,BOV,2016,Fev,RO,1
+Brucelose (Brucella abortus),BOV,2016,Fev,MA,2
+Raiva,BOV,2016,Fev,AM,11
+Raiva,BOV,2016,Fev,MT,14
+Raiva,BOV,2016,Fev,TO,19
+Brucelose (Brucella abortus),BOV,2016,Fev,AC,20
+Raiva,BOV,2016,Set,MA,1
+Estomatite vesicular,BOV,2016,Set,TO,1
+Estomatite vesicular,BOV,2016,Set,MA,2
+Brucelose (Brucella abortus),BOV,2016,Set,AC,3
+Brucelose (Brucella abortus),BOV,2016,Set,MA,3
+Raiva,BOV,2016,Set,TO,4
+Brucelose (Brucella abortus),BOV,2016,Set,MT,6
+Brucelose (Brucella abortus),BOV,2016,Set,PA,14
+Tuberculose Bovina,BOV,2016,Out,AC,1
+Tuberculose Bovina,BOV,2016,Out,PA,3
+Brucelose (Brucella abortus),BOV,2016,Out,PA,4
+Raiva,BOV,2016,Out,MT,10
+Brucelose (Brucella abortus),BOV,2016,Out,AC,27
+Tuberculose Bovina,BOV,2016,Dez,AM,1
+Tuberculose Bovina,BOV,2016,Dez,RO,1
+Raiva,BOV,2016,Dez,MT,2
+Brucelose (Brucella abortus),BOV,2016,Dez,RR,2
+Brucelose (Brucella abortus),BOV,2016,Dez,PA,3
+Raiva,BOV,2016,Dez,PA,3
+Tuberculose Bovina,BOV,2016,Dez,PA,3
+Raiva,BOV,2016,Dez,TO,5
+Brucelose (Brucella abortus),BOV,2016,Dez,MA,10
+Brucelose (Brucella abortus),BOV,2017,Ago,AM,1
+Tuberculose Bovina,BOV,2017,Ago,RO,2
+Brucelose (Brucella abortus),BOV,2017,Ago,PA,3
+Raiva,BOV,2017,Ago,MT,4
+Brucelose (Brucella abortus),BOV,2017,Ago,MA,5
+Raiva,BOV,2017,Ago,TO,7
+Tuberculose Bovina,BOV,2017,Ago,TO,10
+Brucelose (Brucella abortus),BOV,2017,Mar,PA,1
+Raiva,BOV,2017,Mar,PA,1
+Raiva,BOV,2017,Mar,RO,1
+Tuberculose Bovina,BOV,2017,Mar,RO,1
+Brucelose (Brucella abortus),BOV,2017,Mar,MA,3
+Estomatite vesicular,BOV,2017,Mar,MA,3
+Tuberculose Bovina,BOV,2017,Mar,TO,3
+Brucelose (Brucella abortus),BOV,2017,Mar,RR,4
+Raiva,BOV,2017,Mar,TO,8
+Raiva,BOV,2017,Mar,MT,13
+Raiva,BOV,2017,Abr,TO,1
+Raiva,BOV,2017,Abr,PA,2
+Tuberculose Bovina,BOV,2017,Abr,TO,4
+Brucelose (Brucella abortus),BOV,2017,Abr,PA,5
+Brucelose (Brucella abortus),BOV,2017,Abr,MA,7
+Brucelose (Brucella abortus),BOV,2017,Abr,RR,9
+Raiva,BOV,2017,Abr,MT,11
+Tuberculose Bovina,BOV,2017,Jun,MT,1
+Tuberculose Bovina,BOV,2017,Jun,TO,1
+Brucelose (Brucella abortus),BOV,2017,Jun,MA,2
+Raiva,BOV,2017,Jun,MT,2
+Raiva,BOV,2017,Jun,PA,2
+Tuberculose Bovina,BOV,2017,Jun,RO,2
+Raiva,BOV,2017,Jun,TO,6
+Brucelose (Brucella abortus),BOV,2017,Jun,AC,7
+Brucelose (Brucella abortus),BOV,2017,Jun,PA,12
+Tuberculose Bovina,BOV,2017,Jul,AC,1
+Tuberculose Bovina,BOV,2017,Jul,MT,1
+Raiva,BOV,2017,Jul,PA,1
+Brucelose (Brucella abortus),BOV,2017,Jul,RR,1
+Brucelose (Brucella abortus),BOV,2017,Jul,MA,2
+Brucelose (Brucella abortus),BOV,2017,Jul,PA,3
+Raiva,BOV,2017,Jul,TO,6
+Raiva,BOV,2017,Jul,MT,26
+Brucelose (Brucella abortus),BOV,2017,Nov,MT,1
+Raiva,BOV,2017,Nov,MT,1
+Tuberculose Bovina,BOV,2017,Nov,RO,3
+Raiva,BOV,2017,Nov,PA,5
+Brucelose (Brucella abortus),BOV,2017,Nov,PA,10
+Brucelose (Brucella abortus),BOV,2017,Nov,MA,16
+Brucelose (Brucella abortus),BOV,2017,Nov,AM,19
+Tuberculose Bovina,BOV,2017,Nov,PA,25
+Brucelose (Brucella abortus),BOV,2017,Mai,MA,2
+Brucelose (Brucella abortus),BOV,2017,Mai,MT,2
+Brucelose (Brucella abortus),BOV,2017,Mai,PA,3
+Raiva,BOV,2017,Mai,PA,3
+Tuberculose Bovina,BOV,2017,Mai,TO,3
+Raiva,BOV,2017,Mai,MT,9
+Brucelose (Brucella abortus),BOV,2017,Jan,RR,1
+Estomatite vesicular,BOV,2017,Jan,TO,1
+Brucelose (Brucella abortus),BOV,2017,Jan,PA,2
+Tuberculose Bovina,BOV,2017,Jan,RO,2
+Raiva,BOV,2017,Jan,PA,3
+Tuberculose Bovina,BOV,2017,Jan,TO,4
+Brucelose (Brucella abortus),BOV,2017,Jan,AM,6
+Tuberculose Bovina,BOV,2017,Jan,AM,7
+Raiva,BOV,2017,Jan,MT,36
+Brucelose (Brucella abortus),BOV,2017,Jan,MA,43
+Brucelose (Brucella abortus),BOV,2017,Fev,RO,1
+Tuberculose Bovina,BOV,2017,Fev,RO,1
+Brucelose (Brucella abortus),BOV,2017,Fev,AC,2
+Tuberculose Bovina,BOV,2017,Fev,MA,2
+Raiva,BOV,2017,Fev,MT,3
+Brucelose (Brucella abortus),BOV,2017,Fev,MA,4
+Brucelose (Brucella abortus),BOV,2017,Fev,AM,8
+Brucelose (Brucella abortus),BOV,2017,Fev,PA,8
+Tuberculose Bovina,BOV,2017,Fev,PA,8
+Brucelose (Brucella abortus),BOV,2017,Fev,RR,8
+Brucelose (Brucella abortus),BOV,2017,Set,MT,1
+Raiva,BOV,2017,Set,PA,2
+Tuberculose Bovina,BOV,2017,Set,TO,2
+Brucelose (Brucella abortus),BOV,2017,Set,MA,3
+Brucelose (Brucella abortus),BOV,2017,Set,PA,3
+Brucelose (Brucella abortus),BOV,2017,Set,AC,5
+Raiva,BOV,2017,Set,AM,13
+Raiva,BOV,2017,Set,TO,15
+Brucelose (Brucella abortus),BOV,2017,Out,MT,1
+Tuberculose Bovina,BOV,2017,Out,RO,1
+Brucelose (Brucella abortus),BOV,2017,Out,TO,1
+Raiva,BOV,2017,Out,TO,2
+Tuberculose Bovina,BOV,2017,Out,TO,2
+Raiva,BOV,2017,Out,PA,5
+Raiva,BOV,2017,Out,MT,6
+Brucelose (Brucella abortus),BOV,2017,Out,MA,9
+Brucelose (Brucella abortus),BOV,2017,Out,RR,9
+Brucelose (Brucella abortus),BOV,2017,Out,AC,40
+Tuberculose Bovina,BOV,2017,Dez,TO,1
+Brucelose (Brucella abortus),BOV,2017,Dez,MA,4
+Brucelose (Brucella abortus),BOV,2017,Dez,PA,9
+Tuberculose Bovina,BOV,2017,Dez,PA,25
+Brucelose (Brucella abortus),BOV,2017,Dez,TO,40
+Raiva,BOV,2018,-,AC,1
+Brucelose (Brucella abortus),BOV,2018,-,AM,1
+Tuberculose Bovina,BOV,2018,-,AM,1
+Raiva,BOV,2018,-,MA,4
+Raiva,BOV,2018,-,RO,4
+Brucelose (Brucella abortus),BOV,2018,-,AP,8
+Tuberculose Bovina,BOV,2018,-,MA,16
+Tuberculose Bovina,BOV,2018,-,RO,16
+Tuberculose Bovina,BOV,2018,-,AP,17
+Raiva,BOV,2018,-,TO,18
+Tuberculose Bovina,BOV,2018,-,TO,18
+Brucelose (Brucella abortus),BOV,2018,-,MT,21
+Brucelose (Brucella abortus),BOV,2018,-,AC,30
+Raiva,BOV,2018,-,PA,31
+Tuberculose Bovina,BOV,2018,-,MT,36
+Raiva,BOV,2018,-,MT,41
+Brucelose (Brucella abortus),BOV,2018,-,MA,45
+Brucelose (Brucella abortus),BOV,2018,-,PA,105
+Brucelose (Brucella abortus),BOV,2018,-,TO,168
+Tuberculose Bovina,BOV,2018,-,PA,179
+Brucelose (Brucella abortus),BOV,2018,-,RR,289
+Encefalopatia espongiforme bovina,BOV,2019,Abr,MT,1
+Raiva,BOV,2019,-,AC,1
+Tuberculose Bovina,BOV,2019,-,AC,1
+Brucelose (Brucella abortus),BOV,2019,-,RO,1
+Brucelose (Brucella abortus),BOV,2019,-,AC,3
+Tuberculose Bovina,BOV,2019,-,AM,4
+Raiva,BOV,2019,-,RO,5
+Raiva,BOV,2019,-,MA,7
+Raiva,BOV,2019,-,AM,8
+Tuberculose Bovina,BOV,2019,-,PA,8
+Tuberculose Bovina,BOV,2019,-,RO,10
+Brucelose (Brucella abortus),BOV,2019,-,AM,12
+Tuberculose Bovina,BOV,2019,-,MA,16
+Brucelose (Brucella abortus),BOV,2019,-,TO,20
+Raiva,BOV,2019,-,PA,22
+Tuberculose Bovina,BOV,2019,-,TO,31
+Tuberculose Bovina,BOV,2019,-,MT,33
+Tuberculose Bovina,BOV,2019,-,RR,34
+Brucelose (Brucella abortus),BOV,2019,-,AP,38
+Brucelose (Brucella abortus),BOV,2019,-,PA,81
+Raiva,BOV,2019,-,MT,119
+Raiva,BOV,2019,-,TO,143
+Brucelose (Brucella abortus),BOV,2019,-,RR,160
+Brucelose (Brucella abortus),BOV,2019,-,MA,272
+Brucelose (Brucella abortus),BOV,2019,-,MT,732
+Brucelose (Brucella abortus),BUF,2012,Abr,AM,3
+Tuberculose Bovina,BUF,2012,Abr,AM,9
+Brucelose (Brucella abortus),BUF,2012,Abr,PA,17
+Brucelose (Brucella abortus),BUF,2012,Jun,AM,2
+Tuberculose Bovina,BUF,2012,Jun,AM,24
+Brucelose (Brucella abortus),BUF,2012,Jul,PA,1
+Tuberculose Bovina,BUF,2012,Jul,PA,35
+Brucelose (Brucella abortus),BUF,2012,Jan,AM,1
+Tuberculose Bovina,BUF,2012,Jan,AM,1
+Tuberculose Bovina,BUF,2012,Jan,PA,1
+Brucelose (Brucella abortus),BUF,2012,Jan,PA,46
+Brucelose (Brucella abortus),BUF,2012,Fev,AM,1
+Raiva,BUF,2012,Set,MT,1
+Tuberculose Bovina,BUF,2012,Dez,PA,3
+Brucelose (Brucella abortus),BUF,2012,Dez,AP,4
+Tuberculose Bovina,BUF,2013,Ago,AP,3
+Brucelose (Brucella abortus),BUF,2013,Ago,AM,4
+Brucelose (Brucella abortus),BUF,2013,Ago,AP,7
+Tuberculose Bovina,BUF,2013,Abr,AM,3
+Brucelose (Brucella abortus),BUF,2013,Abr,AM,4
+Tuberculose Bovina,BUF,2013,Nov,AP,1
+Tuberculose Bovina,BUF,2013,Set,AP,4
+Brucelose (Brucella abortus),BUF,2013,Set,AP,5
+Tuberculose Bovina,BUF,2013,Out,AP,8
+Brucelose (Brucella abortus),BUF,2013,Dez,AP,1
+Tuberculose Bovina,BUF,2013,Dez,AP,3
+Brucelose (Brucella abortus),BUF,2014,Mar,PA,1
+Tuberculose Bovina,BUF,2014,Mar,PA,138
+Tuberculose Bovina,BUF,2014,Jun,PA,2
+Tuberculose Bovina,BUF,2014,Jun,AM,6
+Brucelose (Brucella abortus),BUF,2014,Jun,PA,6
+Brucelose (Brucella abortus),BUF,2014,Jun,AM,7
+Tuberculose Bovina,BUF,2014,Jul,PA,2
+Tuberculose Bovina,BUF,2014,Nov,PA,5
+Brucelose (Brucella abortus),BUF,2014,Mai,AP,2
+Brucelose (Brucella abortus),BUF,2014,Mai,AM,14
+Tuberculose Bovina,BUF,2014,Mai,AM,17
+Brucelose (Brucella abortus),BUF,2014,Jan,PA,2
+Tuberculose Bovina,BUF,2014,Jan,AP,26
+Brucelose (Brucella abortus),BUF,2014,Jan,AP,28
+Tuberculose Bovina,BUF,2014,Jan,PA,37
+Brucelose (Brucella abortus),BUF,2014,Fev,AM,1
+Tuberculose Bovina,BUF,2014,Fev,AM,1
+Brucelose (Brucella abortus),BUF,2014,Set,PA,1
+Tuberculose Bovina,BUF,2014,Set,AM,2
+Raiva,BUF,2014,Set,PA,3
+Brucelose (Brucella abortus),BUF,2014,Set,AM,4
+Tuberculose Bovina,BUF,2014,Set,PA,21
+Brucelose (Brucella abortus),BUF,2014,Out,PA,3
+Tuberculose Bovina,BUF,2015,Ago,AM,8
+Brucelose (Brucella abortus),BUF,2015,Ago,AM,20
+Tuberculose Bovina,BUF,2015,Mar,AM,2
+Tuberculose Bovina,BUF,2015,Abr,AM,13
+Brucelose (Brucella abortus),BUF,2015,Abr,AM,19
+Tuberculose Bovina,BUF,2015,Jun,AM,3
+Brucelose (Brucella abortus),BUF,2015,Jun,AM,7
+Brucelose (Brucella abortus),BUF,2015,Jul,AM,18
+Brucelose (Brucella abortus),BUF,2015,Nov,AM,5
+Brucelose (Brucella abortus),BUF,2015,Fev,AM,1
+Tuberculose Bovina,BUF,2015,Fev,AM,6
+Brucelose (Brucella abortus),BUF,2015,Set,AM,10
+Brucelose (Brucella abortus),BUF,2015,Out,PA,1
+Brucelose (Brucella abortus),BUF,2015,Out,AM,3
+Tuberculose Bovina,BUF,2015,Dez,AM,1
+Brucelose (Brucella abortus),BUF,2015,Dez,AM,5
+Brucelose (Brucella abortus),BUF,2016,Mar,AM,3
+Brucelose (Brucella abortus),BUF,2016,Mar,PA,15
+Brucelose (Brucella abortus),BUF,2016,Abr,PA,15
+Brucelose (Brucella abortus),BUF,2016,Jun,PA,1
+Brucelose (Brucella abortus),BUF,2016,Jul,AM,3
+Tuberculose Bovina,BUF,2016,Mai,AM,13
+Brucelose (Brucella abortus),BUF,2016,Mai,PA,18
+Brucelose (Brucella abortus),BUF,2016,Jan,AM,2
+Tuberculose Bovina,BUF,2017,Jul,PA,1
+Brucelose (Brucella abortus),BUF,2017,Jul,PA,3
+Brucelose (Brucella abortus),BUF,2017,Nov,AM,10
+Tuberculose Bovina,BUF,2017,Nov,AM,10
+Brucelose (Brucella abortus),BUF,2017,Dez,AP,1
+Tuberculose Bovina,BUF,2017,Dez,AP,69
+Brucelose (Brucella abortus),BUF,2018,-,AP,2
+Tuberculose Bovina,BUF,2018,-,AP,2
+Brucelose (Brucella abortus),BUF,2018,-,PA,2
+Tuberculose Bovina,BUF,2018,-,AM,13
+Brucelose (Brucella abortus),BUF,2019,-,AM,5
+Tuberculose Bovina,BUF,2019,-,AM,10
+Brucelose (Brucella abortus),BUF,2019,-,AP,13
+Brucelose (Brucella abortus),BUF,2019,-,PA,29
+Raiva,CAN,2008,Abr,PA,2
+Raiva,CAN,2008,Jun,PA,1
+Raiva,CAN,2008,Mai,PA,1
+Raiva,CAN,2008,Fev,PA,2
+Raiva,CAN,2009,Ago,MA,1
+Raiva,CAN,2009,Jun,MA,1
+Raiva,CAN,2009,Jun,PA,2
+Raiva,CAN,2009,Jul,MA,3
+Raiva,CAN,2009,Mai,MA,1
+Raiva,CAN,2009,Jan,MA,1
+Raiva,CAN,2009,Jan,PA,1
+Raiva,CAN,2010,Mai,PA,1
+Raiva,CAN,2010,Jan,MA,1
+Raiva,CAN,2010,Fev,MA,1
+Raiva,CAN,2011,Ago,MT,1
+Raiva,CAN,2011,Ago,MA,2
+Raiva,CAN,2011,Mar,PA,1
+Raiva,CAN,2011,Abr,MA,3
+Raiva,CAN,2011,Jun,MA,3
+Raiva,CAN,2011,Jun,PA,3
+Raiva,CAN,2011,Jul,MA,2
+Raiva,CAN,2011,Nov,MA,3
+Raiva,CAN,2011,Mai,PA,3
+Raiva,CAN,2011,Mai,MA,8
+Raiva,CAN,2011,Set,MA,9
+Raiva,CAN,2011,Dez,MA,4
+Raiva,CAN,2012,Ago,MA,19
+Raiva,CAN,2012,Mar,MA,3
+Raiva,CAN,2012,Abr,MA,2
+Raiva,CAN,2012,Jun,MA,1
+Raiva,CAN,2012,Jul,MA,3
+Raiva,CAN,2012,Nov,MA,4
+Raiva,CAN,2012,Jan,MA,3
+Raiva,CAN,2012,Fev,MA,7
+Raiva,CAN,2012,Set,MA,12
+Raiva,CAN,2012,Out,MA,7
+Raiva,CAN,2013,Mar,MA,5
+Raiva,CAN,2013,Abr,MA,5
+Raiva,CAN,2013,Jun,MA,1
+Raiva,CAN,2013,Mai,MA,3
+Raiva,CAN,2013,Jan,MA,1
+Raiva,CAN,2013,Fev,MA,1
+Raiva,CAN,2014,Ago,MA,1
+Raiva,CAN,2014,Abr,MA,1
+Raiva,CAN,2014,Jun,MA,1
+Raiva,CAN,2014,Jul,MA,1
+Raiva,CAN,2014,Nov,MA,1
+Raiva,CAN,2014,Jan,MA,1
+Raiva,CAN,2014,Set,MA,1
+Raiva,CAN,2015,Ago,MA,1
+Raiva,CAN,2015,Nov,MA,1
+Raiva,CAN,2015,Mai,MA,1
+Raiva,CAN,2016,Jan,MA,1
+Raiva,CAN,2016,Fev,AP,1
+Raiva,CAN,2017,Ago,MA,2
+Raiva,CAN,2017,Mar,MA,1
+Raiva,CAN,2018,-,MA,1
+Raiva,CAN,2018,-,MT,1
+Raiva,CAN,2018,-,PA,1
+Raiva,CAN,2019,-,MT,2
+Raiva,CAP,2016,Mai,TO,2
+Raiva,CAP,2018,-,MT,1
+Anemia Infecciosa Equina,EQU,2008,Ago,AM,2
+Anemia Infecciosa Equina,EQU,2008,Ago,RR,9
+Anemia Infecciosa Equina,EQU,2008,Ago,AC,26
+Anemia Infecciosa Equina,EQU,2008,Ago,PA,41
+Anemia Infecciosa Equina,EQU,2008,Ago,RO,42
+Anemia Infecciosa Equina,EQU,2008,Ago,MA,58
+Anemia Infecciosa Equina,EQU,2008,Ago,TO,96
+Anemia Infecciosa Equina,EQU,2008,Ago,MT,233
+Anemia Infecciosa Equina,EQU,2008,Mar,AP,1
+Raiva,EQU,2008,Mar,MT,1
+Mormo,EQU,2008,Mar,PA,2
+Raiva,EQU,2008,Mar,RO,2
+Anemia Infecciosa Equina,EQU,2008,Mar,AC,8
+Anemia Infecciosa Equina,EQU,2008,Mar,AM,8
+Anemia Infecciosa Equina,EQU,2008,Mar,PA,8
+Anemia Infecciosa Equina,EQU,2008,Mar,TO,16
+Anemia Infecciosa Equina,EQU,2008,Mar,RO,17
+Anemia Infecciosa Equina,EQU,2008,Mar,RR,22
+Anemia Infecciosa Equina,EQU,2008,Mar,MA,41
+Anemia Infecciosa Equina,EQU,2008,Mar,MT,84
+Anemia Infecciosa Equina,EQU,2008,Abr,AM,1
+Anemia Infecciosa Equina,EQU,2008,Abr,PA,15
+Anemia Infecciosa Equina,EQU,2008,Abr,MA,21
+Anemia Infecciosa Equina,EQU,2008,Abr,RR,23
+Anemia Infecciosa Equina,EQU,2008,Abr,TO,24
+Anemia Infecciosa Equina,EQU,2008,Abr,AC,29
+Anemia Infecciosa Equina,EQU,2008,Abr,RO,36
+Anemia Infecciosa Equina,EQU,2008,Abr,MT,97
+Anemia Infecciosa Equina,EQU,2008,Jun,RR,6
+Anemia Infecciosa Equina,EQU,2008,Jun,AC,16
+Anemia Infecciosa Equina,EQU,2008,Jun,TO,19
+Anemia Infecciosa Equina,EQU,2008,Jun,PA,40
+Anemia Infecciosa Equina,EQU,2008,Jun,RO,52
+Anemia Infecciosa Equina,EQU,2008,Jun,MA,55
+Anemia Infecciosa Equina,EQU,2008,Jun,MT,167
+Raiva,EQU,2008,Jul,MT,2
+Anemia Infecciosa Equina,EQU,2008,Jul,AM,5
+Anemia Infecciosa Equina,EQU,2008,Jul,PA,10
+Anemia Infecciosa Equina,EQU,2008,Jul,RR,17
+Anemia Infecciosa Equina,EQU,2008,Jul,AC,21
+Anemia Infecciosa Equina,EQU,2008,Jul,RO,30
+Anemia Infecciosa Equina,EQU,2008,Jul,MA,66
+Anemia Infecciosa Equina,EQU,2008,Jul,TO,83
+Anemia Infecciosa Equina,EQU,2008,Jul,MT,227
+Anemia Infecciosa Equina,EQU,2008,Nov,AC,2
+Estomatite vesicular,EQU,2008,Nov,TO,2
+Anemia Infecciosa Equina,EQU,2008,Nov,AM,4
+Anemia Infecciosa Equina,EQU,2008,Nov,AP,7
+Anemia Infecciosa Equina,EQU,2008,Nov,TO,14
+Anemia Infecciosa Equina,EQU,2008,Nov,RO,16
+Anemia Infecciosa Equina,EQU,2008,Nov,RR,17
+Anemia Infecciosa Equina,EQU,2008,Nov,PA,34
+Anemia Infecciosa Equina,EQU,2008,Nov,MA,90
+Anemia Infecciosa Equina,EQU,2008,Nov,MT,182
+Raiva,EQU,2008,Mai,AC,1
+Anemia Infecciosa Equina,EQU,2008,Mai,AM,1
+Raiva,EQU,2008,Mai,MT,1
+Anemia Infecciosa Equina,EQU,2008,Mai,RR,4
+Anemia Infecciosa Equina,EQU,2008,Mai,PA,7
+Anemia Infecciosa Equina,EQU,2008,Mai,AC,14
+Anemia Infecciosa Equina,EQU,2008,Mai,TO,17
+Anemia Infecciosa Equina,EQU,2008,Mai,RO,34
+Anemia Infecciosa Equina,EQU,2008,Mai,MA,60
+Anemia Infecciosa Equina,EQU,2008,Mai,MT,93
+Raiva,EQU,2008,Jan,MA,1
+Mormo,EQU,2008,Jan,PA,1
+Raiva,EQU,2008,Jan,PA,3
+Anemia Infecciosa Equina,EQU,2008,Jan,TO,8
+Anemia Infecciosa Equina,EQU,2008,Jan,PA,10
+Anemia Infecciosa Equina,EQU,2008,Jan,RR,14
+Anemia Infecciosa Equina,EQU,2008,Jan,RO,20
+Anemia Infecciosa Equina,EQU,2008,Jan,AC,24
+Anemia Infecciosa Equina,EQU,2008,Jan,MA,44
+Anemia Infecciosa Equina,EQU,2008,Jan,MT,195
+Raiva,EQU,2008,Fev,MT,1
+Anemia Infecciosa Equina,EQU,2008,Fev,AC,5
+Anemia Infecciosa Equina,EQU,2008,Fev,RR,13
+Anemia Infecciosa Equina,EQU,2008,Fev,RO,21
+Anemia Infecciosa Equina,EQU,2008,Fev,PA,25
+Anemia Infecciosa Equina,EQU,2008,Fev,TO,30
+Anemia Infecciosa Equina,EQU,2008,Fev,MA,48
+Anemia Infecciosa Equina,EQU,2008,Fev,MT,103
+Raiva,EQU,2008,Set,MT,2
+Raiva,EQU,2008,Set,TO,2
+Anemia Infecciosa Equina,EQU,2008,Set,RR,6
+Anemia Infecciosa Equina,EQU,2008,Set,AC,9
+Anemia Infecciosa Equina,EQU,2008,Set,RO,21
+Anemia Infecciosa Equina,EQU,2008,Set,PA,24
+Anemia Infecciosa Equina,EQU,2008,Set,TO,70
+Anemia Infecciosa Equina,EQU,2008,Set,MA,97
+Anemia Infecciosa Equina,EQU,2008,Set,MT,163
+Anemia Infecciosa Equina,EQU,2008,Out,AP,4
+Anemia Infecciosa Equina,EQU,2008,Out,TO,12
+Anemia Infecciosa Equina,EQU,2008,Out,PA,17
+Anemia Infecciosa Equina,EQU,2008,Out,RR,20
+Anemia Infecciosa Equina,EQU,2008,Out,AC,35
+Anemia Infecciosa Equina,EQU,2008,Out,RO,45
+Anemia Infecciosa Equina,EQU,2008,Out,MA,73
+Anemia Infecciosa Equina,EQU,2008,Out,MT,192
+Raiva,EQU,2008,Dez,TO,1
+Anemia Infecciosa Equina,EQU,2008,Dez,RR,9
+Anemia Infecciosa Equina,EQU,2008,Dez,AC,11
+Anemia Infecciosa Equina,EQU,2008,Dez,PA,13
+Anemia Infecciosa Equina,EQU,2008,Dez,RO,29
+Anemia Infecciosa Equina,EQU,2008,Dez,TO,34
+Anemia Infecciosa Equina,EQU,2008,Dez,MA,69
+Anemia Infecciosa Equina,EQU,2008,Dez,MT,123
+Anemia Infecciosa Equina,EQU,2009,Ago,AM,1
+Raiva,EQU,2009,Ago,MT,1
+Anemia Infecciosa Equina,EQU,2009,Ago,AC,16
+Anemia Infecciosa Equina,EQU,2009,Ago,TO,18
+Anemia Infecciosa Equina,EQU,2009,Ago,PA,27
+Anemia Infecciosa Equina,EQU,2009,Ago,RO,38
+Anemia Infecciosa Equina,EQU,2009,Ago,MA,93
+Anemia Infecciosa Equina,EQU,2009,Ago,MT,133
+Raiva,EQU,2009,Mar,RO,1
+Raiva,EQU,2009,Mar,TO,1
+Anemia Infecciosa Equina,EQU,2009,Mar,AM,12
+Anemia Infecciosa Equina,EQU,2009,Mar,RR,15
+Anemia Infecciosa Equina,EQU,2009,Mar,PA,26
+Anemia Infecciosa Equina,EQU,2009,Mar,RO,31
+Anemia Infecciosa Equina,EQU,2009,Mar,MA,33
+Anemia Infecciosa Equina,EQU,2009,Mar,AC,36
+Anemia Infecciosa Equina,EQU,2009,Mar,TO,38
+Anemia Infecciosa Equina,EQU,2009,Mar,MT,163
+Raiva,EQU,2009,Abr,TO,1
+Anemia Infecciosa Equina,EQU,2009,Abr,PA,5
+Anemia Infecciosa Equina,EQU,2009,Abr,AM,9
+Anemia Infecciosa Equina,EQU,2009,Abr,AC,11
+Raiva,EQU,2009,Abr,MT,12
+Anemia Infecciosa Equina,EQU,2009,Abr,TO,12
+Anemia Infecciosa Equina,EQU,2009,Abr,RR,24
+Anemia Infecciosa Equina,EQU,2009,Abr,RO,34
+Anemia Infecciosa Equina,EQU,2009,Abr,MA,67
+Anemia Infecciosa Equina,EQU,2009,Abr,MT,169
+Raiva,EQU,2009,Jun,MT,1
+Anemia Infecciosa Equina,EQU,2009,Jun,RR,7
+Anemia Infecciosa Equina,EQU,2009,Jun,TO,18
+Anemia Infecciosa Equina,EQU,2009,Jun,AC,20
+Anemia Infecciosa Equina,EQU,2009,Jun,RO,26
+Anemia Infecciosa Equina,EQU,2009,Jun,MA,37
+Anemia Infecciosa Equina,EQU,2009,Jun,PA,48
+Anemia Infecciosa Equina,EQU,2009,Jun,MT,87
+Raiva,EQU,2009,Jul,PA,1
+Encefalomielite equina do leste,EQU,2009,Jul,PA,2
+Anemia Infecciosa Equina,EQU,2009,Jul,AM,7
+Raiva,EQU,2009,Jul,MT,7
+Anemia Infecciosa Equina,EQU,2009,Jul,RR,7
+Anemia Infecciosa Equina,EQU,2009,Jul,PA,26
+Anemia Infecciosa Equina,EQU,2009,Jul,TO,30
+Anemia Infecciosa Equina,EQU,2009,Jul,AC,34
+Anemia Infecciosa Equina,EQU,2009,Jul,RO,35
+Anemia Infecciosa Equina,EQU,2009,Jul,MA,70
+Anemia Infecciosa Equina,EQU,2009,Jul,MT,164
+Raiva,EQU,2009,Nov,TO,3
+Anemia Infecciosa Equina,EQU,2009,Nov,AM,8
+Anemia Infecciosa Equina,EQU,2009,Nov,RO,18
+Anemia Infecciosa Equina,EQU,2009,Nov,PA,25
+Anemia Infecciosa Equina,EQU,2009,Nov,AC,26
+Anemia Infecciosa Equina,EQU,2009,Nov,TO,51
+Anemia Infecciosa Equina,EQU,2009,Nov,MA,74
+Anemia Infecciosa Equina,EQU,2009,Nov,MT,86
+Raiva,EQU,2009,Mai,MT,1
+Raiva,EQU,2009,Mai,TO,1
+Anemia Infecciosa Equina,EQU,2009,Mai,RR,6
+Anemia Infecciosa Equina,EQU,2009,Mai,AP,7
+Anemia Infecciosa Equina,EQU,2009,Mai,AC,10
+Anemia Infecciosa Equina,EQU,2009,Mai,AM,11
+Anemia Infecciosa Equina,EQU,2009,Mai,RO,16
+Anemia Infecciosa Equina,EQU,2009,Mai,TO,22
+Anemia Infecciosa Equina,EQU,2009,Mai,PA,76
+Anemia Infecciosa Equina,EQU,2009,Mai,MA,114
+Anemia Infecciosa Equina,EQU,2009,Mai,MT,226
+Anemia Infecciosa Equina,EQU,2009,Jan,AM,2
+Anemia Infecciosa Equina,EQU,2009,Jan,AC,8
+Anemia Infecciosa Equina,EQU,2009,Jan,TO,8
+Anemia Infecciosa Equina,EQU,2009,Jan,RR,9
+Anemia Infecciosa Equina,EQU,2009,Jan,RO,27
+Anemia Infecciosa Equina,EQU,2009,Jan,MA,35
+Anemia Infecciosa Equina,EQU,2009,Jan,PA,56
+Anemia Infecciosa Equina,EQU,2009,Jan,MT,105
+Raiva,EQU,2009,Fev,MT,1
+Anemia Infecciosa Equina,EQU,2009,Fev,AM,5
+Anemia Infecciosa Equina,EQU,2009,Fev,RR,12
+Anemia Infecciosa Equina,EQU,2009,Fev,AC,17
+Anemia Infecciosa Equina,EQU,2009,Fev,PA,28
+Anemia Infecciosa Equina,EQU,2009,Fev,TO,32
+Anemia Infecciosa Equina,EQU,2009,Fev,RO,38
+Anemia Infecciosa Equina,EQU,2009,Fev,MA,60
+Anemia Infecciosa Equina,EQU,2009,Fev,MT,121
+Raiva,EQU,2009,Set,MT,1
+Anemia Infecciosa Equina,EQU,2009,Set,RR,1
+Anemia Infecciosa Equina,EQU,2009,Set,TO,7
+Anemia Infecciosa Equina,EQU,2009,Set,AP,10
+Anemia Infecciosa Equina,EQU,2009,Set,AM,13
+Anemia Infecciosa Equina,EQU,2009,Set,AC,25
+Anemia Infecciosa Equina,EQU,2009,Set,RO,40
+Anemia Infecciosa Equina,EQU,2009,Set,MA,64
+Anemia Infecciosa Equina,EQU,2009,Set,MT,187
+Anemia Infecciosa Equina,EQU,2009,Set,PA,192
+Raiva,EQU,2009,Out,PA,1
+Raiva,EQU,2009,Out,RO,1
+Anemia Infecciosa Equina,EQU,2009,Out,AM,5
+Anemia Infecciosa Equina,EQU,2009,Out,TO,21
+Anemia Infecciosa Equina,EQU,2009,Out,RO,32
+Anemia Infecciosa Equina,EQU,2009,Out,AC,58
+Anemia Infecciosa Equina,EQU,2009,Out,MA,65
+Anemia Infecciosa Equina,EQU,2009,Out,PA,100
+Anemia Infecciosa Equina,EQU,2009,Out,MT,242
+Anemia Infecciosa Equina,EQU,2009,Dez,TO,11
+Anemia Infecciosa Equina,EQU,2009,Dez,AC,13
+Anemia Infecciosa Equina,EQU,2009,Dez,RO,26
+Anemia Infecciosa Equina,EQU,2009,Dez,PA,33
+Anemia Infecciosa Equina,EQU,2009,Dez,MA,68
+Anemia Infecciosa Equina,EQU,2009,Dez,MT,93
+Anemia Infecciosa Equina,EQU,2010,Ago,AM,1
+Raiva,EQU,2010,Ago,MT,1
+Anemia Infecciosa Equina,EQU,2010,Ago,AP,2
+Raiva,EQU,2010,Ago,RO,2
+Anemia Infecciosa Equina,EQU,2010,Ago,RR,3
+Anemia Infecciosa Equina,EQU,2010,Ago,AC,12
+Anemia Infecciosa Equina,EQU,2010,Ago,TO,18
+Anemia Infecciosa Equina,EQU,2010,Ago,RO,20
+Anemia Infecciosa Equina,EQU,2010,Ago,PA,48
+Anemia Infecciosa Equina,EQU,2010,Ago,MA,76
+Anemia Infecciosa Equina,EQU,2010,Ago,MT,124
+Raiva,EQU,2010,Mar,TO,1
+Raiva,EQU,2010,Mar,MT,2
+Anemia Infecciosa Equina,EQU,2010,Mar,AM,11
+Anemia Infecciosa Equina,EQU,2010,Mar,TO,12
+Anemia Infecciosa Equina,EQU,2010,Mar,AC,19
+Anemia Infecciosa Equina,EQU,2010,Mar,RO,36
+Anemia Infecciosa Equina,EQU,2010,Mar,PA,72
+Anemia Infecciosa Equina,EQU,2010,Mar,MA,75
+Anemia Infecciosa Equina,EQU,2010,Mar,MT,144
+Raiva,EQU,2010,Abr,MT,3
+Anemia Infecciosa Equina,EQU,2010,Abr,AM,7
+Anemia Infecciosa Equina,EQU,2010,Abr,TO,9
+Anemia Infecciosa Equina,EQU,2010,Abr,AC,12
+Anemia Infecciosa Equina,EQU,2010,Abr,RO,23
+Anemia Infecciosa Equina,EQU,2010,Abr,PA,30
+Anemia Infecciosa Equina,EQU,2010,Abr,MA,65
+Anemia Infecciosa Equina,EQU,2010,Abr,MT,198
+Anemia Infecciosa Equina,EQU,2010,Jun,AC,7
+Anemia Infecciosa Equina,EQU,2010,Jun,TO,20
+Anemia Infecciosa Equina,EQU,2010,Jun,RO,45
+Anemia Infecciosa Equina,EQU,2010,Jun,MA,70
+Anemia Infecciosa Equina,EQU,2010,Jun,MT,183
+Raiva,EQU,2010,Jul,MT,5
+Anemia Infecciosa Equina,EQU,2010,Jul,RR,5
+Anemia Infecciosa Equina,EQU,2010,Jul,TO,8
+Raiva,EQU,2010,Jul,PA,9
+Anemia Infecciosa Equina,EQU,2010,Jul,AM,10
+Anemia Infecciosa Equina,EQU,2010,Jul,AC,19
+Anemia Infecciosa Equina,EQU,2010,Jul,RO,41
+Anemia Infecciosa Equina,EQU,2010,Jul,PA,52
+Anemia Infecciosa Equina,EQU,2010,Jul,MA,68
+Anemia Infecciosa Equina,EQU,2010,Jul,MT,226
+Anemia Infecciosa Equina,EQU,2010,Nov,AM,3
+Anemia Infecciosa Equina,EQU,2010,Nov,PA,8
+Anemia Infecciosa Equina,EQU,2010,Nov,AC,14
+Anemia Infecciosa Equina,EQU,2010,Nov,RO,24
+Anemia Infecciosa Equina,EQU,2010,Nov,MA,62
+Anemia Infecciosa Equina,EQU,2010,Nov,TO,74
+Anemia Infecciosa Equina,EQU,2010,Nov,MT,169
+Raiva,EQU,2010,Mai,MT,4
+Anemia Infecciosa Equina,EQU,2010,Mai,PA,10
+Anemia Infecciosa Equina,EQU,2010,Mai,AC,16
+Anemia Infecciosa Equina,EQU,2010,Mai,TO,20
+Anemia Infecciosa Equina,EQU,2010,Mai,RO,41
+Anemia Infecciosa Equina,EQU,2010,Mai,MA,104
+Anemia Infecciosa Equina,EQU,2010,Mai,MT,154
+Anemia Infecciosa Equina,EQU,2010,Jan,RR,1
+Anemia Infecciosa Equina,EQU,2010,Jan,TO,14
+Anemia Infecciosa Equina,EQU,2010,Jan,AM,15
+Anemia Infecciosa Equina,EQU,2010,Jan,PA,20
+Anemia Infecciosa Equina,EQU,2010,Jan,AC,28
+Anemia Infecciosa Equina,EQU,2010,Jan,RO,28
+Anemia Infecciosa Equina,EQU,2010,Jan,MA,56
+Anemia Infecciosa Equina,EQU,2010,Jan,MT,104
+Anemia Infecciosa Equina,EQU,2010,Fev,AP,5
+Anemia Infecciosa Equina,EQU,2010,Fev,AC,8
+Anemia Infecciosa Equina,EQU,2010,Fev,RR,8
+Anemia Infecciosa Equina,EQU,2010,Fev,RO,12
+Anemia Infecciosa Equina,EQU,2010,Fev,MA,33
+Anemia Infecciosa Equina,EQU,2010,Fev,PA,55
+Anemia Infecciosa Equina,EQU,2010,Fev,TO,62
+Anemia Infecciosa Equina,EQU,2010,Fev,MT,125
+Anemia Infecciosa Equina,EQU,2010,Set,AM,1
+Raiva,EQU,2010,Set,MT,4
+Anemia Infecciosa Equina,EQU,2010,Set,TO,18
+Anemia Infecciosa Equina,EQU,2010,Set,AC,20
+Anemia Infecciosa Equina,EQU,2010,Set,RO,29
+Anemia Infecciosa Equina,EQU,2010,Set,PA,37
+Anemia Infecciosa Equina,EQU,2010,Set,MA,70
+Anemia Infecciosa Equina,EQU,2010,Set,MT,112
+Anemia Infecciosa Equina,EQU,2010,Out,AP,2
+Anemia Infecciosa Equina,EQU,2010,Out,RR,10
+Anemia Infecciosa Equina,EQU,2010,Out,TO,11
+Anemia Infecciosa Equina,EQU,2010,Out,AC,14
+Anemia Infecciosa Equina,EQU,2010,Out,RO,20
+Anemia Infecciosa Equina,EQU,2010,Out,PA,54
+Anemia Infecciosa Equina,EQU,2010,Out,MA,83
+Anemia Infecciosa Equina,EQU,2010,Out,MT,113
+Raiva,EQU,2010,Dez,PA,1
+Anemia Infecciosa Equina,EQU,2010,Dez,PA,5
+Anemia Infecciosa Equina,EQU,2010,Dez,AC,6
+Anemia Infecciosa Equina,EQU,2010,Dez,RR,7
+Anemia Infecciosa Equina,EQU,2010,Dez,AM,16
+Anemia Infecciosa Equina,EQU,2010,Dez,RO,18
+Anemia Infecciosa Equina,EQU,2010,Dez,TO,26
+Anemia Infecciosa Equina,EQU,2010,Dez,MA,71
+Anemia Infecciosa Equina,EQU,2010,Dez,MT,103
+Raiva,EQU,2011,Ago,MT,1
+Anemia Infecciosa Equina,EQU,2011,Ago,TO,4
+Anemia Infecciosa Equina,EQU,2011,Ago,AM,5
+Anemia Infecciosa Equina,EQU,2011,Ago,AC,15
+Anemia Infecciosa Equina,EQU,2011,Ago,RO,20
+Anemia Infecciosa Equina,EQU,2011,Ago,PA,22
+Anemia Infecciosa Equina,EQU,2011,Ago,MA,108
+Anemia Infecciosa Equina,EQU,2011,Ago,MT,156
+Raiva,EQU,2011,Mar,MT,5
+Anemia Infecciosa Equina,EQU,2011,Mar,AC,11
+Anemia Infecciosa Equina,EQU,2011,Mar,RO,20
+Anemia Infecciosa Equina,EQU,2011,Mar,TO,22
+Anemia Infecciosa Equina,EQU,2011,Mar,RR,28
+Anemia Infecciosa Equina,EQU,2011,Mar,PA,71
+Anemia Infecciosa Equina,EQU,2011,Mar,MA,80
+Anemia Infecciosa Equina,EQU,2011,Mar,MT,231
+Raiva,EQU,2011,Abr,MT,8
+Anemia Infecciosa Equina,EQU,2011,Abr,AC,10
+Anemia Infecciosa Equina,EQU,2011,Abr,TO,13
+Anemia Infecciosa Equina,EQU,2011,Abr,RO,14
+Anemia Infecciosa Equina,EQU,2011,Abr,PA,41
+Anemia Infecciosa Equina,EQU,2011,Abr,MA,71
+Anemia Infecciosa Equina,EQU,2011,Abr,MT,160
+Raiva,EQU,2011,Jun,PA,1
+Anemia Infecciosa Equina,EQU,2011,Jun,AM,4
+Raiva,EQU,2011,Jun,MT,11
+Anemia Infecciosa Equina,EQU,2011,Jun,RR,13
+Anemia Infecciosa Equina,EQU,2011,Jun,AC,20
+Anemia Infecciosa Equina,EQU,2011,Jun,RO,20
+Anemia Infecciosa Equina,EQU,2011,Jun,TO,22
+Anemia Infecciosa Equina,EQU,2011,Jun,PA,50
+Anemia Infecciosa Equina,EQU,2011,Jun,MA,110
+Anemia Infecciosa Equina,EQU,2011,Jun,MT,143
+Anemia Infecciosa Equina,EQU,2011,Jul,AM,1
+Mormo,EQU,2011,Jul,PA,2
+Raiva,EQU,2011,Jul,PA,2
+Raiva,EQU,2011,Jul,MT,9
+Anemia Infecciosa Equina,EQU,2011,Jul,TO,20
+Anemia Infecciosa Equina,EQU,2011,Jul,RO,27
+Anemia Infecciosa Equina,EQU,2011,Jul,AC,29
+Anemia Infecciosa Equina,EQU,2011,Jul,PA,72
+Anemia Infecciosa Equina,EQU,2011,Jul,MA,114
+Anemia Infecciosa Equina,EQU,2011,Jul,MT,159
+Anemia Infecciosa Equina,EQU,2011,Nov,AM,6
+Raiva,EQU,2011,Nov,MT,7
+Anemia Infecciosa Equina,EQU,2011,Nov,AC,9
+Anemia Infecciosa Equina,EQU,2011,Nov,TO,18
+Anemia Infecciosa Equina,EQU,2011,Nov,RO,30
+Anemia Infecciosa Equina,EQU,2011,Nov,PA,65
+Anemia Infecciosa Equina,EQU,2011,Nov,MA,90
+Anemia Infecciosa Equina,EQU,2011,Nov,MT,100
+Raiva,EQU,2011,Mai,MT,1
+Anemia Infecciosa Equina,EQU,2011,Mai,AM,4
+Anemia Infecciosa Equina,EQU,2011,Mai,AC,11
+Anemia Infecciosa Equina,EQU,2011,Mai,TO,13
+Anemia Infecciosa Equina,EQU,2011,Mai,RR,14
+Anemia Infecciosa Equina,EQU,2011,Mai,RO,33
+Anemia Infecciosa Equina,EQU,2011,Mai,PA,72
+Anemia Infecciosa Equina,EQU,2011,Mai,MA,102
+Anemia Infecciosa Equina,EQU,2011,Mai,MT,125
+Raiva,EQU,2011,Jan,MT,1
+Raiva,EQU,2011,Jan,PA,1
+Anemia Infecciosa Equina,EQU,2011,Jan,AC,5
+Anemia Infecciosa Equina,EQU,2011,Jan,RR,6
+Anemia Infecciosa Equina,EQU,2011,Jan,TO,7
+Anemia Infecciosa Equina,EQU,2011,Jan,RO,13
+Anemia Infecciosa Equina,EQU,2011,Jan,PA,41
+Anemia Infecciosa Equina,EQU,2011,Jan,MA,66
+Anemia Infecciosa Equina,EQU,2011,Jan,MT,88
+Raiva,EQU,2011,Fev,MT,1
+Anemia Infecciosa Equina,EQU,2011,Fev,RO,5
+Anemia Infecciosa Equina,EQU,2011,Fev,RR,14
+Anemia Infecciosa Equina,EQU,2011,Fev,AC,18
+Anemia Infecciosa Equina,EQU,2011,Fev,TO,22
+Anemia Infecciosa Equina,EQU,2011,Fev,MA,55
+Anemia Infecciosa Equina,EQU,2011,Fev,MT,105
+Anemia Infecciosa Equina,EQU,2011,Fev,PA,124
+Raiva,EQU,2011,Set,MT,2
+Anemia Infecciosa Equina,EQU,2011,Set,AC,6
+Anemia Infecciosa Equina,EQU,2011,Set,RO,16
+Anemia Infecciosa Equina,EQU,2011,Set,PA,46
+Anemia Infecciosa Equina,EQU,2011,Set,MA,114
+Anemia Infecciosa Equina,EQU,2011,Set,MT,127
+Mormo,EQU,2011,Out,AM,1
+Anemia Infecciosa Equina,EQU,2011,Out,AC,9
+Anemia Infecciosa Equina,EQU,2011,Out,TO,12
+Anemia Infecciosa Equina,EQU,2011,Out,RO,22
+Anemia Infecciosa Equina,EQU,2011,Out,PA,39
+Anemia Infecciosa Equina,EQU,2011,Out,MA,113
+Anemia Infecciosa Equina,EQU,2011,Out,MT,118
+Anemia Infecciosa Equina,EQU,2011,Dez,RO,12
+Anemia Infecciosa Equina,EQU,2011,Dez,AC,13
+Anemia Infecciosa Equina,EQU,2011,Dez,PA,55
+Anemia Infecciosa Equina,EQU,2011,Dez,MA,57
+Anemia Infecciosa Equina,EQU,2011,Dez,TO,61
+Anemia Infecciosa Equina,EQU,2011,Dez,MT,138
+Anemia Infecciosa Equina,EQU,2012,Ago,AM,2
+Raiva,EQU,2012,Ago,MT,4
+Anemia Infecciosa Equina,EQU,2012,Ago,RR,16
+Anemia Infecciosa Equina,EQU,2012,Ago,AC,20
+Anemia Infecciosa Equina,EQU,2012,Ago,RO,29
+Anemia Infecciosa Equina,EQU,2012,Ago,MA,90
+Anemia Infecciosa Equina,EQU,2012,Ago,MT,112
+Anemia Infecciosa Equina,EQU,2012,Mar,AP,1
+Raiva,EQU,2012,Mar,PA,1
+Raiva,EQU,2012,Mar,TO,1
+Anemia Infecciosa Equina,EQU,2012,Mar,AC,8
+Anemia Infecciosa Equina,EQU,2012,Mar,RO,36
+Anemia Infecciosa Equina,EQU,2012,Mar,PA,64
+Anemia Infecciosa Equina,EQU,2012,Mar,MT,130
+Anemia Infecciosa Equina,EQU,2012,Mar,MA,145
+Raiva,EQU,2012,Abr,PA,1
+Anemia Infecciosa Equina,EQU,2012,Abr,AM,2
+Anemia Infecciosa Equina,EQU,2012,Abr,RR,3
+Anemia Infecciosa Equina,EQU,2012,Abr,AC,17
+Anemia Infecciosa Equina,EQU,2012,Abr,RO,20
+Anemia Infecciosa Equina,EQU,2012,Abr,PA,71
+Anemia Infecciosa Equina,EQU,2012,Abr,MA,91
+Anemia Infecciosa Equina,EQU,2012,Abr,MT,152
+Anemia Infecciosa Equina,EQU,2012,Jun,RR,19
+Anemia Infecciosa Equina,EQU,2012,Jun,TO,20
+Anemia Infecciosa Equina,EQU,2012,Jun,AC,21
+Anemia Infecciosa Equina,EQU,2012,Jun,RO,40
+Anemia Infecciosa Equina,EQU,2012,Jun,PA,114
+Anemia Infecciosa Equina,EQU,2012,Jun,MA,135
+Anemia Infecciosa Equina,EQU,2012,Jun,MT,206
+Anemia Infecciosa Equina,EQU,2012,Jul,RR,4
+Anemia Infecciosa Equina,EQU,2012,Jul,AM,9
+Anemia Infecciosa Equina,EQU,2012,Jul,AC,32
+Anemia Infecciosa Equina,EQU,2012,Jul,RO,52
+Anemia Infecciosa Equina,EQU,2012,Jul,MA,120
+Anemia Infecciosa Equina,EQU,2012,Jul,PA,192
+Anemia Infecciosa Equina,EQU,2012,Jul,MT,221
+Anemia Infecciosa Equina,EQU,2012,Nov,AP,3
+Anemia Infecciosa Equina,EQU,2012,Nov,AM,9
+Anemia Infecciosa Equina,EQU,2012,Nov,RR,32
+Anemia Infecciosa Equina,EQU,2012,Nov,RO,77
+Anemia Infecciosa Equina,EQU,2012,Nov,MA,79
+Anemia Infecciosa Equina,EQU,2012,Nov,MT,160
+Anemia Infecciosa Equina,EQU,2012,Mai,AM,1
+Raiva,EQU,2012,Mai,MT,3
+Anemia Infecciosa Equina,EQU,2012,Mai,AP,13
+Anemia Infecciosa Equina,EQU,2012,Mai,AC,15
+Anemia Infecciosa Equina,EQU,2012,Mai,RR,22
+Anemia Infecciosa Equina,EQU,2012,Mai,TO,22
+Anemia Infecciosa Equina,EQU,2012,Mai,RO,33
+Anemia Infecciosa Equina,EQU,2012,Mai,PA,37
+Anemia Infecciosa Equina,EQU,2012,Mai,MA,114
+Anemia Infecciosa Equina,EQU,2012,Mai,MT,121
+Anemia Infecciosa Equina,EQU,2012,Jan,AC,1
+Raiva,EQU,2012,Jan,MT,5
+Anemia Infecciosa Equina,EQU,2012,Jan,AM,9
+Anemia Infecciosa Equina,EQU,2012,Jan,RO,26
+Anemia Infecciosa Equina,EQU,2012,Jan,RR,30
+Anemia Infecciosa Equina,EQU,2012,Jan,MA,84
+Anemia Infecciosa Equina,EQU,2012,Jan,PA,103
+Anemia Infecciosa Equina,EQU,2012,Jan,MT,110
+Anemia Infecciosa Equina,EQU,2012,Fev,AC,11
+Anemia Infecciosa Equina,EQU,2012,Fev,RO,17
+Anemia Infecciosa Equina,EQU,2012,Fev,RR,26
+Anemia Infecciosa Equina,EQU,2012,Fev,PA,32
+Anemia Infecciosa Equina,EQU,2012,Fev,MA,74
+Anemia Infecciosa Equina,EQU,2012,Fev,MT,85
+Anemia Infecciosa Equina,EQU,2012,Set,AM,3
+Anemia Infecciosa Equina,EQU,2012,Set,AC,7
+Anemia Infecciosa Equina,EQU,2012,Set,RO,25
+Anemia Infecciosa Equina,EQU,2012,Set,MA,61
+Anemia Infecciosa Equina,EQU,2012,Set,MT,104
+Raiva,EQU,2012,Out,TO,1
+Anemia Infecciosa Equina,EQU,2012,Out,AM,4
+Anemia Infecciosa Equina,EQU,2012,Out,RR,4
+Anemia Infecciosa Equina,EQU,2012,Out,RO,16
+Anemia Infecciosa Equina,EQU,2012,Out,AC,17
+Anemia Infecciosa Equina,EQU,2012,Out,MA,67
+Anemia Infecciosa Equina,EQU,2012,Out,MT,113
+Anemia Infecciosa Equina,EQU,2012,Dez,AP,1
+Raiva,EQU,2012,Dez,MT,1
+Anemia Infecciosa Equina,EQU,2012,Dez,AM,2
+Anemia Infecciosa Equina,EQU,2012,Dez,AC,4
+Anemia Infecciosa Equina,EQU,2012,Dez,RO,19
+Anemia Infecciosa Equina,EQU,2012,Dez,MA,104
+Anemia Infecciosa Equina,EQU,2012,Dez,MT,106
+Mormo,EQU,2013,Ago,MA,1
+Raiva,EQU,2013,Ago,RO,1
+Raiva,EQU,2013,Ago,MA,3
+Raiva,EQU,2013,Ago,MT,3
+Mormo,EQU,2013,Ago,RO,3
+Anemia Infecciosa Equina,EQU,2013,Ago,RO,28
+Anemia Infecciosa Equina,EQU,2013,Ago,AC,38
+Anemia Infecciosa Equina,EQU,2013,Ago,PA,49
+Anemia Infecciosa Equina,EQU,2013,Ago,MA,132
+Carbúnculo hemático/Antraz,EQU,2013,Mar,PA,1
+Raiva,EQU,2013,Mar,TO,1
+Anemia Infecciosa Equina,EQU,2013,Mar,AM,3
+Anemia Infecciosa Equina,EQU,2013,Mar,RR,10
+Anemia Infecciosa Equina,EQU,2013,Mar,AC,16
+Anemia Infecciosa Equina,EQU,2013,Mar,TO,16
+Anemia Infecciosa Equina,EQU,2013,Mar,PA,36
+Anemia Infecciosa Equina,EQU,2013,Mar,RO,57
+Anemia Infecciosa Equina,EQU,2013,Mar,MA,67
+Mormo,EQU,2013,Abr,AM,1
+Raiva,EQU,2013,Abr,MT,3
+Anemia Infecciosa Equina,EQU,2013,Abr,TO,5
+Anemia Infecciosa Equina,EQU,2013,Abr,AM,6
+Anemia Infecciosa Equina,EQU,2013,Abr,RR,10
+Anemia Infecciosa Equina,EQU,2013,Abr,AC,19
+Anemia Infecciosa Equina,EQU,2013,Abr,PA,29
+Anemia Infecciosa Equina,EQU,2013,Abr,MA,57
+Anemia Infecciosa Equina,EQU,2013,Abr,RO,67
+Anemia Infecciosa Equina,EQU,2013,Abr,MT,126
+Anemia Infecciosa Equina,EQU,2013,Jun,TO,5
+Raiva,EQU,2013,Jun,TO,6
+Anemia Infecciosa Equina,EQU,2013,Jun,AC,13
+Anemia Infecciosa Equina,EQU,2013,Jun,AM,15
+Anemia Infecciosa Equina,EQU,2013,Jun,RO,31
+Anemia Infecciosa Equina,EQU,2013,Jun,PA,94
+Anemia Infecciosa Equina,EQU,2013,Jun,MA,101
+Mormo,EQU,2013,Jul,MA,2
+Anemia Infecciosa Equina,EQU,2013,Jul,AM,3
+Anemia Infecciosa Equina,EQU,2013,Jul,MT,3
+Anemia Infecciosa Equina,EQU,2013,Jul,RR,12
+Anemia Infecciosa Equina,EQU,2013,Jul,AC,26
+Anemia Infecciosa Equina,EQU,2013,Jul,RO,36
+Anemia Infecciosa Equina,EQU,2013,Jul,MA,61
+Anemia Infecciosa Equina,EQU,2013,Jul,PA,85
+Raiva,EQU,2013,Nov,MA,1
+Raiva,EQU,2013,Nov,MT,1
+Mormo,EQU,2013,Nov,RO,1
+Anemia Infecciosa Equina,EQU,2013,Nov,AM,2
+Anemia Infecciosa Equina,EQU,2013,Nov,AC,6
+Anemia Infecciosa Equina,EQU,2013,Nov,RO,7
+Anemia Infecciosa Equina,EQU,2013,Nov,AP,15
+Anemia Infecciosa Equina,EQU,2013,Nov,RR,40
+Anemia Infecciosa Equina,EQU,2013,Nov,MA,87
+Anemia Infecciosa Equina,EQU,2013,Nov,PA,93
+Anemia Infecciosa Equina,EQU,2013,Nov,MT,107
+Mormo,EQU,2013,Mai,RO,1
+Raiva,EQU,2013,Mai,TO,2
+Anemia Infecciosa Equina,EQU,2013,Mai,AM,4
+Raiva,EQU,2013,Mai,MT,4
+Anemia Infecciosa Equina,EQU,2013,Mai,TO,12
+Anemia Infecciosa Equina,EQU,2013,Mai,AC,16
+Anemia Infecciosa Equina,EQU,2013,Mai,RR,19
+Anemia Infecciosa Equina,EQU,2013,Mai,PA,23
+Anemia Infecciosa Equina,EQU,2013,Mai,RO,25
+Anemia Infecciosa Equina,EQU,2013,Mai,MA,129
+Raiva,EQU,2013,Jan,MT,1
+Anemia Infecciosa Equina,EQU,2013,Jan,PA,4
+Anemia Infecciosa Equina,EQU,2013,Jan,RO,11
+Anemia Infecciosa Equina,EQU,2013,Jan,AC,19
+Anemia Infecciosa Equina,EQU,2013,Jan,TO,24
+Anemia Infecciosa Equina,EQU,2013,Jan,RR,28
+Anemia Infecciosa Equina,EQU,2013,Jan,MA,64
+Anemia Infecciosa Equina,EQU,2013,Jan,MT,139
+Anemia Infecciosa Equina,EQU,2013,Fev,AC,9
+Anemia Infecciosa Equina,EQU,2013,Fev,AP,9
+Anemia Infecciosa Equina,EQU,2013,Fev,TO,14
+Anemia Infecciosa Equina,EQU,2013,Fev,RR,23
+Anemia Infecciosa Equina,EQU,2013,Fev,RO,24
+Raiva,EQU,2013,Fev,MT,50
+Anemia Infecciosa Equina,EQU,2013,Fev,MA,61
+Anemia Infecciosa Equina,EQU,2013,Fev,PA,68
+Anemia Infecciosa Equina,EQU,2013,Fev,MT,99
+Mormo,EQU,2013,Set,MA,1
+Anemia Infecciosa Equina,EQU,2013,Set,MT,5
+Mormo,EQU,2013,Set,RO,5
+Anemia Infecciosa Equina,EQU,2013,Set,AM,13
+Anemia Infecciosa Equina,EQU,2013,Set,AC,45
+Anemia Infecciosa Equina,EQU,2013,Set,RO,75
+Anemia Infecciosa Equina,EQU,2013,Set,MA,91
+Anemia Infecciosa Equina,EQU,2013,Set,PA,123
+Anemia Infecciosa Equina,EQU,2013,Out,AM,1
+Mormo,EQU,2013,Out,MA,1
+Raiva,EQU,2013,Out,MT,1
+Mormo,EQU,2013,Out,RO,2
+Anemia Infecciosa Equina,EQU,2013,Out,AC,8
+Anemia Infecciosa Equina,EQU,2013,Out,RO,8
+Anemia Infecciosa Equina,EQU,2013,Out,PA,32
+Anemia Infecciosa Equina,EQU,2013,Out,MA,62
+Anemia Infecciosa Equina,EQU,2013,Out,MT,148
+Anemia Infecciosa Equina,EQU,2013,Dez,TO,10
+Anemia Infecciosa Equina,EQU,2013,Dez,AC,11
+Anemia Infecciosa Equina,EQU,2013,Dez,RO,19
+Anemia Infecciosa Equina,EQU,2013,Dez,RR,23
+Anemia Infecciosa Equina,EQU,2013,Dez,MT,70
+Anemia Infecciosa Equina,EQU,2013,Dez,MA,84
+Anemia Infecciosa Equina,EQU,2013,Dez,PA,158
+Anemia Infecciosa Equina,EQU,2014,Ago,TO,2
+Raiva,EQU,2014,Ago,MA,3
+Anemia Infecciosa Equina,EQU,2014,Ago,RR,13
+Anemia Infecciosa Equina,EQU,2014,Ago,RO,20
+Anemia Infecciosa Equina,EQU,2014,Ago,AC,25
+Anemia Infecciosa Equina,EQU,2014,Ago,PA,29
+Anemia Infecciosa Equina,EQU,2014,Ago,MT,50
+Raiva,EQU,2014,Mar,PA,1
+Mormo,EQU,2014,Mar,RO,2
+Anemia Infecciosa Equina,EQU,2014,Mar,AM,3
+Anemia Infecciosa Equina,EQU,2014,Mar,RR,7
+Anemia Infecciosa Equina,EQU,2014,Mar,RO,13
+Anemia Infecciosa Equina,EQU,2014,Mar,AC,19
+Anemia Infecciosa Equina,EQU,2014,Mar,TO,23
+Anemia Infecciosa Equina,EQU,2014,Mar,PA,110
+Anemia Infecciosa Equina,EQU,2014,Mar,MA,168
+Anemia Infecciosa Equina,EQU,2014,Mar,MT,214
+Raiva,EQU,2014,Abr,MT,1
+Raiva,EQU,2014,Abr,PA,1
+Raiva,EQU,2014,Abr,RO,3
+Mormo,EQU,2014,Abr,PA,4
+Anemia Infecciosa Equina,EQU,2014,Abr,AM,5
+Anemia Infecciosa Equina,EQU,2014,Abr,AC,11
+Anemia Infecciosa Equina,EQU,2014,Abr,RR,20
+Anemia Infecciosa Equina,EQU,2014,Abr,RO,22
+Anemia Infecciosa Equina,EQU,2014,Abr,PA,27
+Anemia Infecciosa Equina,EQU,2014,Abr,TO,42
+Anemia Infecciosa Equina,EQU,2014,Abr,MT,228
+Anemia Infecciosa Equina,EQU,2014,Jun,AM,1
+Mormo,EQU,2014,Jun,MT,1
+Raiva,EQU,2014,Jun,MT,2
+Anemia Infecciosa Equina,EQU,2014,Jun,AP,3
+Anemia Infecciosa Equina,EQU,2014,Jun,AC,15
+Anemia Infecciosa Equina,EQU,2014,Jun,RO,17
+Anemia Infecciosa Equina,EQU,2014,Jun,RR,18
+Anemia Infecciosa Equina,EQU,2014,Jun,TO,25
+Anemia Infecciosa Equina,EQU,2014,Jun,MA,67
+Anemia Infecciosa Equina,EQU,2014,Jun,PA,87
+Anemia Infecciosa Equina,EQU,2014,Jun,MT,428
+Mormo,EQU,2014,Jul,RO,1
+Estomatite vesicular,EQU,2014,Jul,MT,7
+Anemia Infecciosa Equina,EQU,2014,Jul,TO,15
+Anemia Infecciosa Equina,EQU,2014,Jul,RO,29
+Anemia Infecciosa Equina,EQU,2014,Jul,AC,35
+Anemia Infecciosa Equina,EQU,2014,Jul,MT,69
+Anemia Infecciosa Equina,EQU,2014,Jul,PA,86
+Anemia Infecciosa Equina,EQU,2014,Jul,MA,136
+Anemia Infecciosa Equina,EQU,2014,Nov,AP,1
+Mormo,EQU,2014,Nov,PA,1
+Mormo,EQU,2014,Nov,RO,1
+Mormo,EQU,2014,Nov,RR,1
+Mormo,EQU,2014,Nov,MT,3
+Anemia Infecciosa Equina,EQU,2014,Nov,AC,13
+Anemia Infecciosa Equina,EQU,2014,Nov,RR,16
+Anemia Infecciosa Equina,EQU,2014,Nov,TO,34
+Anemia Infecciosa Equina,EQU,2014,Nov,RO,35
+Anemia Infecciosa Equina,EQU,2014,Nov,PA,69
+Anemia Infecciosa Equina,EQU,2014,Nov,MA,90
+Anemia Infecciosa Equina,EQU,2014,Nov,MT,92
+Raiva,EQU,2014,Mai,AC,1
+Raiva,EQU,2014,Mai,TO,1
+Anemia Infecciosa Equina,EQU,2014,Mai,AM,2
+Mormo,EQU,2014,Mai,MT,2
+Mormo,EQU,2014,Mai,RO,2
+Anemia Infecciosa Equina,EQU,2014,Mai,AC,14
+Anemia Infecciosa Equina,EQU,2014,Mai,RR,19
+Anemia Infecciosa Equina,EQU,2014,Mai,RO,21
+Anemia Infecciosa Equina,EQU,2014,Mai,TO,27
+Anemia Infecciosa Equina,EQU,2014,Mai,PA,47
+Anemia Infecciosa Equina,EQU,2014,Mai,MA,111
+Anemia Infecciosa Equina,EQU,2014,Mai,MT,216
+Raiva,EQU,2014,Jan,MT,1
+Raiva,EQU,2014,Jan,PA,1
+Anemia Infecciosa Equina,EQU,2014,Jan,AM,3
+Anemia Infecciosa Equina,EQU,2014,Jan,AP,3
+Estomatite vesicular,EQU,2014,Jan,MA,4
+Anemia Infecciosa Equina,EQU,2014,Jan,RR,12
+Anemia Infecciosa Equina,EQU,2014,Jan,AC,14
+Anemia Infecciosa Equina,EQU,2014,Jan,RO,16
+Anemia Infecciosa Equina,EQU,2014,Jan,PA,21
+Anemia Infecciosa Equina,EQU,2014,Jan,TO,53
+Anemia Infecciosa Equina,EQU,2014,Jan,MT,61
+Anemia Infecciosa Equina,EQU,2014,Jan,MA,67
+Raiva,EQU,2014,Fev,PA,1
+Anemia Infecciosa Equina,EQU,2014,Fev,AM,2
+Mormo,EQU,2014,Fev,RO,2
+Anemia Infecciosa Equina,EQU,2014,Fev,AC,6
+Anemia Infecciosa Equina,EQU,2014,Fev,RO,12
+Anemia Infecciosa Equina,EQU,2014,Fev,RR,20
+Anemia Infecciosa Equina,EQU,2014,Fev,PA,21
+Anemia Infecciosa Equina,EQU,2014,Fev,TO,28
+Anemia Infecciosa Equina,EQU,2014,Fev,MA,76
+Anemia Infecciosa Equina,EQU,2014,Set,AM,3
+Mormo,EQU,2014,Set,MT,6
+Anemia Infecciosa Equina,EQU,2014,Set,AC,7
+Anemia Infecciosa Equina,EQU,2014,Set,TO,12
+Anemia Infecciosa Equina,EQU,2014,Set,RO,23
+Anemia Infecciosa Equina,EQU,2014,Set,RR,45
+Anemia Infecciosa Equina,EQU,2014,Set,MT,73
+Anemia Infecciosa Equina,EQU,2014,Set,MA,84
+Anemia Infecciosa Equina,EQU,2014,Set,PA,127
+Raiva,EQU,2014,Out,PA,1
+Anemia Infecciosa Equina,EQU,2014,Out,AM,2
+Anemia Infecciosa Equina,EQU,2014,Out,TO,20
+Anemia Infecciosa Equina,EQU,2014,Out,AC,21
+Anemia Infecciosa Equina,EQU,2014,Out,RO,24
+Anemia Infecciosa Equina,EQU,2014,Out,RR,33
+Anemia Infecciosa Equina,EQU,2014,Out,PA,43
+Anemia Infecciosa Equina,EQU,2014,Out,MT,83
+Raiva,EQU,2014,Dez,MT,1
+Mormo,EQU,2014,Dez,PA,1
+Raiva,EQU,2014,Dez,TO,2
+Mormo,EQU,2014,Dez,MT,6
+Anemia Infecciosa Equina,EQU,2014,Dez,AC,16
+Anemia Infecciosa Equina,EQU,2014,Dez,TO,18
+Anemia Infecciosa Equina,EQU,2014,Dez,RO,32
+Anemia Infecciosa Equina,EQU,2014,Dez,MT,43
+Anemia Infecciosa Equina,EQU,2014,Dez,PA,75
+Mormo,EQU,2015,Ago,PA,1
+Raiva,EQU,2015,Ago,PA,1
+Anemia Infecciosa Equina,EQU,2015,Ago,AM,6
+Anemia Infecciosa Equina,EQU,2015,Ago,TO,8
+Anemia Infecciosa Equina,EQU,2015,Ago,AC,9
+Anemia Infecciosa Equina,EQU,2015,Ago,RR,16
+Anemia Infecciosa Equina,EQU,2015,Ago,MT,20
+Anemia Infecciosa Equina,EQU,2015,Ago,RO,21
+Anemia Infecciosa Equina,EQU,2015,Ago,PA,22
+Raiva,EQU,2015,Mar,TO,1
+Mormo,EQU,2015,Mar,MT,2
+Mormo,EQU,2015,Mar,PA,2
+Raiva,EQU,2015,Mar,PA,2
+Anemia Infecciosa Equina,EQU,2015,Mar,AM,3
+Anemia Infecciosa Equina,EQU,2015,Mar,AP,3
+Raiva,EQU,2015,Mar,MT,3
+Anemia Infecciosa Equina,EQU,2015,Mar,RO,4
+Anemia Infecciosa Equina,EQU,2015,Mar,RR,15
+Anemia Infecciosa Equina,EQU,2015,Mar,TO,37
+Anemia Infecciosa Equina,EQU,2015,Mar,MA,47
+Anemia Infecciosa Equina,EQU,2015,Mar,PA,48
+Anemia Infecciosa Equina,EQU,2015,Mar,MT,52
+Mormo,EQU,2015,Abr,RO,1
+Anemia Infecciosa Equina,EQU,2015,Abr,AM,2
+Anemia Infecciosa Equina,EQU,2015,Abr,AP,2
+Raiva,EQU,2015,Abr,MT,3
+Mormo,EQU,2015,Abr,PA,5
+Anemia Infecciosa Equina,EQU,2015,Abr,AC,7
+Anemia Infecciosa Equina,EQU,2015,Abr,RR,17
+Anemia Infecciosa Equina,EQU,2015,Abr,TO,19
+Mormo,EQU,2015,Abr,MT,33
+Anemia Infecciosa Equina,EQU,2015,Abr,RO,33
+Anemia Infecciosa Equina,EQU,2015,Abr,MA,53
+Anemia Infecciosa Equina,EQU,2015,Abr,MT,75
+Anemia Infecciosa Equina,EQU,2015,Abr,PA,75
+Anemia Infecciosa Equina,EQU,2015,Jun,AM,2
+Anemia Infecciosa Equina,EQU,2015,Jun,AC,4
+Mormo,EQU,2015,Jun,MT,5
+Anemia Infecciosa Equina,EQU,2015,Jun,RR,6
+Anemia Infecciosa Equina,EQU,2015,Jun,RO,11
+Anemia Infecciosa Equina,EQU,2015,Jun,MT,12
+Anemia Infecciosa Equina,EQU,2015,Jun,TO,12
+Anemia Infecciosa Equina,EQU,2015,Jun,PA,74
+Raiva,EQU,2015,Jul,MT,1
+Mormo,EQU,2015,Jul,RO,1
+Mormo,EQU,2015,Jul,TO,2
+Anemia Infecciosa Equina,EQU,2015,Jul,AP,4
+Mormo,EQU,2015,Jul,MT,4
+Anemia Infecciosa Equina,EQU,2015,Jul,AM,5
+Anemia Infecciosa Equina,EQU,2015,Jul,AC,9
+Anemia Infecciosa Equina,EQU,2015,Jul,TO,9
+Mormo,EQU,2015,Jul,PA,11
+Anemia Infecciosa Equina,EQU,2015,Jul,RO,36
+Anemia Infecciosa Equina,EQU,2015,Jul,PA,66
+Anemia Infecciosa Equina,EQU,2015,Jul,MT,530
+Mormo,EQU,2015,Nov,TO,3
+Anemia Infecciosa Equina,EQU,2015,Nov,AM,4
+Mormo,EQU,2015,Nov,MT,6
+Anemia Infecciosa Equina,EQU,2015,Nov,RO,6
+Anemia Infecciosa Equina,EQU,2015,Nov,AP,10
+Anemia Infecciosa Equina,EQU,2015,Nov,RR,19
+Anemia Infecciosa Equina,EQU,2015,Nov,PA,24
+Anemia Infecciosa Equina,EQU,2015,Nov,TO,44
+Anemia Infecciosa Equina,EQU,2015,Nov,MT,800
+Anemia Infecciosa Equina,EQU,2015,Mai,AM,1
+Mormo,EQU,2015,Mai,RO,1
+Raiva,EQU,2015,Mai,AC,2
+Mormo,EQU,2015,Mai,MT,5
+Anemia Infecciosa Equina,EQU,2015,Mai,RR,9
+Anemia Infecciosa Equina,EQU,2015,Mai,AC,13
+Anemia Infecciosa Equina,EQU,2015,Mai,TO,16
+Anemia Infecciosa Equina,EQU,2015,Mai,PA,23
+Anemia Infecciosa Equina,EQU,2015,Mai,RO,24
+Anemia Infecciosa Equina,EQU,2015,Mai,MT,71
+Anemia Infecciosa Equina,EQU,2015,Jan,AM,1
+Anemia Infecciosa Equina,EQU,2015,Jan,AP,1
+Anemia Infecciosa Equina,EQU,2015,Jan,AC,5
+Anemia Infecciosa Equina,EQU,2015,Jan,RO,6
+Anemia Infecciosa Equina,EQU,2015,Jan,PA,22
+Anemia Infecciosa Equina,EQU,2015,Jan,RR,24
+Anemia Infecciosa Equina,EQU,2015,Jan,TO,34
+Anemia Infecciosa Equina,EQU,2015,Jan,MT,47
+Anemia Infecciosa Equina,EQU,2015,Fev,AM,1
+Raiva,EQU,2015,Fev,RO,2
+Anemia Infecciosa Equina,EQU,2015,Fev,AC,4
+Anemia Infecciosa Equina,EQU,2015,Fev,PA,4
+Raiva,EQU,2015,Fev,TO,5
+Mormo,EQU,2015,Fev,MT,6
+Anemia Infecciosa Equina,EQU,2015,Fev,RR,11
+Anemia Infecciosa Equina,EQU,2015,Fev,RO,30
+Anemia Infecciosa Equina,EQU,2015,Fev,TO,30
+Anemia Infecciosa Equina,EQU,2015,Fev,MA,50
+Anemia Infecciosa Equina,EQU,2015,Fev,MT,82
+Anemia Infecciosa Equina,EQU,2015,Set,AP,2
+Anemia Infecciosa Equina,EQU,2015,Set,AM,6
+Anemia Infecciosa Equina,EQU,2015,Set,AC,9
+Anemia Infecciosa Equina,EQU,2015,Set,PA,20
+Anemia Infecciosa Equina,EQU,2015,Set,RO,22
+Anemia Infecciosa Equina,EQU,2015,Set,TO,34
+Anemia Infecciosa Equina,EQU,2015,Set,RR,44
+Anemia Infecciosa Equina,EQU,2015,Set,MT,644
+Raiva,EQU,2015,Out,PA,1
+Mormo,EQU,2015,Out,TO,1
+Raiva,EQU,2015,Out,TO,1
+Raiva,EQU,2015,Out,MT,2
+Anemia Infecciosa Equina,EQU,2015,Out,AM,6
+Mormo,EQU,2015,Out,MT,8
+Anemia Infecciosa Equina,EQU,2015,Out,AP,11
+Anemia Infecciosa Equina,EQU,2015,Out,RR,23
+Anemia Infecciosa Equina,EQU,2015,Out,RO,25
+Anemia Infecciosa Equina,EQU,2015,Out,PA,28
+Anemia Infecciosa Equina,EQU,2015,Out,TO,44
+Anemia Infecciosa Equina,EQU,2015,Out,MT,712
+Raiva,EQU,2015,Dez,TO,1
+Anemia Infecciosa Equina,EQU,2015,Dez,AP,5
+Anemia Infecciosa Equina,EQU,2015,Dez,AC,9
+Mormo,EQU,2015,Dez,TO,11
+Anemia Infecciosa Equina,EQU,2015,Dez,RO,14
+Anemia Infecciosa Equina,EQU,2015,Dez,RR,29
+Anemia Infecciosa Equina,EQU,2015,Dez,PA,30
+Anemia Infecciosa Equina,EQU,2015,Dez,TO,39
+Anemia Infecciosa Equina,EQU,2015,Dez,MT,71
+Anemia Infecciosa Equina,EQU,2016,Ago,AP,2
+Anemia Infecciosa Equina,EQU,2016,Ago,AM,3
+Anemia Infecciosa Equina,EQU,2016,Ago,RO,4
+Anemia Infecciosa Equina,EQU,2016,Ago,TO,6
+Anemia Infecciosa Equina,EQU,2016,Ago,RR,13
+Anemia Infecciosa Equina,EQU,2016,Ago,AC,16
+Anemia Infecciosa Equina,EQU,2016,Ago,MT,36
+Anemia Infecciosa Equina,EQU,2016,Ago,MA,60
+Anemia Infecciosa Equina,EQU,2016,Ago,PA,78
+Anemia Infecciosa Equina,EQU,2016,Mar,AP,1
+Mormo,EQU,2016,Mar,TO,1
+Anemia Infecciosa Equina,EQU,2016,Mar,AM,11
+Raiva,EQU,2016,Mar,AM,13
+Anemia Infecciosa Equina,EQU,2016,Mar,AC,17
+Anemia Infecciosa Equina,EQU,2016,Mar,RR,22
+Anemia Infecciosa Equina,EQU,2016,Mar,RO,25
+Anemia Infecciosa Equina,EQU,2016,Mar,MT,70
+Anemia Infecciosa Equina,EQU,2016,Mar,TO,90
+Anemia Infecciosa Equina,EQU,2016,Mar,MA,96
+Anemia Infecciosa Equina,EQU,2016,Mar,PA,103
+Raiva,EQU,2016,Abr,MT,1
+Mormo,EQU,2016,Abr,TO,3
+Anemia Infecciosa Equina,EQU,2016,Abr,RO,10
+Anemia Infecciosa Equina,EQU,2016,Abr,RR,14
+Anemia Infecciosa Equina,EQU,2016,Abr,AC,21
+Anemia Infecciosa Equina,EQU,2016,Abr,AM,21
+Anemia Infecciosa Equina,EQU,2016,Abr,PA,62
+Anemia Infecciosa Equina,EQU,2016,Abr,MT,64
+Anemia Infecciosa Equina,EQU,2016,Abr,TO,81
+Anemia Infecciosa Equina,EQU,2016,Abr,MA,87
+Mormo,EQU,2016,Jun,MA,1
+Mormo,EQU,2016,Jun,AM,3
+Anemia Infecciosa Equina,EQU,2016,Jun,AP,5
+Anemia Infecciosa Equina,EQU,2016,Jun,AC,6
+Anemia Infecciosa Equina,EQU,2016,Jun,AM,9
+Anemia Infecciosa Equina,EQU,2016,Jun,RO,9
+Anemia Infecciosa Equina,EQU,2016,Jun,MA,18
+Anemia Infecciosa Equina,EQU,2016,Jun,TO,22
+Anemia Infecciosa Equina,EQU,2016,Jun,MT,24
+Anemia Infecciosa Equina,EQU,2016,Jun,PA,80
+Mormo,EQU,2016,Jul,MA,1
+Anemia Infecciosa Equina,EQU,2016,Jul,AP,2
+Anemia Infecciosa Equina,EQU,2016,Jul,AM,4
+Anemia Infecciosa Equina,EQU,2016,Jul,RO,11
+Anemia Infecciosa Equina,EQU,2016,Jul,TO,14
+Anemia Infecciosa Equina,EQU,2016,Jul,PA,34
+Anemia Infecciosa Equina,EQU,2016,Jul,AC,37
+Anemia Infecciosa Equina,EQU,2016,Jul,MT,38
+Anemia Infecciosa Equina,EQU,2016,Jul,RR,53
+Anemia Infecciosa Equina,EQU,2016,Jul,MA,88
+Mormo,EQU,2016,Nov,PA,1
+Anemia Infecciosa Equina,EQU,2016,Nov,RO,2
+Mormo,EQU,2016,Nov,TO,2
+Anemia Infecciosa Equina,EQU,2016,Nov,AM,3
+Anemia Infecciosa Equina,EQU,2016,Nov,AC,6
+Anemia Infecciosa Equina,EQU,2016,Nov,RR,18
+Anemia Infecciosa Equina,EQU,2016,Nov,TO,22
+Anemia Infecciosa Equina,EQU,2016,Nov,MT,27
+Anemia Infecciosa Equina,EQU,2016,Nov,MA,49
+Anemia Infecciosa Equina,EQU,2016,Nov,PA,67
+Mormo,EQU,2016,Mai,PA,1
+Raiva,EQU,2016,Mai,PA,1
+Raiva,EQU,2016,Mai,MT,2
+Anemia Infecciosa Equina,EQU,2016,Mai,RR,3
+Raiva,EQU,2016,Mai,TO,3
+Anemia Infecciosa Equina,EQU,2016,Mai,MT,8
+Mormo,EQU,2016,Mai,MT,8
+Anemia Infecciosa Equina,EQU,2016,Mai,RO,15
+Anemia Infecciosa Equina,EQU,2016,Mai,AC,19
+Anemia Infecciosa Equina,EQU,2016,Mai,AM,22
+Anemia Infecciosa Equina,EQU,2016,Mai,PA,57
+Anemia Infecciosa Equina,EQU,2016,Mai,TO,78
+Anemia Infecciosa Equina,EQU,2016,Mai,MA,118
+Mormo,EQU,2016,Jan,RO,1
+Mormo,EQU,2016,Jan,MT,3
+Mormo,EQU,2016,Jan,TO,4
+Anemia Infecciosa Equina,EQU,2016,Jan,AM,5
+Anemia Infecciosa Equina,EQU,2016,Jan,AC,6
+Anemia Infecciosa Equina,EQU,2016,Jan,RO,15
+Anemia Infecciosa Equina,EQU,2016,Jan,RR,18
+Anemia Infecciosa Equina,EQU,2016,Jan,PA,35
+Anemia Infecciosa Equina,EQU,2016,Jan,TO,38
+Anemia Infecciosa Equina,EQU,2016,Jan,MT,49
+Anemia Infecciosa Equina,EQU,2016,Jan,MA,127
+Mormo,EQU,2016,Fev,AM,1
+Raiva,EQU,2016,Fev,RO,1
+Mormo,EQU,2016,Fev,TO,2
+Anemia Infecciosa Equina,EQU,2016,Fev,RO,4
+Anemia Infecciosa Equina,EQU,2016,Fev,RR,4
+Anemia Infecciosa Equina,EQU,2016,Fev,AC,6
+Anemia Infecciosa Equina,EQU,2016,Fev,AP,12
+Anemia Infecciosa Equina,EQU,2016,Fev,AM,13
+Anemia Infecciosa Equina,EQU,2016,Fev,PA,53
+Anemia Infecciosa Equina,EQU,2016,Fev,MT,61
+Anemia Infecciosa Equina,EQU,2016,Fev,TO,64
+Anemia Infecciosa Equina,EQU,2016,Fev,MA,82
+Anemia Infecciosa Equina,EQU,2016,Set,AP,1
+Mormo,EQU,2016,Set,PA,1
+Anemia Infecciosa Equina,EQU,2016,Set,RO,7
+Anemia Infecciosa Equina,EQU,2016,Set,AM,8
+Anemia Infecciosa Equina,EQU,2016,Set,TO,9
+Anemia Infecciosa Equina,EQU,2016,Set,AC,10
+Anemia Infecciosa Equina,EQU,2016,Set,RR,28
+Anemia Infecciosa Equina,EQU,2016,Set,PA,49
+Anemia Infecciosa Equina,EQU,2016,Set,MT,51
+Anemia Infecciosa Equina,EQU,2016,Set,MA,68
+Raiva,EQU,2016,Out,MT,2
+Anemia Infecciosa Equina,EQU,2016,Out,AC,7
+Anemia Infecciosa Equina,EQU,2016,Out,RO,9
+Anemia Infecciosa Equina,EQU,2016,Out,TO,13
+Anemia Infecciosa Equina,EQU,2016,Out,MT,36
+Anemia Infecciosa Equina,EQU,2016,Out,MA,56
+Anemia Infecciosa Equina,EQU,2016,Out,PA,65
+Mormo,EQU,2016,Dez,PA,1
+Raiva,EQU,2016,Dez,PA,1
+Raiva,EQU,2016,Dez,TO,2
+Anemia Infecciosa Equina,EQU,2016,Dez,RR,4
+Anemia Infecciosa Equina,EQU,2016,Dez,AP,9
+Anemia Infecciosa Equina,EQU,2016,Dez,TO,9
+Anemia Infecciosa Equina,EQU,2016,Dez,AC,11
+Anemia Infecciosa Equina,EQU,2016,Dez,RO,14
+Anemia Infecciosa Equina,EQU,2016,Dez,MT,19
+Anemia Infecciosa Equina,EQU,2016,Dez,PA,28
+Anemia Infecciosa Equina,EQU,2016,Dez,MA,47
+Anemia Infecciosa Equina,EQU,2017,Ago,RO,1
+Mormo,EQU,2017,Ago,TO,1
+Anemia Infecciosa Equina,EQU,2017,Ago,AC,2
+Raiva,EQU,2017,Ago,TO,2
+Anemia Infecciosa Equina,EQU,2017,Ago,AP,3
+Anemia Infecciosa Equina,EQU,2017,Ago,TO,6
+Anemia Infecciosa Equina,EQU,2017,Ago,AM,9
+Anemia Infecciosa Equina,EQU,2017,Ago,RR,12
+Anemia Infecciosa Equina,EQU,2017,Ago,PA,60
+Anemia Infecciosa Equina,EQU,2017,Ago,MT,72
+Anemia Infecciosa Equina,EQU,2017,Ago,MA,143
+Anemia Infecciosa Equina,EQU,2017,Mar,AC,1
+Mormo,EQU,2017,Mar,RO,1
+Mormo,EQU,2017,Mar,TO,1
+Raiva,EQU,2017,Mar,PA,2
+Anemia Infecciosa Equina,EQU,2017,Mar,AM,3
+Raiva,EQU,2017,Mar,MA,4
+Anemia Infecciosa Equina,EQU,2017,Mar,TO,10
+Anemia Infecciosa Equina,EQU,2017,Mar,RR,11
+Anemia Infecciosa Equina,EQU,2017,Mar,RO,18
+Anemia Infecciosa Equina,EQU,2017,Mar,MT,42
+Anemia Infecciosa Equina,EQU,2017,Mar,MA,45
+Anemia Infecciosa Equina,EQU,2017,Mar,PA,47
+Mormo,EQU,2017,Abr,MA,1
+Raiva,EQU,2017,Abr,PA,1
+Anemia Infecciosa Equina,EQU,2017,Abr,AM,2
+Raiva,EQU,2017,Abr,TO,2
+Mormo,EQU,2017,Abr,MT,5
+Anemia Infecciosa Equina,EQU,2017,Abr,RR,7
+Anemia Infecciosa Equina,EQU,2017,Abr,AC,8
+Anemia Infecciosa Equina,EQU,2017,Abr,RO,8
+Anemia Infecciosa Equina,EQU,2017,Abr,TO,10
+Anemia Infecciosa Equina,EQU,2017,Abr,MT,24
+Anemia Infecciosa Equina,EQU,2017,Abr,PA,36
+Anemia Infecciosa Equina,EQU,2017,Abr,MA,41
+Mormo,EQU,2017,Jun,MA,1
+Anemia Infecciosa Equina,EQU,2017,Jun,AM,2
+Anemia Infecciosa Equina,EQU,2017,Jun,AP,2
+Mormo,EQU,2017,Jun,TO,2
+Anemia Infecciosa Equina,EQU,2017,Jun,RO,7
+Anemia Infecciosa Equina,EQU,2017,Jun,AC,9
+Anemia Infecciosa Equina,EQU,2017,Jun,TO,13
+Anemia Infecciosa Equina,EQU,2017,Jun,MT,65
+Anemia Infecciosa Equina,EQU,2017,Jun,PA,66
+Anemia Infecciosa Equina,EQU,2017,Jun,MA,86
+Raiva,EQU,2017,Jul,MT,1
+Raiva,EQU,2017,Jul,PA,1
+Anemia Infecciosa Equina,EQU,2017,Jul,TO,2
+Anemia Infecciosa Equina,EQU,2017,Jul,RO,4
+Anemia Infecciosa Equina,EQU,2017,Jul,AC,8
+Raiva,EQU,2017,Jul,TO,8
+Anemia Infecciosa Equina,EQU,2017,Jul,RR,27
+Anemia Infecciosa Equina,EQU,2017,Jul,MT,32
+Anemia Infecciosa Equina,EQU,2017,Jul,PA,44
+Anemia Infecciosa Equina,EQU,2017,Jul,MA,78
+Anemia Infecciosa Equina,EQU,2017,Nov,RO,2
+Anemia Infecciosa Equina,EQU,2017,Nov,AC,6
+Anemia Infecciosa Equina,EQU,2017,Nov,TO,6
+Anemia Infecciosa Equina,EQU,2017,Nov,AP,17
+Anemia Infecciosa Equina,EQU,2017,Nov,MT,20
+Anemia Infecciosa Equina,EQU,2017,Nov,RR,22
+Anemia Infecciosa Equina,EQU,2017,Nov,PA,58
+Anemia Infecciosa Equina,EQU,2017,Nov,MA,85
+Mormo,EQU,2017,Mai,MA,1
+Anemia Infecciosa Equina,EQU,2017,Mai,AM,2
+Anemia Infecciosa Equina,EQU,2017,Mai,RO,2
+Anemia Infecciosa Equina,EQU,2017,Mai,RR,7
+Anemia Infecciosa Equina,EQU,2017,Mai,AC,8
+Anemia Infecciosa Equina,EQU,2017,Mai,TO,21
+Anemia Infecciosa Equina,EQU,2017,Mai,PA,58
+Anemia Infecciosa Equina,EQU,2017,Mai,MA,69
+Anemia Infecciosa Equina,EQU,2017,Mai,MT,77
+Raiva,EQU,2017,Jan,PA,1
+Anemia Infecciosa Equina,EQU,2017,Jan,RO,2
+Anemia Infecciosa Equina,EQU,2017,Jan,RR,2
+Anemia Infecciosa Equina,EQU,2017,Jan,AC,4
+Anemia Infecciosa Equina,EQU,2017,Jan,AM,6
+Anemia Infecciosa Equina,EQU,2017,Jan,AP,6
+Anemia Infecciosa Equina,EQU,2017,Jan,TO,14
+Anemia Infecciosa Equina,EQU,2017,Jan,MT,21
+Anemia Infecciosa Equina,EQU,2017,Jan,MA,25
+Anemia Infecciosa Equina,EQU,2017,Jan,PA,63
+Anemia Infecciosa Equina,EQU,2017,Fev,AM,1
+Mormo,EQU,2017,Fev,TO,1
+Anemia Infecciosa Equina,EQU,2017,Fev,AP,3
+Anemia Infecciosa Equina,EQU,2017,Fev,AC,8
+Anemia Infecciosa Equina,EQU,2017,Fev,TO,9
+Anemia Infecciosa Equina,EQU,2017,Fev,RO,14
+Anemia Infecciosa Equina,EQU,2017,Fev,RR,16
+Anemia Infecciosa Equina,EQU,2017,Fev,MT,26
+Anemia Infecciosa Equina,EQU,2017,Fev,PA,38
+Anemia Infecciosa Equina,EQU,2017,Fev,MA,61
+Mormo,EQU,2017,Set,MA,1
+Raiva,EQU,2017,Set,MT,1
+Mormo,EQU,2017,Set,PA,1
+Raiva,EQU,2017,Set,TO,2
+Anemia Infecciosa Equina,EQU,2017,Set,AC,8
+Anemia Infecciosa Equina,EQU,2017,Set,AM,8
+Mormo,EQU,2017,Set,MT,11
+Anemia Infecciosa Equina,EQU,2017,Set,RR,16
+Anemia Infecciosa Equina,EQU,2017,Set,RO,17
+Anemia Infecciosa Equina,EQU,2017,Set,PA,57
+Anemia Infecciosa Equina,EQU,2017,Set,MT,58
+Anemia Infecciosa Equina,EQU,2017,Set,TO,91
+Anemia Infecciosa Equina,EQU,2017,Set,MA,104
+Anemia Infecciosa Equina,EQU,2017,Out,AC,1
+Mormo,EQU,2017,Out,TO,1
+Anemia Infecciosa Equina,EQU,2017,Out,AM,2
+Anemia Infecciosa Equina,EQU,2017,Out,RO,6
+Anemia Infecciosa Equina,EQU,2017,Out,TO,10
+Anemia Infecciosa Equina,EQU,2017,Out,RR,32
+Anemia Infecciosa Equina,EQU,2017,Out,MT,37
+Anemia Infecciosa Equina,EQU,2017,Out,PA,60
+Anemia Infecciosa Equina,EQU,2017,Out,MA,103
+Anemia Infecciosa Equina,EQU,2017,Dez,AP,5
+Anemia Infecciosa Equina,EQU,2017,Dez,RR,5
+Anemia Infecciosa Equina,EQU,2017,Dez,AC,6
+Anemia Infecciosa Equina,EQU,2017,Dez,TO,6
+Anemia Infecciosa Equina,EQU,2017,Dez,RO,11
+Anemia Infecciosa Equina,EQU,2017,Dez,AM,19
+Anemia Infecciosa Equina,EQU,2017,Dez,MT,22
+Anemia Infecciosa Equina,EQU,2017,Dez,PA,51
+Anemia Infecciosa Equina,EQU,2017,Dez,MA,88
+Mormo,EQU,2018,-,RO,1
+Raiva,EQU,2018,-,MA,2
+Mormo,EQU,2018,-,AM,3
+Raiva,EQU,2018,-,TO,4
+Raiva,EQU,2018,-,MT,5
+Raiva,EQU,2018,-,PA,7
+Anemia Infecciosa Equina,EQU,2018,-,AP,59
+Anemia Infecciosa Equina,EQU,2018,-,AM,72
+Anemia Infecciosa Equina,EQU,2018,-,AC,77
+Anemia Infecciosa Equina,EQU,2018,-,RO,83
+Anemia Infecciosa Equina,EQU,2018,-,RR,84
+Anemia Infecciosa Equina,EQU,2018,-,TO,148
+Anemia Infecciosa Equina,EQU,2018,-,MT,533
+Anemia Infecciosa Equina,EQU,2018,-,PA,720
+Anemia Infecciosa Equina,EQU,2018,-,MA,926
+Raiva,EQU,2019,-,MA,1
+Mormo,EQU,2019,-,MT,1
+Raiva,EQU,2019,-,RO,2
+Raiva,EQU,2019,-,TO,2
+Mormo,EQU,2019,-,AM,3
+Raiva,EQU,2019,-,MT,5
+Raiva,EQU,2019,-,PA,7
+Anemia Infecciosa Equina,EQU,2019,-,AC,36
+Anemia Infecciosa Equina,EQU,2019,-,AM,59
+Anemia Infecciosa Equina,EQU,2019,-,RR,72
+Anemia Infecciosa Equina,EQU,2019,-,AP,75
+Anemia Infecciosa Equina,EQU,2019,-,RO,80
+Anemia Infecciosa Equina,EQU,2019,-,TO,122
+Anemia Infecciosa Equina,EQU,2019,-,PA,376
+Anemia Infecciosa Equina,EQU,2019,-,MT,419
+Anemia Infecciosa Equina,EQU,2019,-,MA,1148
+Raiva,FAU,2008,Mar,PA,1
+Raiva,FAU,2008,Jun,MT,1
+Raiva,FAU,2008,Dez,MT,2
+Raiva,FAU,2009,Ago,PA,1
+Raiva,FAU,2009,Abr,TO,1
+Raiva,FAU,2009,Mai,TO,1
+Raiva,FAU,2010,Mar,MT,1
+Raiva,FAU,2011,Ago,RO,1
+Raiva,FAU,2011,Out,MA,14
+Raiva,FAU,2012,Mar,TO,1
+Raiva,FAU,2012,Abr,MT,1
+Raiva,FAU,2013,Mar,TO,1
+Raiva,FAU,2013,Out,MT,1
+Raiva,FAU,2013,Out,TO,1
+Raiva,FAU,2014,Set,MT,1
+Raiva,FAU,2014,Set,TO,2
+Raiva,FAU,2015,Ago,RO,1
+Raiva,FAU,2015,Jul,RO,1
+Raiva,FAU,2015,Nov,TO,1
+Raiva,FAU,2015,Out,TO,1
+Raiva,FAU,2016,Jul,MT,2
+Raiva,FAU,2016,Mai,TO,2
+Raiva,FAU,2017,Ago,TO,5
+Raiva,FAU,2017,Abr,PA,1
+Raiva,FAU,2017,Jun,TO,2
+Raiva,FAU,2017,Mai,TO,1
+Raiva,FAU,2018,-,PA,1
+Raiva,FAU,2019,-,AM,1
+Raiva,FAU,2019,-,PA,1
+Raiva,FAU,2019,-,MA,4
+Raiva,FAU,2019,-,MT,4
+Raiva,FEL,2010,Nov,MA,1
+Raiva,FEL,2012,Jan,MA,1
+Raiva,FEL,2014,Jun,MA,1
+Raiva,FEL,2015,Out,MA,1
+Raiva,FEL,2016,Mai,RR,1
+Raiva,OVI,2010,Ago,MT,2
+Raiva,OVI,2011,Fev,MT,3
+Raiva,OVI,2012,Jan,MT,1
+Língua Azul,OVI,2015,Ago,AM,1
+Raiva,OVI,2015,Mai,AC,1
+Scrapie,OVI,2016,Jun,MT,1
+Língua Azul,OVI,2017,Mar,AM,16
+Raiva,OVI,2019,-,PA,1
+Raiva,OVI,2019,-,MT,4
+Peste suína clássica,SUI,2008,Ago,MA,12
+Raiva,SUI,2008,Abr,PA,1
+Estomatite vesicular,SUI,2008,Fev,MT,1
+Peste suína clássica,SUI,2009,Jun,PA,5
+Peste suína clássica,SUI,2009,Jun,AP,11
+Raiva,SUI,2009,Jul,TO,1
+Peste suína clássica,SUI,2009,Mai,AP,293
+Doença de Aujeszky,SUI,2010,Ago,RO,52
+Doença de Aujeszky,SUI,2010,Abr,RO,73
+Raiva,SUI,2011,Fev,MT,1
+Raiva,SUI,2012,Dez,MT,1
+Raiva,SUI,2013,Abr,MT,1
+Raiva,SUI,2019,-,MT,3
