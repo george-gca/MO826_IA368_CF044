@@ -73,6 +73,7 @@ Inicialmente, verificamos as correlações entre os atributos que estão represe
 | Extensão da rede de distribuição de esgoto | -0.159987     |
 | Densidade demográfica                      | 0.0340921     |
 | Hidrografia                                | 0.0101583     |
+
 Em contrapartida, a qualidade do modelo da regressão piora com a exclusão da população total como pode ser observado na figura abaixo. 
 ##### Qualidade da Regressão com População Total
 | Modelo               | MSE           | RMSE                 | MAE           | R2            |
@@ -82,6 +83,7 @@ Em contrapartida, a qualidade do modelo da regressão piora com a exclusão da p
 | Modelo               | MSE           | RMSE                 | MAE           | R2            |
 | -------------        | ------------- | -------------        | ------------- | ------------- |
 | Regressão Linear     | 500706.015    | 707.606              | 431.891       | 0.357         |
+
 Outra análise utilizada, foi excluir os demais features para analisar o impacto no coeficiente do incremento, já que o objetivo não é criar o modelo para responder a pergunta de pesquisa, mas sim verificar quais features são mais influentes em relação à taxa de internações por dengue. As tabelas a seguir representam esse procedimento.
 ##### Sem hidrografia com R2 de 0.351
 | Variáveis                                  | Coeficiente   | 
