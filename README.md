@@ -102,6 +102,7 @@ Outra análise utilizada, foi excluir os demais features para analisar o impacto
 | Incremento                                 | 0.841248      |
 | Hidrografia                                | 0.012051      |
 | Densidade demográfica                      | 0.0097417     |
+
 O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que em algumas localidades, desde o início de 2008, a área já estava 100% desmatada resultando no incremento igual à zero. Essa informação resultava em uma falsa interpretação, pois o entendimento era que a área deixou de ser desmatada, quando na verdade já tinha sido toda desmatada. Isso poderia resultar em um viés que mesmo com um número de internações aumentando no local, o incremento continuaria zero. Para isso, foi realizado um filtro das áreas que possuíssem dados de desmatamento no período de 12 anos. O filtro consiste em selecionar municípios em 2008 com área desmatada menor que 60% da área total, e em 2019 com área desmatada menor que 100% da área total. As mesmas análises anteriores foram realizadas com essa nova amostra, e serão representadas abaixo.
 ##### Correlação das Variáveis
 (imagem correlação)
@@ -113,6 +114,7 @@ O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que
 | Extensão da rede de distribuição de esgoto | -0.0756388    |
 | Densidade demográfica                      | 0.0127488     |
 | Hidrografia                                | 0.0153722     |
+
 É possível verificar que em ambas as análises a proporção em relação às variáveis são semelhantes em relação às internações por dengue, mesmo os resultados do coeficiente e qualidade do modelo serem diferentes.
 ##### Qualidade de Regressão com o filtro das regiões desmatadas com população
 | Modelo               | MSE           | RMSE                 | MAE           | R2            |
@@ -122,7 +124,9 @@ O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que
 | Modelo               | MSE           | RMSE                 | MAE           | R2            |
 | -------------        | ------------- | -------------        | ------------- | ------------- |
 | Regressão Linear     | 287741.920    | 536.416              | 324.262       | 0.306         |
+
 Diante desses resultados, podemos observar que o feature que possui uma maior influência em relação às internações é o incremento. Não foi possível constatar que a densidade demográfica e extensão da rede de distribuição de esgoto possui correlação com as internações. Já a hidrografia por ser um dado constante, pode-se justificar o fato da não correlação. Desta forma, escolhemos um teste de hipótese averiguando as médias de dois grupos, em relação às internações no ano e internações no ano seguinte baseando-se no pressuposto de que o efeito do desmatamento pode ser mais observado no ano seguinte.
+
 # Cronograma
 | Atividade                                         | 22/04 | 29/04 | 06/05 | 13/05 | 20/05 | 27/05 | 03/06 | 10/06 | 17/06 | 24/06 |
 | ------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
