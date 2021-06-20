@@ -46,7 +46,83 @@ O ciclo de análise dos dados à avaliação dos resultados poderá ser repetido
 
 # Ferramentas
 Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
-
+# Análises Realizadas
+## Regressão Linear Múltipla
+A partir da ferramenta Orange utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
+(inserir imagem Workflow)
+Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
+##### Correlação das Variáveis
+(inserir imagem correlação)
+É possível observar que em relação às internações por dengue uma das maiores correlações é em relação à população total que mora em domicílios sem acesso ao serviço de coleta de esgoto. Porém como a variável incremento também está fortemente relacionada a essa variável, foi desconsiderada a população total,  pois ela resulta em pouca influência na regressão múltipla já que está sendo utilizada a variável incremento. Na figura a seguir, é apresentado o resultado dos coeficientes com e sem o uso da população total, e o quanto a variável incremento melhora após a exclusão da população. Outra observação interessante é que o incremento parece influenciar na taxa de internações.
+##### Valores de coeficientes das variáveis com população total
+| Variáveis                                  | Coeficiente   |
+| -------------                              | ------------- |
+| Intercept                                  | 200.486       |
+| Incremento                                 | 0.360178      |
+| Extensão da rede de distribuição de esgoto | -0.170691     |
+| Densidade demográfica                      | -0.0136721      |
+| Hidrografia                                | -0.0246878      |
+| População total que mora em domicílios sem acesso ao serviço de coleta de esgoto                     | 0.000385199      |
+##### Valores de coeficientes das variáveis sem população total
+| Variáveis                                  | Coeficiente   |
+| -------------                              | ------------- |
+| Intercept                                  | 373.808       |
+| Incremento                                 | 0.747383      |
+| Extensão da rede de distribuição de esgoto | -0.159987     |
+| Densidade demográfica                      | 0.0340921     |
+| Hidrografia                                | 0.0101583     |
+Em contrapartida, a qualidade do modelo da regressão piora com a exclusão da população total como pode ser observado na figura abaixo. 
+##### Qualidade da Regressão com População Total
+| Modelo               | MSE           | RMSE                 | MAE           | R2            |
+| -------------        | ------------- | -------------        | ------------- | ------------- |
+| Regressão Linear     | 455284.919    | 674.748              | 408.566       | 0.415         |
+##### Qualidade de Regressão sem População Total
+| Modelo               | MSE           | RMSE                 | MAE           | R2            |
+| -------------        | ------------- | -------------        | ------------- | ------------- |
+| Regressão Linear     | 500706.015    | 707.606              | 431.891       | 0.357         |
+Outra análise utilizada, foi excluir os demais features para analisar o impacto no coeficiente do incremento, já que o objetivo não é criar o modelo para responder a pergunta de pesquisa, mas sim verificar quais features são mais influentes em relação à taxa de internações por dengue. As tabelas a seguir representam esse procedimento.
+##### Sem hidrografia com R2 de 0.351
+| Variáveis                                  | Coeficiente   | 
+| -------------                              | ------------- |  
+| Intercept                                  | 420.577       |
+| Incremento                                 | 0.870003      |
+| Extensão da rede de distribuição de esgoto | -0.171145     |
+| Densidade demográfica                      | 0.318228      |
+##### Sem densidade com R2 de 0.349
+| Variáveis                                  | Coeficiente   | 
+| -------------                              | ------------- |  
+| Intercept                                  | 371.268       |
+| Incremento                                 | 0.865883      |
+| Extensão da rede de distribuição de esgoto | -0.096833     |
+| Hidrografia                                | 0.0091603     |
+##### Sem extensão da rede com R2 de 0.342
+| Variáveis                                  | Coeficiente   | 
+| -------------                              | ------------- |  
+| Intercept                                  | 226.127       |
+| Incremento                                 | 0.841248      |
+| Hidrografia                                | 0.012051      |
+| Densidade demográfica                      | 0.0097417     |
+O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que em algumas localidades, desde o início de 2008, a área já estava 100% desmatada resultando no incremento igual à zero. Essa informação resultava em uma falsa interpretação, pois o entendimento era que a área deixou de ser desmatada, quando na verdade já tinha sido toda desmatada. Isso poderia resultar em um viés que mesmo com um número de internações aumentando no local, o incremento continuaria zero. Para isso, foi realizado um filtro das áreas que possuíssem dados de desmatamento no período de 12 anos. O filtro consiste em selecionar municípios em 2008 com área desmatada menor que 60% da área total, e em 2019 com área desmatada menor que 100% da área total. As mesmas análises anteriores foram realizadas com essa nova amostra, e serão representadas abaixo.
+##### Correlação das Variáveis
+(imagem correlação)
+##### Valores de coeficientes das variáveis 
+| Variáveis                                  | Coeficiente   |
+| -------------                              | ------------- |
+| Intercept                                  | 263.088       |
+| Incremento                                 | 0.398762      |
+| Extensão da rede de distribuição de esgoto | -0.0756388    |
+| Densidade demográfica                      | 0.0127488     |
+| Hidrografia                                | 0.0153722     |
+É possível verificar que em ambas as análises a proporção em relação às variáveis são semelhantes em relação às internações por dengue, mesmo os resultados do coeficiente e qualidade do modelo serem diferentes.
+##### Qualidade de Regressão com o filtro das regiões desmatadas com população
+| Modelo               | MSE           | RMSE                 | MAE           | R2            |
+| -------------        | ------------- | -------------        | ------------- | ------------- |
+| Regressão Linear     | 313630.867    | 560.028              | 336.303       | 0.244         |
+##### Qualidade de Regressão com o filtro das regiões desmatadas sem população
+| Modelo               | MSE           | RMSE                 | MAE           | R2            |
+| -------------        | ------------- | -------------        | ------------- | ------------- |
+| Regressão Linear     | 287741.920    | 536.416              | 324.262       | 0.306         |
+Diante desses resultados, podemos observar que o feature que possui uma maior influência em relação às internações é o incremento. Não foi possível constatar que a densidade demográfica e extensão da rede de distribuição de esgoto possui correlação com as internações. Já a hidrografia por ser um dado constante, pode-se justificar o fato da não correlação. Desta forma, escolhemos um teste de hipótese averiguando as médias de dois grupos, em relação às internações no ano e internações no ano seguinte baseando-se no pressuposto de que o efeito do desmatamento pode ser mais observado no ano seguinte.
 # Cronograma
 | Atividade                                         | 22/04 | 29/04 | 06/05 | 13/05 | 20/05 | 27/05 | 03/06 | 10/06 | 17/06 | 24/06 |
 | ------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
