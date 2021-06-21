@@ -19,14 +19,13 @@ A dengue é uma doença infecciosa transmitida principalmente pelo mosquito *Aed
 
 O desmatamento é uma prática que consiste na retirada parcial ou total da cobertura vegetal de uma região. Na região amazônica, tem aumentado sucessivamente nos últimos 5 anos, alcançando as maiores taxas de desmatamento da década em 2020 [[5]](https://www.nature.com/articles/s41559-020-01368-x). De maneira complementar, de acordo com um relatório publicado pela Sociedade Vegetariana Brasileira, cerca de 70% da área desmatada na área da Amazônia é designada para a criação de gado  [[6]](https://www.cifor.org/publications/pdf_files/media/Amazon.pdf) [[7]](https://iopscience.iop.org/article/10.1088/1748-9326/5/2/024002/pdf) e satélite via [PRODES](http://www.obt.inpe.br/OBT/assuntos/programas/amazonia/prodes).
 
-Dado isso, estudar fatores influentes para o aumento de casos de dengue, nos auxilia a elaborar modelos estatítsticos mais precisos e mais preditivos de quando os surtos podem surgir, já que atualmente, os modelos existentes levam em consideração principalmete dados de temperatura e dados de saúde de baixa qualidade [[8]](https://pubmed.ncbi.nlm.nih.gov/25730702/). Portanto, o objetivo principal deste trabalho é compreender o impacto do desmatamento no aumento de número de casos de internação por dengue no Brasil. 
+Dado isso, estudar fatores influentes para o aumento de casos de dengue, nos auxilia a elaborar modelos estatítsticos mais precisos e mais preditivos de quando os surtos podem surgir, já que atualmente, os modelos existentes levam em consideração principalmete dados de temperatura e dados de saúde de baixa qualidade [[8]](https://pubmed.ncbi.nlm.nih.gov/25730702/). Portanto, o objetivo principal deste trabalho é compreender o impacto do desmatamento no aumento de número de casos de internação por dengue na região da Amazônia Legal, já que apresenta os maiores índices de desmatamento do Brasil. 
 
 [Vídeo de apresentação](https://youtu.be/YkhxoM7QYJ0)
 
 # Perguntas de Pesquisa
-- O desmatamento contribui para o surgimento de doenças emergentes/reemergentes?
-  - Existe relação entre o aumento da área desmatada para agropecuária e o aumento de casos de doenças transmitidas por animais domésticos?
-  - Existe relação entre o aumento da área desmatada e o aumento de casos de doenças transmitidas por insetos?
+O desmatamento contribui para o aumento de casos de dengue na região da Amazônia legal?
+  - 
 
 # Bases de Dados
 Para informações sobre o desmatamento podemos utilizar a base de dados criada pelo Instituto Nacional de Pesquisas Espaciais (INPE) e disponibilizada através do portal TerraBrasilis. Quanto a informações sobre doenças podemos utilizar informações públicas fornecidas pelo DATASUS.
