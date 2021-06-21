@@ -24,8 +24,9 @@ Dado isso, estudar fatores influentes para o aumento de casos de dengue, nos aux
 [Vídeo de apresentação](https://youtu.be/YkhxoM7QYJ0)
 
 # Perguntas de Pesquisa
-O desmatamento contribui para o aumento de casos de dengue na região da Amazônia legal?
-  - 
+- O desmatamento contribui para o aumento de casos de dengue na região da Amazônia legal?
+  - Existem outros fatores que podem contribuir para o aumento de casos de internações?
+  - Existe diferença no número de casos de internações em estados com maiores e menores índices de desmatamento?
 
 # Bases de Dados
 Para informações sobre o desmatamento podemos utilizar a base de dados criada pelo Instituto Nacional de Pesquisas Espaciais (INPE) e disponibilizada através do portal TerraBrasilis. Quanto a informações sobre doenças podemos utilizar informações públicas fornecidas pelo DATASUS.
