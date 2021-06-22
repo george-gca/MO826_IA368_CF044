@@ -54,7 +54,7 @@ O ciclo de análise dos dados à avaliação dos resultados poderá ser repetido
 
 O número de notificações foi obtido a partir da filtragem dos dados epidemiológicos e morbidade do TABNET (Doenças e Agravos de Notificação - 2007 em diante (SINAN). Após a seleção `Dengue até 2013` ou `Dengue de 2014 em diante` por estado, foram separados os filtros com todos os períodos disponíveis: Linha - `município de residência`; Coluna - `mês o primeiro sintoma`; Conteúdo - `Casos prováveis`.
 
-#### Pré-Processamento e Análise das Bases
+#### Pré-Processamento e Análise Inicial
 
 As informações de doenças e agravos de notificação possuem informações sobre várias doenças, porém para este trabalho focamos nas informações sobre a dengue. Mais especificamente, selecionamos os dados de notificação do primeiro sintoma de dengue, agupados por mês/ano. Toda a análise feita nesses dados pode ser visualizada em um [notebook](notebooks/Pr%C3%A9_Processamento_Dados_de_Doen%C3%A7as.ipynb) ou [colab](https://colab.research.google.com/drive/1rdaYe6WFL_gSABGVkmvFvD-s-gs1THQK?usp=sharing).
 
@@ -99,36 +99,97 @@ Os dados de desmatamento foram obtidos a partir da seleção dos dados no sistem
 
 O número de internações foi obtido a partir da filtragem dos dados epidemiológicos e morbidade do TABNET. Após a seleção `geral, por local de residência - a partir de 2008` por estado, foram separados os filtros com todos os períodos disponíveis: Linha - `municípios`; Coluna - `Ano/mês de atendimento`; Conteúdo - `internações`. Por fim, nas seleções, foi selecionado `Dengue` na `Lista Morb CID-10`, para filtrar apenas os casos de Dengue.
 
-#### Pré-Processamento
+#### Pré-Processamento e Análise Inicial
 
 O pré-processamento dos dados de desmatamento exigiu poucos passos, visto a completude e qualidade dos dados disponibilizados. Os passos necessários foram somente carregar os dados utilizando a codificação correta (`latin`) devido aos caracteres especiais e descartar as colunas `Latgms`, `Longms` e `CodIbge`. A coluna `CodIbge` foi descartada após avaliarmos que o código do IBGE contido nos dados de desmatamento possui um dígito a mais que o mesmo código nos dados de internação, gerando discrepâncias. Após esses passos, unimos a informação de todos os anos em uma única tabela.
 
-Como um passo adicional, optamos por adicionar a informação de percentual de área desmatada até aquele ano. Geramos quatro versões dos dados de desmatamento: uma versão com informações por município ([dados_desmatamento.csv](data/processed/dados_desmatamento.csv)), uma versão com informações agrupadas por estado ([dados_desmatamento_estado.csv](data/processed/dados_desmatamento_estado.csv)), e uma versão destes dois dados com uma coluna extra `Ano` ([dados_desmatamento_col_ano.csv](data/processed/dados_desmatamento_col_ano.csv) e [dados_desmatamento_estado_col_ano.csv](data/processed/dados_desmatamento_estado_col_ano.csv)), de modo a facilitar a geração de gráficos com informações temporais. Todo o processo de pré-processamento dos dados de desmatamento podem ser replicados em um [notebook](notebooks/Pr%C3%A9_Processamento_Dados_de_Desmatamento.ipynb) ou [colab](https://colab.research.google.com/drive/1AsiwT2YpcR69EVzump4aTx-ZVmwZ_gA8?usp=sharing).
+Como um passo adicional, optamos por adicionar a informação de percentual de área desmatada até aquele ano. Geramos quatro versões dos dados de desmatamento: uma versão com informações por município ([dados_desmatamento.csv](data/processed/dados_desmatamento.csv)), uma versão com informações agrupadas por estado ([dados_desmatamento_estado.csv](data/processed/dados_desmatamento_estado.csv)), e uma versão destes dois dados com uma coluna extra `Ano` ([dados_desmatamento_col_ano.csv](data/processed/dados_desmatamento_col_ano.csv) e [dados_desmatamento_estado_col_ano.csv](data/processed/dados_desmatamento_estado_col_ano.csv)), de modo a facilitar a geração de gráficos com informações temporais. Todo o processo de pré-processamento dos dados de desmatamento pode ser replicado neste [notebook](notebooks/Pr%C3%A9_Processamento_Dados_de_Desmatamento.ipynb) ou [colab](https://colab.research.google.com/drive/1AsiwT2YpcR69EVzump4aTx-ZVmwZ_gA8?usp=sharing).
 
+Inicialmente, com os dados hospitalares, havíamos decidido utilizar informações sobre quatro doenças: dengue, dengue hemorrágica, febre amarela e raiva, considerando todos os nove estados que compõem a Amazônia Legal. As informações referentes a cada doença que buscamos foram: internações, óbitos, taxa de mortalidade e valor gasto. O pré-processamento realizado pode ser verificado neste [notebook](notebooks/Pr%C3%A9_Processamento_Dados_Hospitalares.ipynb) ou neste [colab](https://colab.research.google.com/drive/1KlttoMcMMMOPWFxvCS6Z_nQh6D6_TL18?usp=sharing).
 
+O primeiro passo ao carregar os dados foi descartar a última linha e coluna, referente ao valor total. Foi criada a coluna `Estado` com a devida informação e as colunas `Municipio` e `CodIbge` a partir das informações do município contidas na tabela. Os valores `-` foram substituídos por `0`, por serem computados desta forma na linha/coluna total. Um próximo passo foi padronizar os dados, adicionando informações dos municípios faltantes em cada ano, de modo que as informações anuais dos estados possuam a mesma quantidade de municípios. Desta forma, foi possível aglutinar as informações por estado, e posteriormente em uma única tabela.
 
+Ao analisarmos a completude dos dados, decidimos por focar nossos estudos na dengue, mais especificamente nos dados de internações por dengue. De 114.480 linhas em nossa tabela, que envolvem informações sobre todos os municípios para cada mês, somente `Internações` e `Valor Gasto` possuem uma porcentagem pequena de dados faltantes. Uma tabela com maiores informações sobre as colunas analisadas, assim como uma figura demonstrando visualmente a completude dos dados, podem ser visualizadas abaixo.
 
-[notebook hosp](notebooks/Pr%C3%A9_Processamento_Dados_Hospitalares.ipynb)
-[colab hosp](https://colab.research.google.com/drive/1KlttoMcMMMOPWFxvCS6Z_nQh6D6_TL18?usp=sharing)
+| Doença             | Informação          |   Dados faltantes |   % dados faltantes |
+|--------------------|---------------------|-------------------|---------------------|
+| Dengue             | Internações         |               765 |                0.67 |
+|                    | Óbitos              |            110576 |               96.59 |
+|                    | Taxa de Mortalidade |            110576 |               96.59 |
+|                    | Valor Gasto         |               765 |                0.67 |
+| Dengue_hemorragica | Internações         |             65645 |               57.34 |
+|                    | Óbitos              |            110307 |               96.35 |
+|                    | Taxa de Mortalidade |            110307 |               96.35 |
+|                    | Valor Gasto         |             65645 |               57.34 |
+| Febre_amarela      | Internações         |            114050 |               99.62 |
+|                    | Óbitos              |            114345 |               99.88 |
+| Raiva              | Internações         |            114296 |               99.84 |
+|                    | Óbitos              |            114423 |               99.95 |
+| Febre_amarela      | Taxa de Mortalidade |            114477 |              100    |
+|                    | Valor Gasto         |            114182 |               99.74 |
+| Raiva              | Taxa de Mortalidade |            114472 |               99.99 |
+|                    | Valor Gasto         |            114345 |               99.88 |
 
-[notebook aglut](notebooks/Pr%C3%A9_Processamento_Juntando_os_Dados.ipynb)
-[colab aglut](https://colab.research.google.com/drive/18oavHEsIHY5DL5jOx7EKZ4v4irqnEjHj?usp=sharing)
+![Completude dos Dados Hospitalares por Coluna](assets/dados_hospitalares_completude_colunas.png)
 
-#### Análise das Bases
+Após descartarmos as colunas referentes às outras doenças e dados hospitalares, agrupamos as informações mensais por ano. Geramos novamente quatro versões dos dados: uma versão com informações por município ([dengue_internacoes.csv](data/processed/dengue_internacoes.csv)), uma versão com informações agrupadas por estado ([dengue_internacoes_estado.csv](data/processed/dengue_internacoes_estado.csv)), e uma versão destes dois dados com uma coluna extra `Ano` ([dengue_internacoes_col_ano.csv](data/processed/dengue_internacoes_col_ano.csv) e [dengue_internacoes_estado_col_ano.csv](data/processed/dengue_internacoes_estado_col_ano.csv)), de modo a facilitar a geração de gráficos com informações temporais.
 
-[notebook desmat](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_de_Desmatamento.ipynb)
-[colab desmat](https://colab.research.google.com/drive/1AsiwT2YpcR69EVzump4aTx-ZVmwZ_gA8?usp=sharing)
+### Integração entre Bases e Análise Exploratória
+
+Optamos por realizar inicialmente uma análise exploratória nas bases individualmente e, somente depois, integrar os dados em uma única base e realizar sua análise.
+
+#### Análise Exploratória nas Bases Separadas
+
+A análise exploratória dos dados de desmatamento foi realizada em um [notebook](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_de_Desmatamento.ipynb), através deste [colab](https://colab.research.google.com/drive/1AsiwT2YpcR69EVzump4aTx-ZVmwZ_gA8?usp=sharing). Iniciamos sua análise verificando a completude dos dados. Podemos verificar por meio da tabela abaixo que os dados de desmatamento não possuem nenhum dado faltante.
+
+| Coluna        |   Dados Faltantes |
+|---------------|-------------------|
+| Lat           |                 0 |
+| Long          |                 0 |
+| Municipio     |                 0 |
+| Estado        |                 0 |
+| AreaKm2       |                 0 |
+| Ano           |                 0 |
+| Desmatado     |                 0 |
+| Incremento    |                 0 |
+| Floresta      |                 0 |
+| NaoFloresta   |                 0 |
+| Hidrografia   |                 0 |
+| PercDesmatado |                 0 |
+
+Analisamos também o incremento de desmatamento anual de cada estado. Para todos os anos, o Pará foi o estado com maior acréscimo de área desmatada. Essa informação fica clara ao analisarmos a figura abaixo. Podemos perceber que houve, principalmente nos estados de Mato Grosso e Pará, uma redução significativa no incremento da área desmatada. Isso se deve, provavelmente, ao aumento da fiscalização ambiental que ocorreu nos anos do governo [Lula](https://observatorio-eco.jusbrasil.com.br/noticias/2520623/legislacao-ambiental-do-governo-lula). Posteriormente, no governo [Dilma](https://www.bbc.com/portuguese/brasil-49683787), houve uma flexibilização da política ambiental, o que levou novamente ao crescimento do desmatamento.
+
+![](assets/desmat_maior_incremento.svg)
+
+Quanto aos municípios, [São Félix do Xingu](https://earth.google.com/web/@-6.79676284,-51.8369192,256.38213797a,281025.34688607d,35y,6.99026636h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (PA), [Porto Velho](https://earth.google.com/web/@-8.7611605,-63.90043028,94.00000864a,49760.98087303d,35y,7h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (RO) e [Altamira](https://earth.google.com/web/@-3.22960653,-52.1569634,122.49219257a,61809.78760075d,35y,6.99690431h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (PA) foram os mais afetados por desmatamento no período de 2008 a 2019. O efeito do desmatamento nessas regiões pode ser visto por meio dos links relacionados aos mesmos.
+
+| Período   | Município          | Estado   |   Área (km2) |
+|-----------|--------------------|----------|--------------|
+| 2007/2008 | São Félix do Xingu | PA       |        765.1 |
+| 2008/2009 | São Félix do Xingu | PA       |        444.4 |
+| 2009/2010 | São Félix do Xingu | PA       |        353.7 |
+| 2010/2011 | Porto Velho        | RO       |        324.9 |
+| 2011/2012 | Altamira           | PA       |        229.9 |
+| 2012/2013 | Porto Velho        | RO       |        315.6 |
+| 2013/2014 | Altamira           | PA       |        293.9 |
+| 2014/2015 | Altamira           | PA       |        308.6 |
+| 2015/2016 | Altamira           | PA       |        409.5 |
+| 2016/2017 | Porto Velho        | RO       |        353.4 |
+| 2017/2018 | Altamira           | PA       |        435   |
+| 2018/2019 | Altamira           | PA       |        575.4 |
 
 [notebook hosp](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Hospitalares.ipynb)
 [colab hosp](https://colab.research.google.com/drive/1KlttoMcMMMOPWFxvCS6Z_nQh6D6_TL18?usp=sharing)
 
+#### Integração entre Bases
+
+[notebook aglut](notebooks/Pr%C3%A9_Processamento_Juntando_os_Dados.ipynb)
+[colab aglut](https://colab.research.google.com/drive/18oavHEsIHY5DL5jOx7EKZ4v4irqnEjHj?usp=sharing)
+
+#### Análise Exploratória na Base Integrada
+
 [notebook aglut](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Conjuntos.ipynb)
 [colab aglut](https://colab.research.google.com/drive/1UKLckgEir1nVk5HG_beE4if4JnwhHsd8?usp=sharing)
-
-Qual o esquema/dicionário desse banco (o formato é livre)?
-O que descobriu sobre esse banco?
-Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
-Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
 # Ferramentas
 Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
