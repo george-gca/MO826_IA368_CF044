@@ -112,7 +112,7 @@ A partir da ferramenta Orange utilizamos a regressão linear múltipla para obse
 
 Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
 ##### Correlação das Variáveis
-![image](https://user-images.githubusercontent.com/81474711/122691755-f3186b80-d207-11eb-808e-b0ba6bc81ea9.png)
+![Correlação de Variáveis](assets/correlacao_variaveis_sem_filtro.PNG)
 
 É possível observar que em relação às internações por dengue uma das maiores correlações é em relação à população total que mora em domicílios sem acesso ao serviço de coleta de esgoto. Porém como a variável incremento também está fortemente relacionada a essa variável, foi desconsiderada a população total,  pois ela resulta em pouca influência na regressão múltipla já que está sendo utilizada a variável incremento. Na figura a seguir, é apresentado o resultado dos coeficientes com e sem o uso da população total, e o quanto a variável incremento melhora após a exclusão da população. Outra observação interessante é que o incremento parece influenciar na taxa de internações.
 ##### Valores de coeficientes das variáveis com população total
@@ -168,7 +168,7 @@ Outra análise utilizada, foi excluir os demais features para analisar o impacto
 
 O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que em algumas localidades, desde o início de 2008, a área já estava 100% desmatada resultando no incremento igual à zero. Essa informação resultava em uma falsa interpretação, pois o entendimento era que a área deixou de ser desmatada, quando na verdade já tinha sido toda desmatada. Isso poderia resultar em um viés que mesmo com um número de internações aumentando no local, o incremento continuaria zero. Para isso, foi realizado um filtro das áreas que possuíssem dados de desmatamento no período de 12 anos. O filtro consiste em selecionar municípios em 2008 com área desmatada menor que 60% da área total, e em 2019 com área desmatada menor que 100% da área total. As mesmas análises anteriores foram realizadas com essa nova amostra, e serão representadas abaixo.
 ##### Correlação das Variáveis
-![image](https://user-images.githubusercontent.com/81474711/122691800-10e5d080-d208-11eb-99b2-8dec346eda45.png)
+![Correlação de Variáveis](assets/correlacao_variaveis_com_filtro)
 
 ##### Valores de coeficientes das variáveis 
 | Variáveis                                  | Coeficiente   |
