@@ -279,6 +279,85 @@ O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que
 
 Diante desses resultados, podemos observar que o feature que possui uma maior influência em relação às internações é o incremento. Não foi possível constatar que a densidade demográfica e extensão da rede de distribuição de esgoto possui correlação com as internações. Já a hidrografia por ser um dado constante, pode-se justificar o fato da não correlação. Desta forma, escolhemos um teste de hipótese averiguando as médias de dois grupos, em relação às internações no ano e internações no ano seguinte baseando-se no pressuposto de que o efeito do desmatamento pode ser mais observado no ano seguinte.
 
+
+##Teste de hipótese
+
+A partir de testes estatísticos de hipótese é possível inferir, dentro de um certo nível de confiança e baseado dados amostrais, se a média visualizada nas amostras estudadas pode ser extrapolada para a média da população de onde as amostras foram retiradas. Os testes estatísticos não impedem o erro, mas calculam a probabilidade desse erro ocorrer na pesquisa, auxiliando na tomada de decisão.
+
+De forma geral, tais testes podem ser divididos entre testes paramétricos e não paramétricos, de acordo com as premissas de distribuição de freqüências amostrais, homogeneidade de variâncias, homogeneidade do N entre os grupos e os erros independentes. Testes paramétricos possuem forte indicação para casos em que as amostras possuem distribuição homogênea/ normal, enquanto os testes não-paramétricos não possuem essa exigência.
+
+O cumprimento de algumas condições em situações de não normalidade amostral pode suportar a escolha de testes paramétricos que, de forma geral, possuem métodos mais robustos e poderosos do que os da estatística não-paramétrica. Logo, em nossa amostra, apesar da distribuição dos dados não ter sido simétrica, fatores como o N amostral elevado e homogêneo entre os grupos comparativos, e a consideração da homogeneidade da variância na execução do teste foram levados em consideração para a aplicação do teste paramétrico t de Student bicaudal.
+
+Inicialmente, foi estabelecida uma hipótese nula H0 para ser testada. Com isso, a mesma foi confrontada com uma hipótese alternativa H1. Em nosso estudo, a hipótese H0 = não existe diferença entre as médias dos casos de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Em contrapartida, a H1 = existe diferença entre as médias dos casos de de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Além disso, também foi definido previamente o nível de significância = 0,05 para estudo.
+
+O resultado do teste baseia-se na decisão entre a H0 ou H1 estruturada nas informaões de probabilidade contidas na amostra. As hipóteses são mutuamente exclusivas, logo, um resultado de teste é estatisticamente significativo quando a probabilidade (p–valor) de obter–se uma estatística de teste igual ou mais extrema que o nível de significância definido nos leva a assumir a H0 como falsa e H1 como verdadeira. 
+
+Logo, a fim de avaliar a possível influência do desmatamento no número de internações por dengue na Amazônia, foram selecionados 10 municípios com maiores e 10 com menores índices de desmatamento dos 9 estados que compõem a região, entre os anos de 2008 e 2019. Posteriormente a essa seleção, foi identificada ausência de dados na amostra e dois estados (AP e RR) precisaram ser excluídos da análise.
+
+Com isso, para análise por estado, cada grupo comparativo foi composto por um N = 110 (10 municípios x 11 anos), enquanto na análise por ano, cada grupo comparativo foi composto por N = 70 (10 municípios x 7 estados). 
+
+
+A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
+
+| Estado   |   Média (Menor) |   Média (Maior) |   t-valor |     p-valor | Existe diferença entre a média dos grupos   |
+|----------|-----------------|-----------------|-----------|-------------|---------------------------------------------|
+| AC       |     10.8487     |     21.8595     |   1.51252 | 0.131729    | Não                                         |
+| AM       |     0.333333    |     4.48333     |   3.09707 | 0.00220179  | Sim                                         |
+| MA       |     11.6417     |     17.7417     |   2.0323  | 0.0434698   | Sim                                         |
+| MT       |     3.99074     |     16.6083     |   4.14621 | 4.78304e-05 | Sim                                         |
+| PA       |     33.45       |     62.8417     |   2.06063 | 0.0404487   | Sim                                         |
+| RO       |     51.9667     |     22.7833     |  -3.02313 | 0.00277554  | Sim                                         |
+| TO       |     10.5682     |     6.39815     |  -1.35363 | 0.177683    | Não                                         |
+
+
+Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
+
+| Estado   |   Média (Menor) |   Média (Maior) |   t-valor |     p-valor | Existe diferença entre a média dos grupos   |
+|----------|-----------------|-----------------|-----------|-------------|---------------------------------------------|
+| AC       |     11.7523     |     21.8739     |   1.29663 | 0.19613     | Não                                         |
+| AM       |     0.20202     |     4.74545     |   3.13384 | 0.00197565  | Sim                                         |
+| MA       |     11.9091     |     17.5909     |   1.76997 | 0.078435    | Não                                         |
+| MT       |     4.16162     |     16.7091     |   3.88925 | 0.000135471 | Sim                                         |
+| PA       |     30.1636     |     64.1273     |   2.32834 | 0.0208144   | Sim                                         |
+| RO       |     54.3        |     23.5364     |  -2.95714 | 0.0034471   | Sim                                         |
+| TO       |     11.1901     |     5.67677     |  -1.69309 | 0.0926372   | Não                                         |
+
+
+Ao avaliarmos os dados por ano sem levarmos em consideração os estados, não foi possível observar resultados estatisticamente significativos entre os municípios com maiores e menores índices de desmatamento e internações por dengue.
+|   Ano |   Média (Menor) |   Média (Maior) |   t-valor |   p-valor | Existe diferença entre a média dos grupos   |
+|-------|-----------------|-----------------|-----------|-----------|---------------------------------------------|
+|  2008 |        16.2899  |        17.7246  |  0.148341 |  0.882372 | Não                                         |
+|  2009 |        25.2286  |        30.1471  |  0.407    |  0.684657 | Não                                         |
+|  2010 |        34       |        52.1     |  1.03647  |  0.301872 | Não                                         |
+|  2011 |        26.8261  |        37.7536  |  0.740015 |  0.460644 | Não                                         |
+|  2012 |        22.4058  |        26.058   |  0.327539 |  0.743764 | Não                                         |
+|  2013 |        27.2206  |        25.2     | -0.172716 |  0.863161 | Não                                         |
+|  2014 |        20.7714  |        16.1912  | -0.455021 |  0.65008  | Não                                         |
+|  2015 |        15.5147  |        16.2286  |  0.109181 |  0.913238 | Não                                         |
+|  2016 |        11.3043  |        19.6377  |  1.38602  |  0.168069 | Não                                         |
+|  2017 |         5.98529 |         7.52857 |  0.683845 |  0.49542  | Não                                         |
+|  2018 |         3.22857 |         5.25    |  1.24986  |  0.213923 | Não                                         |
+|  2019 |         6.2029  |        10.2609  |  1.41281  |  0.160121 | Não                                         |
+
+
+Os mesmos achados se mantiveram quando avaliamos as internações por dengue no ano seguinte ao desmatamento.
+
+|   Ano |   Média (Menor) |   Média (Maior) |   t-valor |   p-valor | Existe diferença entre a média dos grupos   |
+|-------|-----------------|-----------------|-----------|-----------|---------------------------------------------|
+|  2008 |        25.3333  |        30.2754  |  0.408116 |  0.683848 | Não                                         |
+|  2009 |        33.1286  |        50.25    |  0.986951 |  0.325431 | Não                                         |
+|  2010 |        27.2059  |        38.3     |  0.748305 |  0.455675 | Não                                         |
+|  2011 |        22.4058  |        26.058   |  0.327539 |  0.743764 | Não                                         |
+|  2012 |        26.8261  |        25.4638  | -0.116957 |  0.907083 | Não                                         |
+|  2013 |        21.3824  |        15.7429  | -0.550268 |  0.583432 | Não                                         |
+|  2014 |        15.0714  |        16.6912  |  0.249946 |  0.803032 | Não                                         |
+|  2015 |        11.4706  |        19.3714  |  1.30983  |  0.192552 | Não                                         |
+|  2016 |         5.89855 |         7.63768 |  0.775252 |  0.439713 | Não                                         |
+|  2017 |         3.32353 |         5.1     |  1.11015  |  0.269164 | Não                                         |
+|  2018 |         6.17143 |        10.4265  |  1.47827  |  0.141822 | Não                                         |
+
+
+
 # Cronograma
 | Atividade                                         | 22/04 | 29/04 | 06/05 | 13/05 | 20/05 | 27/05 | 03/06 | 10/06 | 17/06 | 24/06 |
 | ------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
