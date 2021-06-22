@@ -138,7 +138,9 @@ Após descartarmos as colunas referentes às outras doenças e dados hospitalare
 
 Optamos por realizar inicialmente uma análise exploratória nas bases individualmente e, somente depois, integrar os dados em uma única base e realizar sua análise.
 
-#### Análise Exploratória nas Bases Separadas
+#### Análise Exploratória nas Bases Individualmente
+
+##### Dados de Desmatamento
 
 A análise exploratória dos dados de desmatamento foi realizada em um [notebook](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_de_Desmatamento.ipynb), através deste [colab](https://colab.research.google.com/drive/1AsiwT2YpcR69EVzump4aTx-ZVmwZ_gA8?usp=sharing). Iniciamos sua análise verificando a completude dos dados. Podemos verificar por meio da tabela abaixo que os dados de desmatamento não possuem nenhum dado faltante.
 
@@ -161,7 +163,31 @@ Analisamos também o incremento de desmatamento anual de cada estado. Para todos
 
 ![](assets/desmat_maior_incremento.svg)
 
-Quanto aos municípios, [São Félix do Xingu](https://earth.google.com/web/@-6.79676284,-51.8369192,256.38213797a,281025.34688607d,35y,6.99026636h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (PA), [Porto Velho](https://earth.google.com/web/@-8.7611605,-63.90043028,94.00000864a,49760.98087303d,35y,7h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (RO) e [Altamira](https://earth.google.com/web/@-3.22960653,-52.1569634,122.49219257a,61809.78760075d,35y,6.99690431h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (PA) foram os mais afetados por desmatamento no período de 2008 a 2019. O efeito do desmatamento nessas regiões pode ser visto por meio dos links relacionados aos mesmos.
+Ao avaliarmos a maior área desmatada total, percebemos que os estados com maior área desmatada são: Pará, Mato Grosso, Maranhão e Rondônia, como podemos observar na imagem abaixo. Eles compõem a borda externa da Amazônia Legal, indicando que a Amazônia está sendo mais desmatada de fora para dentro. Para avaliar o crescimento de uma outra forma, optamos por realizar uma regressão linear da área desmatada por estado ao longo dos anos, focando principalmente no coeficiente da regressão. 
+
+![](assets/desmat_maior_desmatado.svg)
+
+Todos os estados apresentaram correlação positiva e com alto grau de confiança. Avaliando os coeficientes fica claro que o Pará e Mato Grosso seguem sendo desmatados com maior velocidade, mas chama a atenção o fato de o terceiro da lista ser Rondônia, seguido pelo Amazonas, indicando que o desmatamento no Amazonas cresce a uma taxa maior que a no Maranhão.
+
+| Estado   |   Coeficiente |
+|----------|---------------|
+| PA       |     2468.57   |
+| MT       |     1217.52   |
+| RO       |      936.028  |
+| AM       |      720.816  |
+| MA       |      317.681  |
+| AC       |      314.372  |
+| RR       |      175.075  |
+| TO       |       48.7031 |
+| AP       |       25.7098 |
+
+![](assets/desmat_regressao_estados.svg)
+
+Apesar do decréscimo no incremento da área desmatada que houve de 2008 a 2012, podemos perceber que a média e 3o quartil das caixas foram crescendo a partir de 2012, indicando a tendência forte no aumento do desmatamento que se sucedeu nestes anos. A partir de 2015 o número de elementos acima da mediana aumentou consideravelmente em relação ao 1o quartil, indicando que a maior parte dos valores estão acima da mediana daquele período.
+
+![](assets/desmat_boxplot_estados.svg)
+
+Quanto aos municípios, [São Félix do Xingu](https://earth.google.com/web/@-6.79676284,-51.8369192,256.38213797a,281025.34688607d,35y,6.99026636h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (PA), [Porto Velho](https://earth.google.com/web/@-8.7611605,-63.90043028,94.00000864a,49760.98087303d,35y,7h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (RO) e [Altamira](https://earth.google.com/web/@-3.22960653,-52.1569634,122.49219257a,61809.78760075d,35y,6.99690431h,0t,0r/data=CjISMBIgNTQ0MGExNzMxYzI1MTFlYTk0NDM4YmI2ODk0NDUyOTciDG1haW5Ob1JhbmRvbQ) (PA) foram os mais afetados por desmatamento no período de 2008 a 2019. O efeito do desmatamento nessas regiões pode ser visto por meio dos links relacionados aos mesmos, e um resumo dos seus incrementos é mostrado na tabela abaixo.
 
 | Período   | Município          | Estado   |   Área (km2) |
 |-----------|--------------------|----------|--------------|
@@ -177,6 +203,19 @@ Quanto aos municípios, [São Félix do Xingu](https://earth.google.com/web/@-6.
 | 2016/2017 | Porto Velho        | RO       |        353.4 |
 | 2017/2018 | Altamira           | PA       |        435   |
 | 2018/2019 | Altamira           | PA       |        575.4 |
+
+Apesar de nos anos seguintes São Félix do Xingu não ter sido o município com maior incremento de área desmatada, ele seguiu sendo o município com maior área total desmatada. Ele é conhecido como a [capital do desmatamento na Amazônia](https://www.dw.com/pt-br/a-capital-do-desmatamento-na-amaz%C3%B4nia/a-52243986). Ao total 27 municípios diferentes estiveram entre os 10 municípios com maior incremento de desmatamento entre 2008 e 2019. Destes, a maior parte se encontra no Pará, seguidos por Mato Grosso e Amazonas.
+
+| Estado   |   Qtde de Municípios |
+|----------|----------------------|
+| AM       |                    3 |
+| MA       |                    2 |
+| MT       |                    4 |
+| PA       |                   15 |
+| RO       |                    2 |
+| RR       |                    1 |
+
+##### Dados Hospitalares
 
 [notebook hosp](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Hospitalares.ipynb)
 [colab hosp](https://colab.research.google.com/drive/1KlttoMcMMMOPWFxvCS6Z_nQh6D6_TL18?usp=sharing)
