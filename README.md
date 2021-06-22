@@ -168,7 +168,7 @@ Outra análise utilizada, foi excluir os demais features para analisar o impacto
 
 O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que em algumas localidades, desde o início de 2008, a área já estava 100% desmatada resultando no incremento igual à zero. Essa informação resultava em uma falsa interpretação, pois o entendimento era que a área deixou de ser desmatada, quando na verdade já tinha sido toda desmatada. Isso poderia resultar em um viés que mesmo com um número de internações aumentando no local, o incremento continuaria zero. Para isso, foi realizado um filtro das áreas que possuíssem dados de desmatamento no período de 12 anos. O filtro consiste em selecionar municípios em 2008 com área desmatada menor que 60% da área total, e em 2019 com área desmatada menor que 100% da área total. As mesmas análises anteriores foram realizadas com essa nova amostra, e serão representadas abaixo.
 ##### Correlação das Variáveis
-![Correlação de Variáveis](assets/correlacao_variaveis_com_filtro)
+![Correlação das Variáveis](assets/correlacao_variaveis_com_filtro.PNG)
 
 ##### Valores de coeficientes das variáveis 
 | Variáveis                                  | Coeficiente   |
