@@ -204,6 +204,8 @@ Quanto aos municípios, [São Félix do Xingu](https://earth.google.com/web/@-6.
 | 2017/2018 | Altamira           | PA       |        435   |
 | 2018/2019 | Altamira           | PA       |        575.4 |
 
+![](assets/desmat_incremento_mapa.gif)
+
 Apesar de nos anos seguintes São Félix do Xingu não ter sido o município com maior incremento de área desmatada, ele seguiu sendo o município com maior área total desmatada. Ele é conhecido como a [capital do desmatamento na Amazônia](https://www.dw.com/pt-br/a-capital-do-desmatamento-na-amaz%C3%B4nia/a-52243986). Ao total 27 municípios diferentes estiveram entre os 10 municípios com maior incremento de desmatamento entre 2008 e 2019. Destes, a maior parte se encontra no Pará, seguidos por Mato Grosso e Amazonas.
 
 | Estado   |   Qtde de Municípios |
@@ -215,12 +217,45 @@ Apesar de nos anos seguintes São Félix do Xingu não ter sido o município com
 | RO       |                    2 |
 | RR       |                    1 |
 
-![](assets/desmat_incremento_mapa.gif)
-
 ##### Dados Hospitalares
 
-[notebook hosp](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Hospitalares.ipynb)
-[colab hosp](https://colab.research.google.com/drive/1KlttoMcMMMOPWFxvCS6Z_nQh6D6_TL18?usp=sharing)
+A análise exploratória dos dados hospitalares, assim como os de desmatamento, foi realizada em um [notebook](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Hospitalares.ipynb), através deste [colab](https://colab.research.google.com/drive/1KlttoMcMMMOPWFxvCS6Z_nQh6D6_TL18?usp=sharing). Iniciamos sua análise verificando a completude dos dados. Podemos verificar por meio da tabela abaixo que todos os anos possuem dados faltantes.
+
+| Coluna    |   Dados Faltantes |
+|-----------|-------------------|
+| Municipio |                 0 |
+| CodIbge   |                 0 |
+| Estado    |                 0 |
+| 2008      |                 4 |
+| 2009      |                 4 |
+| 2010      |                 4 |
+| 2011      |                 4 |
+| 2012      |                 4 |
+| 2013      |                 4 |
+| 2014      |                19 |
+| 2015      |                 4 |
+| 2016      |                18 |
+| 2017      |                33 |
+| 2018      |                19 |
+| 2019      |                18 |
+
+Verificando os dados faltantes por estado, podemos observar que a maior parte dos dados faltantes se concentram em somente dois estados: Amapá e Roraima.
+
+| Estado | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| AC | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AP | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | 14 | 0 | 14 |
+| AM | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| MA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MT | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| PA | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| RO | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| RR | 0 | 0 | 0 | 0 | 0 | 0 | 15 | 0 | 0 | 15 | 15 | 0 |
+| TO | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+
+Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando os histogramas que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
+
+![](assets/hosp_internacoes_estados.svg)
 
 #### Integração entre Bases
 
