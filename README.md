@@ -259,13 +259,70 @@ Para todos os anos os estados com o maior número de internações foram o Pará
 
 #### Integração entre Bases
 
-[notebook aglut](notebooks/Pr%C3%A9_Processamento_Juntando_os_Dados.ipynb)
-[colab aglut](https://colab.research.google.com/drive/18oavHEsIHY5DL5jOx7EKZ4v4irqnEjHj?usp=sharing)
+Após analisarmos isoladamente as bases de dados, unificamos os dados em uma única tabela, de modo a facilitar as análises seguintes. Esse processo está contemplado neste [notebook](notebooks/Pr%C3%A9_Processamento_Juntando_os_Dados.ipynb) e neste [colab](https://colab.research.google.com/drive/18oavHEsIHY5DL5jOx7EKZ4v4irqnEjHj?usp=sharing). Para integrar os dados, precisamos primeiramente alinhar os municípios, ou seja, garantir que ambos os dados possuem os mesmos municípios. Dessa forma, verificamos que, além de os dados não possuírem o mesmo número de municípios, os dados de desmatamento possuiam municípios supostamente repetidos.
+
+| Dados | Qtde Municípios | Qtde Municípios Únicos (nome) |
+| --- | --- | --- |
+| Desmatamento | 760 | 755 |
+| Hospitalar | 790 | 790 |
+
+Para certificarmos de que não há municípios repetidos, decidimos buscar por municípios de mesmo nome e mostrar algumas de suas características, que podem ser verificadas na tabela abaixo. Os dados de desmatamento possuem 5 pares de municípios com o mesmo nome, porém pertencentes a estados diferentes. Alguns deles, como Pau D'Arco, possuem valores de latitude e longitude muito próximos, indicando possivelmente cidades na fronteira entre os estados.
+
+|       Lat |     Long | Municipio              | Estado   |
+|-----------|----------|------------------------|----------|
+|  -9.99527 | -68.1593 | Rio Branco             | AC       |
+| -15.2814  | -58.1518 | Rio Branco             | MT       |
+| -11.1937  | -61.8474 | Presidente Médici      | RO       |
+|  -2.30799 | -45.7641 | Presidente Médici      | MA       |
+|  -7.72486 | -50.1341 | Pau D'Arco             | PA       |
+|  -7.55219 | -48.9966 | Pau D'Arco             | TO       |
+|  -5.02798 | -48.7711 | Bom Jesus do Tocantins | PA       |
+|  -9.00182 | -47.8631 | Bom Jesus do Tocantins | TO       |
+|  -6.73568 | -48.5563 | Araguanã               | TO       |
+|  -3.06101 | -45.7722 | Araguanã               | MA       |
+
+O processo de alinhamento dos municípios envolve remover de ambos os dados informações dos municípios que não constam no outro. Dessa forma, terminamos com informações sobre 740 municípios dos 9 estados que compõem a Amazônia Legal. Geramos quatro versões dos dados: uma versão com informações por município ([dados_conjuntos.csv](data/processed/dados_conjuntos.csv)), uma versão com informações agrupadas por estado ([dados_conjuntos_estado.csv](data/processed/dados_conjuntos_estado.csv)), e uma versão destes dois dados com uma coluna extra `Ano` ([dados_conjuntos_col_ano.csv](data/processed/dados_conjuntos_col_ano.csv) e [dados_conjuntos_estado_col_ano.csv](data/processed/dados_conjuntos_estado_col_ano.csv)), de modo a facilitar a geração de gráficos com informações temporais. Ainda nos dados com a coluna `Ano`, criamos uma coluna chamada `Internações Ano Seguinte - Dengue`, contendo as informações referentes a internações do próximo ano, de modo a facilitar a análise da influência do desmatamento nos casos de dengue no próximo ano.
 
 #### Análise Exploratória na Base Integrada
 
-[notebook aglut](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Conjuntos.ipynb)
-[colab aglut](https://colab.research.google.com/drive/1UKLckgEir1nVk5HG_beE4if4JnwhHsd8?usp=sharing)
+Após unificarmos as bases, realizamos uma análise da mesma, iniciando dos dados faltantes. Estas análises podem ser visualizadas no [notebook](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Conjuntos.ipynb) e [colab](https://colab.research.google.com/drive/1UKLckgEir1nVk5HG_beE4if4JnwhHsd8?usp=sharing) correspondentes. Por meio dessa análise, pudemos perceber que os estados do Amapá e Roraima possuem dados faltantes de internação em todos os seus municípios em alguns anos, inutilizando seus usos.
+
+| Estado   |   Qtde Municípios |   2008 |   2009 |   2010 |   2011 |   2012 |   2013 |   2014 |   2015 |   2016 |   2017 |   2018 |   2019 |
+|----------|-------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| AC       |                22 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |
+| AM       |                54 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |
+| AP       |                14 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |     14 |      0 |     14 |
+| MA       |               169 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |
+| MT       |               140 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |
+| PA       |               141 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |
+| RO       |                51 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |
+| RR       |                15 |      0 |      0 |      0 |      0 |      0 |      0 |     15 |      0 |      0 |     15 |     15 |      0 |
+| TO       |               134 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |      1 |
+
+Procuramos também visualizar a possível influência direta do incremento do desmatamento em um determinado estado e o aumento nos casos de internação por dengue, tanto no mesmo ano quanto no ano seguinte. Uma análise geral dos gráficos mostram que não há uma possível correlação direta entre incremento da área desmatada e aumento de internações por dengue. Estamos cientes de que vários outros fatores podem influenciar os resultados, permeando entre tamanho da população, acesso a saneamento básico e informações, nível de escolaridade médio, entre outros. Uma possibilidade futura é investigar o possível uso de novos atributos, de modo a verificar a influência de múltiplas variáveis.
+
+![](assets/integ_incremento_internacoes.svg)
+
+![](assets/integ_incremento_internacoes_seguinte.svg)
+
+Buscamos ainda aprender um pouco mais sobre os municípios que apresentam o menor incremento na área desmatada e percebemos que, além da possibilidade do desmatamento ter cessado em determinada região, outro possível fator para um município ter incremento zero de área desmatada é caso toda sua área já tenha sido desmatada. Isso se mostrou verdade para alguns municípios, sendo todos do Maranhão, como podemos observar na tabela a seguir.
+
+| Estado   | Município              |   Área (km2) |   Área Desmatada em 2008 (km2) |
+|----------|------------------------|--------------|--------------------------------|
+| MA       | Altamira do Maranhão   |          542 |                          542.5 |
+| MA       | Bom Lugar              |          451 |                          451.8 |
+| MA       | Brejo de Areia         |          365 |                          365.1 |
+| MA       | Igarapé Grande         |          379 |                          380   |
+| MA       | Lago da Pedra          |         1552 |                         1552   |
+| MA       | Lago do Junco          |          312 |                          312.4 |
+| MA       | Lago dos Rodrigues     |          196 |                          196.8 |
+| MA       | Olho d'Água das Cunhãs |          704 |                          704.6 |
+| MA       | Paulo Ramos            |         1063 |                         1064   |
+| MA       | São Roberto            |          229 |                          229.7 |
+
+De fato, alguns municípios já iniciam o ano de 2008 com sua área completamente desmatada, de acordo com os dados. Para análises futuras, decidimos utilizar um filtro para descartar esses dados. O filtro é feito da seguinte forma: são removidos primeiramente todos os municípios que possuem mais que 60% de sua área total desmatada em 2008 ou que estão completamente desmatados em 2018; e posteriormente são selecionados somente os 10 municípios que mais sofreram e os 10 que menos sofreram desmatamento entre 2008 e 2019. A verificação de quanto desmatamento um município sofreu é feita a partir da diferença de área desmatada total entre o último e primeiro ano da análise. Uma visualização em mapa do incremento de desmatamento e casos de internação no mesmo ano é exibida a seguir.
+
+![](assets/integ_incremento_internacoes.gif)
 
 # Ferramentas
 Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
