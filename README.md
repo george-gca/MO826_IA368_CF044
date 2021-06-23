@@ -32,7 +32,7 @@ A dengue é a doença causada por arbovírus de maior prevalência no Brasil. Is
 ## Slides da Apresentação Final
 > Link para slides da apresentação final do projeto.
 
-# Introdução e Referenciais de Teóricos
+# Introdução e Referenciais Teóricos
 A dengue é uma doença infecciosa transmitida por mosquitos do gênero *Aedes* , principalmente pela espécie *Aedes aegypti*, e causada por arbovírus membros da família Flaviviridae, com quatro sorotipos diferentes: DENV-1, DENV-2, DENV-3 e DENV-4. Somente no Brasil, em 2019, foram registrados 1.544.987 casos de dengue, o que mostra que ainda é um fator de risco muito grande para a população [[1]](https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/02/populacao-deve-ficar-atenta-a-proliferacao-do-aedes-aegypti-durante-periodo-chuvosa). Diferente de outras doenças tropicais negligenciadas, ela tem ganhado atenção mundial, devido a uma alta incidência - afetando 125 países e causando aproximadamente 100 milhões de casos sintomáticos por ano [[2]](https://www.nature.com/articles/nature12060) -, bem como um aumento na migração e adaptação dos vetores a climas temperados como Europa e América do Norte [[3]](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0007213). Além do clima ser um fator contribuinte para a migração e adaptação destes insetos, o desmatamento também é um fator de risco que promove a exposição de novos vírus e novas variantes de vírus aos seres humanos, já que a Amazônia é um dos maiores repositórios de arbovírus do mundo[[4]](https://pesquisa.bvsalud.org/portal/resource/pt/lil-188336).
 
 O desmatamento é uma prática que consiste na retirada parcial ou total da cobertura vegetal de uma região. Na região amazônica, tem aumentado sucessivamente nos últimos 5 anos, alcançando as maiores taxas de desmatamento da década em 2020 [[5]](https://www.nature.com/articles/s41559-020-01368-x). Adicionalmente, de acordo com um relatório publicado pela Sociedade Vegetariana Brasileira, cerca de 70% da área desmatada na área da Amazônia é designada para a criação de gado  [[6]](https://www.cifor.org/publications/pdf_files/media/Amazon.pdf) [[7]](https://iopscience.iop.org/article/10.1088/1748-9326/5/2/024002/pdf). Estes fatores em conjunto podem ter uma grande contribuição no comportamento de migração, na proliferação e sobrevivência dos mosquitos, visto que influenciam na alteração climática e aquecimento global [[8]](https://wwf.panda.org/discover/knowledge_hub/where_we_work/amazon/amazon_threats/climate_change_amazon/?#:~:text=The%20changing%20nature%20of%20the,%2C%20agriculture%2C%20and%20human%20health)
@@ -56,11 +56,15 @@ Interessantemente, foi encontrado um artigo de 2021 que buscou compreender a inf
   - Existem outros fatores que podem contribuir para o aumento de casos de internações?
   - Existe diferença no número de casos de internações em estados com maiores e menores índices de desmatamento?
 
-# Bases de Dados
-Para informações sobre o desmatamento podemos utilizar a base de dados criada pelo Instituto Nacional de Pesquisas Espaciais (INPE) e disponibilizada através do portal TerraBrasilis. Quanto a informações sobre doenças podemos utilizar informações públicas fornecidas pelo DATASUS.
+# Objetivos do Projeto
+TODO
 
 # Metodologia
-Para a realização deste trabalho os seguintes passos serão necessários:
+TODO
+
+Antiga
+---
+Para a realização deste trabalho os seguintes passos foram necessários:
 - análise dos dados, interpretação e seleção de subconjuntos de interesse;
 - limpeza e normalização dos dados;
 - análise de métodos de data mining aplicáveis ao problema;
@@ -72,7 +76,9 @@ O ciclo de análise dos dados à avaliação dos resultados poderá ser repetido
 
 ## Bases de Dados e Evolução
 
-### Bases Estudadas e Não Adotadas
+Neste projeto trabalhamos com quatro bases de dados diferentes, sendo uma completamente descartada.
+
+### Bases Estudadas mas Não Adotadas
 
 | Base de Dados | Endereço na Web | Resumo |
 | -- | -- | -- |
@@ -330,7 +336,7 @@ Nos boxplots abaixo está representado o agrupamento de todos os estados por ano
 
 #### Integração entre Bases
 
-Após analisarmos isoladamente as bases de dados, unificamos os dados em uma única tabela, de modo a facilitar as análises seguintes. Esse processo está contemplado neste [notebook](notebooks/Pr%C3%A9_Processamento_Juntando_os_Dados.ipynb) e neste [colab](https://colab.research.google.com/drive/18oavHEsIHY5DL5jOx7EKZ4v4irqnEjHj?usp=sharing). Para integrar os dados, precisamos primeiramente alinhar os municípios, ou seja, garantir que ambos os dados possuem os mesmos municípios. Dessa forma, verificamos que, além de os dados não possuírem o mesmo número de municípios, os dados de desmatamento possuiam municípios supostamente repetidos.
+Após analisarmos isoladamente as bases de dados, unificamos os dados de desmatamento e internações por dengue em uma única tabela, de modo a facilitar as análises seguintes. Esse processo está contemplado neste [notebook](notebooks/Pr%C3%A9_Processamento_Juntando_os_Dados.ipynb) e neste [colab](https://colab.research.google.com/drive/18oavHEsIHY5DL5jOx7EKZ4v4irqnEjHj?usp=sharing). Para integrar os dados, precisamos primeiramente alinhar os municípios, ou seja, garantir que ambos os dados possuem os mesmos municípios. Dessa forma, verificamos que, além de os dados não possuírem o mesmo número de municípios, os dados de desmatamento possuiam municípios supostamente repetidos.
 
 | Dados | Qtde Municípios | Qtde Municípios Únicos (nome) |
 | --- | --- | --- |
@@ -355,6 +361,8 @@ Para certificarmos de que não há municípios repetidos, decidimos buscar por m
 O processo de alinhamento dos municípios envolve remover de ambos os dados informações dos municípios que não constam no outro. Dessa forma, terminamos com informações sobre 740 municípios dos 9 estados que compõem a Amazônia Legal. Geramos quatro versões dos dados: uma versão com informações por município ([dados_conjuntos.csv](data/processed/dados_conjuntos.csv)), uma versão com informações agrupadas por estado ([dados_conjuntos_estado.csv](data/processed/dados_conjuntos_estado.csv)), e uma versão destes dois dados com uma coluna extra `Ano` ([dados_conjuntos_col_ano.csv](data/processed/dados_conjuntos_col_ano.csv) e [dados_conjuntos_estado_col_ano.csv](data/processed/dados_conjuntos_estado_col_ano.csv)), de modo a facilitar a geração de gráficos com informações temporais. Ainda nos dados com a coluna `Ano`, criamos uma coluna chamada `Internações Ano Seguinte - Dengue`, contendo as informações referentes a internações do próximo ano, de modo a facilitar a análise da influência do desmatamento nos casos de dengue no próximo ano.
 
 #### Análise Exploratória na Base Integrada
+
+TODO
 
 Após unificarmos as bases, realizamos uma análise da mesma, iniciando dos dados faltantes. Estas análises podem ser visualizadas no [notebook](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Conjuntos.ipynb) e [colab](https://colab.research.google.com/drive/1UKLckgEir1nVk5HG_beE4if4JnwhHsd8?usp=sharing) correspondentes. Por meio dessa análise, pudemos perceber que os estados do Amapá e Roraima possuem dados faltantes de internação em todos os seus municípios em alguns anos, inutilizando seus usos.
 
@@ -395,9 +403,13 @@ De fato, alguns municípios já iniciam o ano de 2008 com sua área completament
 
 ![](assets/integ_incremento_internacoes.gif)
 
-# Ferramentas
-Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
 # Análises Realizadas
+
+## Ferramentas
+TODO
+
+Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
+
 ## Regressão Linear Múltipla
 A partir da ferramenta Orange utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
 ![Workflow da Regressão de múltiplas variáveis](assets/Workflow_regressao_multipla.PNG)
@@ -595,15 +607,14 @@ Os mesmos achados se mantiveram quando avaliamos as internações por dengue no 
 |  2017 |         3.32353 |         5.1     |  1.11015  |  0.269164 | Não                                         |
 |  2018 |         6.17143 |        10.4265  |  1.47827  |  0.141822 | Não                                         |
 
+# Resultados
+TODO
 
+# Discussão
+TODO
 
-# Cronograma
-| Atividade                                         | 22/04 | 29/04 | 06/05 | 13/05 | 20/05 | 27/05 | 03/06 | 10/06 | 17/06 | 24/06 |
-| ------------------------------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Download das bases de dados                       |   *   |       |       |       |       |       |       |       |       |       |
-| Análise das bases de dados                        |   *   |   *   |   *   |   *   |   *   |       |       |       |       |       |
-| Limpeza e normalização dos dados                  |       |   *   |   *   |   *   |   *   |   *   |   *   |       |       |       |
-| Verificação de métodos de data mining             |       |       |       |   *   |   *   |       |       |       |       |       |
-| Data mining                                       |       |       |       |       |   *   |   *   |   *   |   *   |   *   |       |
-| Avaliação dos resultados                          |       |       |       |       |       |   *   |   *   |   *   |   *   |       |
-| Publicação e apresentação dos resultados obtidos  |       |       |       |       |       |       |       |       |       |   *   |
+# Conclusão
+TODO
+
+# Trabalhos Futuros
+TODO
