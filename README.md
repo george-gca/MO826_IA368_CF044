@@ -8,7 +8,6 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Equipe
 | Nome                         | RA     | Especialização |
 |------------------------------|--------|----------------|
-| Beatriz Cunha Freire         | 261067 | Computação |
 | Bruna Moraes Lopes           | 216050 | Engenharia |
 | George Corrêa de Araújo      | 191075 | Computação |
 | Luidy Kazuo Issayama         | 136703 | Saúde |
@@ -20,7 +19,7 @@ A dengue é a doença causada por arbovírus de maior prevalência no Brasil. Is
 # Vídeos do Projeto
 
 ## Vídeo da Proposta
-> Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
+> https://youtu.be/YkhxoM7QYJ0
 
 ## Vídeo da Apresentação Final
 > Link para vídeo da apresentação final do projeto (máximo 8 minutos). *TODOS OS MEMBROS DO GRUPO DEVEM APARECER NO VÍDEO*.
@@ -28,7 +27,7 @@ A dengue é a doença causada por arbovírus de maior prevalência no Brasil. Is
 # Slides do Projeto
 
 ## Slides da Proposta
-> Link para slides de apresentação da proposta do projeto.
+> https://docs.google.com/presentation/d/1eRGl_2gjY-UMC1WCn4Dbgs2R6DZmlIVlSdykv4ebdTc/edit?usp=sharing
 
 ## Slides da Apresentação Final
 > Link para slides da apresentação final do projeto.
