@@ -15,13 +15,42 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Stephanie Villa-Nova Pereira | 154410 | Saúde |
 
 # Descrição Resumida do Projeto
+> Descreva resumidamente o tema do projeto. O resumo idealmente deve: apresentar o contexto gerador e motivação; indicar o problema; apresentar a sua solução para o problema; indicar porque a sua solução é melhor do que os esforços atuais (não obrigatório); concluir com os resultados alcançados.
+
+# Vídeos do Projeto
+
+## Vídeo da Proposta
+> Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
+
+## Vídeo da Apresentação Final
+> Link para vídeo da apresentação final do projeto (máximo 8 minutos). *TODOS OS MEMBROS DO GRUPO DEVEM APARECER NO VÍDEO*.
+
+# Slides do Projeto
+
+## Slides da Proposta
+> Link para slides de apresentação da proposta do projeto.
+
+## Slides da Apresentação Final
+> Link para slides da apresentação final do projeto.
+
+# Introdução e Referenciais de Teóricos
 A dengue é uma doença infecciosa transmitida por mosquitos do gênero *Aedes* , principalmente pela espécie *Aedes aegypti*, e causada por arbovírus membros da família Flaviviridae, com quatro sorotipos diferentes: DENV-1, DENV-2, DENV-3 e DENV-4. Somente no Brasil, em 2019, foram registrados 1.544.987 casos de dengue, o que mostra que ainda é um fator de risco muito grande para a população [[1]](https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/02/populacao-deve-ficar-atenta-a-proliferacao-do-aedes-aegypti-durante-periodo-chuvosa). Diferente de outras doenças tropicais negligenciadas, ela tem ganhado atenção mundial, devido a uma alta incidência - afetando 125 países e causando aproximadamente 100 milhões de casos sintomáticos por ano [[2]](https://www.nature.com/articles/nature12060) -, bem como um aumento na migração e adaptação dos vetores a climas temperados como Europa e América do Norte [[3]](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0007213). Além do clima ser um fator contribuinte para a migração e adaptação destes insetos, o desmatamento também é um fator de risco que promove a exposição de novos vírus e novas variantes de vírus aos seres humanos, já que a Amazônia é um dos maiores repositórios de arbovírus do mundo[[4]](https://pesquisa.bvsalud.org/portal/resource/pt/lil-188336).
 
 O desmatamento é uma prática que consiste na retirada parcial ou total da cobertura vegetal de uma região. Na região amazônica, tem aumentado sucessivamente nos últimos 5 anos, alcançando as maiores taxas de desmatamento da década em 2020 [[5]](https://www.nature.com/articles/s41559-020-01368-x). Adicionalmente, de acordo com um relatório publicado pela Sociedade Vegetariana Brasileira, cerca de 70% da área desmatada na área da Amazônia é designada para a criação de gado  [[6]](https://www.cifor.org/publications/pdf_files/media/Amazon.pdf) [[7]](https://iopscience.iop.org/article/10.1088/1748-9326/5/2/024002/pdf). Estes fatores em conjunto podem ter uma grande contribuição no comportamento de migração, na proliferação e sobrevivência dos mosquitos, visto que influenciam na alteração climática e aquecimento global [[8]](https://wwf.panda.org/discover/knowledge_hub/where_we_work/amazon/amazon_threats/climate_change_amazon/?#:~:text=The%20changing%20nature%20of%20the,%2C%20agriculture%2C%20and%20human%20health)
 
-Dado isso, estudar fatores influentes para o aumento de casos de dengue, nos auxilia a elaborar modelos estatítsticos mais precisos e mais preditivos de quando os surtos podem surgir, já que atualmente, os modelos existentes levam em consideração principalmete dados de temperatura e dados de saúde de baixa qualidade [[9]](https://pubmed.ncbi.nlm.nih.gov/25730702/). Portanto, o objetivo principal deste trabalho é compreender o impacto do desmatamento no aumento de número de casos de internação por dengue na região da Amazônia Legal - que apresenta os maiores índices de desmatamento do Brasil -, através de análises de correlações e testes de hipóteses com amostras estabelecidas a partir de critérios de desmatamento e internações. Foi levantado a possibilidade de utilização de modelos de regressão linear múltipla para investigar a influência de mais de uma váriavel nos aumentos de casos de internação. 
+Dado isso, estudar fatores influentes para o aumento de casos de dengue, nos auxilia a elaborar modelos estatítsticos mais precisos e mais preditivos de quando os surtos podem surgir, já que atualmente, os modelos existentes levam em consideração principalmete dados de temperatura e dados de saúde de baixa qualidade [[9]](https://pubmed.ncbi.nlm.nih.gov/25730702/). 
+Portanto, o objetivo principal deste trabalho é compreender o impacto do desmatamento no aumento de número de casos de internação por dengue na região da Amazônia Legal - que apresenta os maiores índices de desmatamento do Brasil -, através de análises de correlações e testes de hipóteses com amostras estabelecidas a partir de critérios de desmatamento e internações. Foi levantado a possibilidade de utilização de modelos de regressão linear múltipla para investigar a influência de mais de uma váriavel nos aumentos de casos de internação. 
 
-[Vídeo de apresentação](https://youtu.be/YkhxoM7QYJ0)
+### Trabalhos relacionados
+De uma maneira geral, a dengue é um assunto relativamente bem estudado e que apresenta alguns trabalhos de modelagem e previsão. Entretanto, como foi mencionado, os modelos não apresentam uma extensão próxima e da realidade e muitas vezes contraditórios entre si devido as diferentes abordagens, qualidade de dados de saúde e escolhas de variáveis, como mudanças climáticas e dados de acesso à saúde.
+
+O primeiro trabalho com o objetivo de estudar os dados epidemiológicos da dengue com projeções matemáticas criou modelos simulatórios estocásticos com dados da literatura conhecidos à época que eram influentes para o desenvolvimento da doença. Para o modelo de transmissão da dengue, foram considerados os fatores climáticos que favoreciam o desenvolvimento do mosquito (vetor)[[10]](https://www.ajtmh.org/view/journals/tpmd/53/5/article-p489.xml). Em seguida, modelos mais complexos começaram a ser desenvolvidos, partindo dos mesmos modelos simulatórios e incrementando dados de alterações climáticas promovidas pelo aquecimento global, prevendo potenciais riscos de se tornarem epidemias mundiais, com o estabelecimento do mosquito em áreas que antes não tinham incidência. [[11]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1533051/pdf/envhper00526-0073.pdf).
+
+Quando se trata de modelagem para dengue, exitem duas abordagens principais: modelos mecanísticos e modelos estatísticos com base empírica. Os modelos mecanísticos são mais apropriados quando processos biológicos específicos relacionados com a transmissão do vírus em relação ao vetor e/ou hospedeiro estão bem descritos e bem parametrizados, como compreender o impacto de variáveis meteorológicas nas taxas de sobrevivência, competência como vetor viral, etc. Já os modelos estatísticos, por outro lado, são definidos porrelações empíricas entre localizações conhecidas de ocorrência do vírus e covariáveis implíticas hipotéticas e extrapolar essas relações a possíveis projeções futuras. [[12]](https://pubmed.ncbi.nlm.nih.gov/25730702/)
+
+Para nossas análises, portanto, Optamos por utilizar modelos estatísticos para compreender os efeitos do desmatamento no número de internações de dengue.
+Interessantemente, foi encontrado um artigo de 2021 que buscou compreender a influência do desmatamento, com abordagens bastante similares ao presente trabalho[[13]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7790412/). No estudo, os modelos de regressão não encontraram uma relação entre o desmatamento e incidência de dengue e o acesso a saúde foi o único fator significativo para predizer a incidência. Entretanto, os critérios exploratórios dos bancos de dados podem ter sido pouco estudados. Nosso trabalho ampliou para todos os estados que fazem parte da Amazônia Legal e inserimos criterios de amostragem para obter respostas mais robustas com testes de hipóteses entre os anos e entre os estados de maior e menor incremento de desmatamento.
+
 
 # Perguntas de Pesquisa
 - O desmatamento contribui para o aumento de casos de dengue na região da Amazônia legal?
