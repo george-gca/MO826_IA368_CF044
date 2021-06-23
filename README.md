@@ -215,6 +215,8 @@ Apesar de nos anos seguintes São Félix do Xingu não ter sido o município com
 | RO       |                    2 |
 | RR       |                    1 |
 
+![](assets/desmat_incremento_mapa.gif)
+
 ##### Dados Hospitalares
 
 [notebook hosp](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Hospitalares.ipynb)
