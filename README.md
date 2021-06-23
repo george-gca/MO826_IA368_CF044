@@ -310,6 +310,10 @@ Como podemos perceber, tirando os anos de 2008 e 2011, em que o município com m
 
 Outra análise relevante, é que uma variação muito grande dos valores de internações nos municípios de Boa Vista (RR), Cruzeiro do Sul (AC) e Colinas (MA). No caso de Boa Vista, pelo fato de a mudança ter acontecido e a redução ter sido constante, é provável que seja fruto de ações de conscientização e investimento em saúde na região. Nos casos de Cruzeiro do Sul e Colinas, pelo fato de serem valores muito diferentes dos anos anteriores e posteriores, pode ser possível haver erros nos dados ou mesmo um surto de casos. Essas variações podem ser verificadas a partir do gráfico abaixo
 
+![Internações Municípios](assets/municipios_internacoes_anual.PNG)
+
+Nos boxplots abaixo está representado o agrupamento de todos os estados por ano, onde podemos observar que nos anos de 2009 a 2013 tivemos uma maior quantidade de internações por dengue, o que está representado tanto pela mediana das caixas como pelos 1o e 3o quartis. Após esse período podemos perceber uma tendência à redução do número de casos, levando a redução tanto da mediana quando dos quartis das caixas, o que não se manteve para o ano de 2019.
+
 
 #### Integração entre Bases
 
