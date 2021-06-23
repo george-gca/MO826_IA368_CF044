@@ -282,8 +282,8 @@ Verificando os dados faltantes por estado, podemos observar que a maior parte do
 | RR | 0 | 0 | 0 | 0 | 0 | 0 | 15 | 0 | 0 | 15 | 15 | 0 |
 | TO | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
-Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando os histogramas que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
-
+Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando os histogramas a partir desse colab (colocar referência) e pelo gráfico abaixo que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
+![Internações de dengue nos Estados](assets/internacoes_dengue_estado.PNG)
 ![](assets/hosp_internacoes_estados.svg)
 
 #### Integração entre Bases
