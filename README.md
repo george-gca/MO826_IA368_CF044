@@ -314,6 +314,7 @@ Outra análise relevante, é que uma variação muito grande dos valores de inte
 
 Nos boxplots abaixo está representado o agrupamento de todos os estados por ano, onde podemos observar que nos anos de 2009 a 2013 tivemos uma maior quantidade de internações por dengue, o que está representado tanto pela mediana das caixas como pelos 1o e 3o quartis. Após esse período podemos perceber uma tendência à redução do número de casos, levando a redução tanto da mediana quando dos quartis das caixas, o que não se manteve para o ano de 2019.
 
+![Boxplot](assets/boxplot_internacoes_estados.PNG)
 
 #### Integração entre Bases
 
