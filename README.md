@@ -99,7 +99,7 @@ Durante uma análise exploratória inicial, percebemos a grande quantidade de da
 
 ![Matriz de Nulidade dos Dados de Sintomas](assets/dados_sintomas_matriz_nulidade.png)
 
-Para verificar o real impacto dos dados faltantes, optamos por comparar a quantidade de municípios total e a quantidade de municípios com todas as informações completas, agrupados por estado. Através da tabela abaixo, podemos verificar que a maior parte dos municípios possui alguma informação faltante. De 810 municípios, somente 297 possuem informações para todo o período de 2008 a 2019. Há estados que possuem uma quantidade muito pequena de dados completos, como o Amapá e o Amazonas, e estados que inclusive não possuem informação total de nenhuma cidade, como é o caso de Roraima. Devido à quantidade reduzida de dados completos, optamos por descartar esta base de dados.
+Para verificar o real impacto dos dados faltantes, optamos por comparar a quantidade de municípios total e a quantidade de municípios com todas as informações completas, agrupados por estado. Através da tabela abaixo, podemos verificar que a maior parte dos municípios possui alguma informação faltante. De 810 municípios, somente 297 possuem informações para todo o período de 2008 a 2019. Há estados que possuem uma quantidade muito pequena de dados completos, como o Amapá e o Amazonas, e estados que inclusive não possuem informação total de nenhuma cidade, como é o caso de Roraima. Devido à quantidade reduzida de dados completos, optamos por descartar essa base de dados.
 
 | Estado   |   Total de Municípios |   Municípios Completos |
 |----------|-----------------------|------------------------|
@@ -120,11 +120,14 @@ Para verificar o real impacto dos dados faltantes, optamos por comparar a quanti
 | Base de Dados | Endereço na Web | Resumo |
 | -- | -- | -- |
 | Desmatamento nos Municípios da Amazônia Legal | [PRODES Amazônia](http://www.dpi.inpe.br/prodesdigital/prodesmunicipal.php) | A estimativa de extensão desmatada por município baseia-se no cálculo do desmatamento acumulado e observado até 2019 dentro dos limites administrativos  dos municípios que fazem parte da Amazônia Legal. Além da classe com a extensão desflorestada, as áreas de outras classes de cobertura da terra  e nuvem, foram calculadas  para cada ano de análise como: floresta, nuvem, não floresta, hidrografia e área não observada. |
+| Indicadores de Saneamento | [Painel Saneamento Brasil](https://www.painelsaneamento.org.br/explore/ano) | Possui indicadores de saneamento ligados a saúde e renda, educação, valorização imobiliária, impactos ao turismo, entre outros, dos 839 municípios com população acima de 50 mil habitantes. |
 | Morbidade Hospitalar do SUS | [DATASUS](http://www2.datasus.gov.br/DATASUS/index.php?area=0203&id=6927&VObj=http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/nr) | O número de internações por dengue representa todos os casos registrados e confirmados no período, separados por mês, ano de notificação e município que registrou o caso. |
 
 #### Obtenção das Bases
 
 Os dados de desmatamento foram obtidos a partir da seleção dos dados no sistema da PRODES. Para tal, é necessário selecionar na opção `Estado/Região` a Amazônia Legal, alterando o ano entre 2008 a 2019. Após esse passo, geramos a lista, e ao fim da mesma há a opção `Gera arquivo .txt`.
+
+Já os indicadores de saneamento foram filtrados por ano. Foi selecionada a opção `editar` e, em seguida, selecionados vários indicadores. Devido a limitações do sistema, foram selecionados oito indicadores por vez, sendo criados dessa forma cinco grupos de indicadores diferentes. Após esse passo foram filtradas manualmente as localidades cuja classificação é acima de município, como por exemplo região metropolitana e estado.
 
 O número de internações foi obtido a partir da filtragem dos dados epidemiológicos e morbidade do TABNET. Após a seleção `geral, por local de residência - a partir de 2008` por estado, foram separados os filtros com todos os períodos disponíveis: Linha - `municípios`; Coluna - `Ano/mês de atendimento`; Conteúdo - `internações`. Por fim, nas seleções, foi selecionado `Dengue` na `Lista Morb CID-10`, para filtrar apenas os casos de Dengue.
 
@@ -163,9 +166,20 @@ Ao analisarmos a completude dos dados, decidimos por focar nossos estudos na den
 
 Após descartarmos as colunas referentes às outras doenças e dados hospitalares, agrupamos as informações mensais por ano. Geramos novamente quatro versões dos dados: uma versão com informações por município ([dengue_internacoes.csv](data/processed/dengue_internacoes.csv)), uma versão com informações agrupadas por estado ([dengue_internacoes_estado.csv](data/processed/dengue_internacoes_estado.csv)), e uma versão destes dois dados com uma coluna extra `Ano` ([dengue_internacoes_col_ano.csv](data/processed/dengue_internacoes_col_ano.csv) e [dengue_internacoes_estado_col_ano.csv](data/processed/dengue_internacoes_estado_col_ano.csv)), de modo a facilitar a geração de gráficos com informações temporais.
 
+Ao decidirmos por avaliar a utilização dos dados de sanemanento, partimos inicialmente dos dados integrados entre desmatamento e internações por dengue, que será introduzido no próximo tópico. Desta forma, filtramos somente os municípios já anteriormente contemplados nos dados integrados. Partimos inicialmente de cinco grupos de indicadores, realizando alguns passos de limpeza. Removemos o código IBGE dos municípios, filtramos para manter somente os municípios de interesse, removemos alguns símbolos (como `%` e `.`) e substituímos o indicador de casa decimal por `.`, pois é o padrão utilizado na biblioteca que usamos.
+
+Posteriormente unimos os grupos, selecionando somente alguns atributos que consideramos mais interessantes, exibidos na tabela abaixo. Adicionamos esses atributos aos dados integrados de desmatamento e internações que possuem a coluna `Ano`, removendo os municípios que possuem dados faltantes. Aplicamos a esses dados o mesmo filtro que decidimos usar para o teste de hipóteses: são removidos primeiramente todos os municípios que possuem mais que 60% de sua área total desmatada em 2008 ou que estão completamente desmatados em 2018. Estes dados foram salvos em dois formatos, um com informações por município ([desmat_dengue_san.csv](data/processed/desmat_dengue_san.csv)) e outro com informações agrupadas por estado ([desmat_dengue_san_estado.csv](data/processed/desmat_dengue_san_estado.csv)). Estes dados foram utilizados para fazer uma regressão linear multivariável, com o objetivo de descobrir a influência de outras variáveis no aumento do número de internações de dengue.
+
+| Atributo |
+| --- |
+| População total que mora em domicílios sem acesso ao serviço de coleta de esgoto (pessoas) (SNIS) |
+| Parcela da população total que mora em domicílios sem acesso ao serviço de coleta de esgoto (% da população) (SNIS) |
+| Extensão da rede de distribuição de esgoto, em km (km) (SNIS) |
+| Densidade demográfica (pessoas por km²) (Pessoas por km²) (IBGE) |
+
 ### Integração entre Bases e Análise Exploratória
 
-Optamos por realizar inicialmente uma análise exploratória nas bases individualmente e, somente depois, integrar os dados em uma única base e realizar sua análise.
+Optamos por realizar inicialmente uma análise exploratória nas bases individualmente e, somente depois, integrar os dados em uma única base e realizar sua análise. 
 
 #### Análise Exploratória nas Bases Individualmente
 
@@ -282,7 +296,7 @@ Verificando os dados faltantes por estado, podemos observar que a maior parte do
 | RR | 0 | 0 | 0 | 0 | 0 | 0 | 15 | 0 | 0 | 15 | 15 | 0 |
 | TO | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
-Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando os histogramas a partir desse colab (colocar referência), e pelo gráfico abaixo que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
+Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando o gráfico abaixo que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
 
 ![](assets/hosp_internacoes_estado.svg)
 
@@ -378,7 +392,7 @@ Buscamos ainda aprender um pouco mais sobre os municípios que apresentam o meno
 | MA       | Paulo Ramos            |         1063 |                         1064   |
 | MA       | São Roberto            |          229 |                          229.7 |
 
-De fato, alguns municípios já iniciam o ano de 2008 com sua área completamente desmatada, de acordo com os dados. Para análises futuras, decidimos utilizar um filtro para descartar esses dados. O filtro é feito da seguinte forma: são removidos primeiramente todos os municípios que possuem mais que 60% de sua área total desmatada em 2008 ou que estão completamente desmatados em 2018; e posteriormente são selecionados somente os 10 municípios que mais sofreram e os 10 que menos sofreram desmatamento entre 2008 e 2019. A verificação de quanto desmatamento um município sofreu é feita a partir da diferença de área desmatada total entre o último e primeiro ano da análise. Uma visualização em mapa do incremento de desmatamento e casos de internação no mesmo ano é exibida a seguir.
+De fato, alguns municípios já iniciam o ano de 2008 com sua área completamente desmatada, de acordo com os dados. Para análises futuras, decidimos utilizar um filtro para descartar esses dados. O filtro é feito da seguinte forma: são removidos primeiramente todos os municípios que possuem mais que 60% de sua área total desmatada em 2008 ou que estão completamente desmatados em 2018; e posteriormente são selecionados somente os 10 municípios que mais sofreram e os 10 que menos sofreram desmatamento entre 2008 e 2019. A verificação de quanto desmatamento um município sofreu é feita a partir da diferença de área desmatada total entre o último e primeiro ano da análise. O grupo formado pelos 10 municípios que mais sofreram desmatamento e os 10 que menos sofreram foi utilizado durante o teste de hipóteses. Uma visualização em mapa do incremento de desmatamento e casos de internação no mesmo ano é exibida a seguir.
 
 ![](assets/integ_incremento_internacoes.gif)
 
