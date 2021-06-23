@@ -390,8 +390,25 @@ A partir da ferramenta Orange utilizamos a regressão linear múltipla para obse
 ![Workflow da Regressão de múltiplas variáveis](assets/Workflow_regressao_multipla.PNG)
 
 Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
-##### Correlação das Variáveis
-![Correlação de Variáveis](assets/correlacao_variaveis_sem_filtro.PNG)
+#### Correlação entre variáveis
+
+| Coeficiente de correlação de Pearson       | Variável 1    | Variável 2    |
+| -------------                              | ------------- | ------------- |
+| +0.821                                  | Incremento    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
+| +0.821                                 | Hidrografia   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
+| +0.683  | Hidrografia   | Incremento     |
+| +0.602                      | Internações - dengue   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
+| +0.579                                | Incremento | Internações - dengue |
+| +0.499                      | Densidade demográfica   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
+| +0.456                                | Hidrografia    | Internações - dengue   |
+| +0.417                                | Densidade demográfica    | Incremento   |
+| +0.392                                | Densidade demográfica    | Extensão da rede de distribuição de esgoto   |
+| -0.282                                    | Extensão da rede de distribuição de esgoto    | Hidrografia   |
+| +0.255                                    | Densidade demográfica    | Internações -dengue   |
+| -0.223                                | Extensão da rede de distribuição de esgoto    | Internações - dengue  |
+| -0.220                                | Extensão da rede de distribuição de esgoto    | Incremento  |
+| +0.173                                | Densidade demográfica    | Hidrografia   |
+| -0.115                                | Extensão da rede de distribuição de esgoto    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto   |
 
 É possível observar que em relação às internações por dengue uma das maiores correlações é em relação à população total que mora em domicílios sem acesso ao serviço de coleta de esgoto. Porém como a variável incremento também está fortemente relacionada a essa variável, foi desconsiderada a população total,  pois ela resulta em pouca influência na regressão múltipla já que está sendo utilizada a variável incremento. Por sua vez, a escolha do uso da variável incremento é feita por estar diretamente relacionada com a pergunta de projeto. Na figura a seguir, é apresentado o resultado dos coeficientes com e sem o uso da população total, e o quanto a variável incremento melhora após a exclusão da população. Outra observação interessante é que o incremento parece influenciar na taxa de internações.
 ##### Valores de coeficientes das variáveis com população total
