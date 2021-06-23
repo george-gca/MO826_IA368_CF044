@@ -282,9 +282,34 @@ Verificando os dados faltantes por estado, podemos observar que a maior parte do
 | RR | 0 | 0 | 0 | 0 | 0 | 0 | 15 | 0 | 0 | 15 | 15 | 0 |
 | TO | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
-Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando os histogramas a partir desse colab (colocar referência) e pelo gráfico abaixo que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
+Para todos os anos os estados com o maior número de internações foram o Pará e posteriormente o Maranhão. Podemos observar analisando os histogramas a partir desse colab (colocar referência), e pelo gráfico abaixo que há uma tendência à diminuição do número de internações por casos de dengue no período de 2008 a 2018 em todos os estados. Em 2019 houve um aumento em relação a 2018 para todos os estados, com exceção do Amapá.
+
 ![Internações de dengue nos Estados](assets/internacoes_dengue_estado.PNG)
 ![](assets/hosp_internacoes_estados.svg)
+
+Foi realizada outra análise em relação aos municípios com maior número de internações por dengue anualmente. Esses valores estão representados na tabela a seguir
+
+Município com maior número de internações
+
+|   Ano | Município       | Estado   |   Internações |
+|-------|-----------------|----------|---------------|
+|  2008 | Manaus          | AM       |           804 |
+|  2009 | Várzea Grande   | MT       |          1112 |
+|  2010 | Ananindeua      | PA       |           709 |
+|  2011 | Manaus          | AM       |          1631 |
+|  2012 | Ananindeua      | PA       |           459 |
+|  2013 | Ji-Paraná       | RO       |           547 |
+|  2014 | Cruzeiro do Sul | AC       |           539 |
+|  2015 | Cruzeiro do Sul | AC       |           249 |
+|  2016 | Ji-Paraná       | RO       |           306 |
+|  2017 | Aldeias Altas   | MA       |           208 |
+|  2018 | Augusto Corrêa  | PA       |            91 |
+|  2019 | Colinas         | MA       |           140 |
+
+Como podemos perceber, tirando os anos de 2008 e 2011, em que o município com maior número de casos foi uma capital (Manaus) que possui população elevada, para todos os outros anos os municípios com maior número de internações foram municípios do interior, com provável acesso menor da população a serviços de conscientização e atenção à saúde. Para confirmar tal hipótese será necessário acesso a dados de investimento em conscientização e saneamento básico.
+
+Outra análise relevante, é que uma variação muito grande dos valores de internações nos municípios de Boa Vista (RR), Cruzeiro do Sul (AC) e Colinas (MA). No caso de Boa Vista, pelo fato de a mudança ter acontecido e a redução ter sido constante, é provável que seja fruto de ações de conscientização e investimento em saúde na região. Nos casos de Cruzeiro do Sul e Colinas, pelo fato de serem valores muito diferentes dos anos anteriores e posteriores, pode ser possível haver erros nos dados ou mesmo um surto de casos. Essas variações podem ser verificadas a partir do gráfico abaixo
+
 
 #### Integração entre Bases
 
