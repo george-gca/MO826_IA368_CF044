@@ -331,7 +331,18 @@ Município com maior número de internações
 |  2018 | Augusto Corrêa  | PA       |            91 |
 |  2019 | Colinas         | MA       |           140 |
 
-Como podemos perceber, tirando os anos de 2008 e 2011, em que o município com maior número de casos foi uma capital (Manaus) que possui população elevada, para todos os outros anos os municípios com maior número de internações foram municípios do interior, com provável acesso menor da população a serviços de conscientização e atenção à saúde. Para confirmar tal hipótese será necessário acesso a dados de investimento em conscientização e saneamento básico.
+Como podemos perceber, tirando os anos de 2008 e 2011, em que o município com maior número de casos foi uma capital (Manaus) que possui população elevada, para todos os outros anos os municípios com maior número de internações foram municípios do interior, com provável acesso menor da população a serviços de conscientização e atenção à saúde. Para confirmar tal hipótese será necessário acesso a dados de investimento em conscientização e saneamento básico. Considerando o período de 2008 a 2019, 62 municípios diferentes ocuparam a lista dos 10 municípios com maior número de casos de internação de dengue. Destes, a grande maioria pertence aos estados do Pará e Maranhão, como mostrado na tabela abaixo.
+
+| Estado   |   Qtde de Municípios |
+|----------|----------------------|
+| AC       |                    4 |
+| AM       |                    1 |
+| MA       |                   18 |
+| MT       |                    4 |
+| PA       |                   23 |
+| RO       |                    8 |
+| RR       |                    1 |
+| TO       |                    3 |
 
 Outra análise relevante, é que uma variação muito grande dos valores de internações nos municípios de Boa Vista (RR), Cruzeiro do Sul (AC) e Colinas (MA). No caso de Boa Vista, pelo fato de a mudança ter acontecido e a redução ter sido constante, é provável que seja fruto de ações de conscientização e investimento em saúde na região. Nos casos de Cruzeiro do Sul e Colinas, pelo fato de serem valores muito diferentes dos anos anteriores e posteriores, pode ser possível haver erros nos dados ou mesmo um surto de casos. Essas variações podem ser verificadas a partir do gráfico abaixo
 
