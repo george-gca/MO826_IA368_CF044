@@ -431,36 +431,15 @@ Com isso, para análise por estado, cada grupo comparativo foi composto por um N
 
 # Resultados e discussão
 ## Regressão Linear Múltipla
-
-A próxima figura apresenta a relação entre todas as variáveis utilizadas na análise. A tabela a seguir, também mostra essa correlação de forma numérica juntamente com o p-valor de cada relação. 
-![](assets/dengue_hosp_san_estado_corr.svg)
-
-
-
+Como pode ser observado nos histogramas abaixo, em todas as variáveis não há uma distribuição normal, o que justifica a utilização do coeficiente de Spearman já que esse coeficiente não é sensível à assimetrias na distribuição. Outro ponto importante, é que esse coeficiente pode ser utilizado com a presença de outliers, já que é considerada a ordem e não os valores das variáveis. Como pode ser observado no [boxplot](#dados-hospitalares), esses dados contém outliers que poderiam afetar o cálculo do coeficiente de Pearson.
 ![](assets/dengue_hosp_san_estado_hist.svg)
-Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
+A figura abaixo apresenta a relação entre todas as variáveis utilizadas na análise. A tabela a seguir, também mostra essa correlação de forma numérica juntamente com o p-valor de cada relação. 
+![](assets/dengue_hosp_san_estado_corr.svg)
 
 #### Correlação entre variáveis
 
-| Coeficiente de correlação de Pearson       | Variável 1    | Variável 2    |
-| -------------                              | ------------- | ------------- |
-| +0.821                                  | Incremento    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.821                                 | Hidrografia   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.683  | Hidrografia   | Incremento     |
-| +0.602                      | Internações - dengue   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.579                                | Incremento | Internações - dengue |
-| +0.499                      | Densidade demográfica   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.456                                | Hidrografia    | Internações - dengue   |
-| +0.417                                | Densidade demográfica    | Incremento   |
-| +0.392                                | Densidade demográfica    | Extensão da rede de distribuição de esgoto   |
-| -0.282                                    | Extensão da rede de distribuição de esgoto    | Hidrografia   |
-| +0.255                                    | Densidade demográfica    | Internações -dengue   |
-| -0.223                                | Extensão da rede de distribuição de esgoto    | Internações - dengue  |
-| -0.220                                | Extensão da rede de distribuição de esgoto    | Incremento  |
-| +0.173                                | Densidade demográfica    | Hidrografia   |
-| -0.115                                | Extensão da rede de distribuição de esgoto    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto   |
 
-É possível observar que em relação às internações por dengue uma das maiores correlações é em relação à população total que mora em domicílios sem acesso ao serviço de coleta de esgoto. Porém como a variável incremento também está fortemente relacionada a essa variável, foi desconsiderada a população total,  pois ela resulta em pouca influência na regressão múltipla já que está sendo utilizada a variável incremento. Por sua vez, a escolha do uso da variável incremento é feita por estar diretamente relacionada com a pergunta de projeto. Na figura a seguir, é apresentado o resultado dos coeficientes com e sem o uso da população total, e o quanto a variável incremento melhora após a exclusão da população. Outra observação interessante é que o incremento parece influenciar na taxa de internações.
+Considerando p-valor menor do que 0.05 tanto para o coeficiente de Pearson como Spearman, é possível observar que em relação às internações por dengue uma das maiores correlações é em relação à população total que mora em domicílios sem acesso ao serviço de coleta de esgoto. Porém como a variável incremento também está fortemente relacionada a essa variável, foi desconsiderada a população total,  pois ela resulta em pouca influência na regressão múltipla já que está sendo utilizada a variável incremento. Por sua vez, a escolha do uso da variável incremento é feita por estar diretamente relacionada com a pergunta de projeto. Na figura a seguir, é apresentado o resultado dos coeficientes com e sem o uso da população total, e o quanto a variável incremento melhora após a exclusão da população. Outra observação interessante é que o incremento parece influenciar na taxa de internações.
 ##### Valores de coeficientes das variáveis com população total
 | Variáveis                                  | Coeficiente   |
 | -------------                              | ------------- |
@@ -512,26 +491,26 @@ Outra análise utilizada, foi excluir os demais features para analisar o impacto
 | Hidrografia                                | 0.012051      |
 | Densidade demográfica                      | 0.0097417     |
 
-O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que em algumas localidades, desde o início de 2008, a área já estava 100% desmatada resultando no incremento igual à zero. Essa informação resultava em uma falsa interpretação, pois o entendimento era que a área deixou de ser desmatada, quando na verdade já tinha sido toda desmatada. Isso poderia resultar em um viés que mesmo com um número de internações aumentando no local, o incremento continuaria zero. Para isso, foi realizado um filtro das áreas que possuíssem dados de desmatamento no período de 12 anos. O filtro consiste em selecionar municípios em 2008 com área desmatada menor que 60% da área total, e em 2019 com área desmatada menor que 100% da área total. As mesmas análises anteriores foram realizadas com essa nova amostra, e serão representadas abaixo.
+O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que em algumas localidades, desde o início de 2008, a área já estava 100% desmatada resultando no incremento igual à zero. Essa informação resultava em uma falsa interpretação, pois o entendimento era que a área deixou de ser desmatada, quando na verdade já tinha sido 100% desmatada. Isso poderia resultar em um viés que mesmo com um número de internações aumentando no local, o incremento continuaria zero. Para isso, foi realizado um filtro das áreas que possuíssem dados de desmatamento no período de 12 anos. O filtro consiste em selecionar municípios em 2008 com área desmatada menor que 60% da área total, e em 2019 com área desmatada menor que 100% da área total. As mesmas análises anteriores foram realizadas com essa nova amostra, e serão representadas abaixo.
 #### Correlação entre variáveis
 
-| Coeficiente de correlação de Pearson       | Variável 1    | Variável 2    |
-| -------------                              | ------------- | ------------- |
-| +0.885                                  | Hidrografia    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.811                                 | Incremento   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.674  | Hidrografia   | Incremento     |
-| +0.529                      | Internações - dengue   | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto     |
-| +0.463                                | Incremento | Internações - dengue |
-| +0.426                                | Hidrografia    | Internações - dengue   |
-| +0.389                                | Densidade demográfica    | Extensão da rede de distribuição de esgoto   |
-| +0.260                                | Densidade demográfica    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto   |
-| +0.257                                | Densidade demográfica    | Incremento   |
-| -0.232                                    | Extensão da rede de distribuição de esgoto    | Hidrografia   |
-| -0.223                                | Extensão da rede de distribuição de esgoto    | Incremento  |
-| -0.181                                | Extensão da rede de distribuição de esgoto    | Internações - dengue  |
-| -0.146                                | Extensão da rede de distribuição de esgoto    | População total que mora em domicílios sem acesso ao serviço de coleta de esgoto   |
-| +0.101                                | Densidade demográfica    | Internações - dengue   |
-| +0.047                                | Densidade demográfica    | Hidrografia   |
+| Atributo 1                              | Atributo 2                 |   r Pearson |   p Pearson |   r Spearman |   p Spearman |
+|-----------------------------------------|----------------------------|-------------|-------------|--------------|--------------|
+| População sem acesso a coleta de esgoto | Extensão da rede de esgoto |  -0.146078  | 0.227564    |    0.0344236 |  0.777248    |
+| População sem acesso a coleta de esgoto | Densidade demográfica      |   0.268524  | 0.0245995   |    0.290911  |  0.0145576   |
+| População sem acesso a coleta de esgoto | Incremento                 |   0.811457  | 1.61643e-17 |    0.547446  |  9.37535e-07 |
+| População sem acesso a coleta de esgoto | Hidrografia                |   0.885198  | 2.72726e-24 |    0.952725  |  6.66363e-37 |
+| População sem acesso a coleta de esgoto | Internações - Dengue       |   0.528677  | 2.54503e-06 |    0.41587   |  0.000343071 |
+| Extensão da rede de esgoto              | Densidade demográfica      |   0.388733  | 0.000882147 |    0.7365    |  3.69225e-13 |
+| Extensão da rede de esgoto              | Incremento                 |  -0.223002  | 0.0635082   |   -0.659003  |  5.56915e-10 |
+| Extensão da rede de esgoto              | Hidrografia                |  -0.23169   | 0.0536186   |    0.0930447 |  0.443608    |
+| Extensão da rede de esgoto              | Internações - Dengue       |  -0.181088  | 0.13355     |   -0.2273    |  0.0584458   |
+| Densidade demográfica                   | Incremento                 |   0.257215  | 0.0315885   |   -0.313794  |  0.00816208  |
+| Densidade demográfica                   | Hidrografia                |   0.0468192 | 0.70033     |    0.247461  |  0.0388879   |
+| Densidade demográfica                   | Internações - Dengue       |   0.101037  | 0.405267    |   -0.0333494 |  0.784028    |
+| Incremento                              | Hidrografia                |   0.674253  | 1.57016e-10 |    0.520783  |  3.80589e-06 |
+| Incremento                              | Internações - Dengue       |   0.463148  | 5.40564e-05 |    0.37123   |  0.00155675  |
+| Hidrografia                             | Internações - Dengue       |   0.425817  | 0.000237769 |    0.416106  |  0.000340138 |
 
 ##### Valores de coeficientes das variáveis 
 | Variáveis                                  | Coeficiente   |
@@ -542,7 +521,7 @@ O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que
 | Densidade demográfica                      | 0.0127488     |
 | Hidrografia                                | 0.0153722     |
 
-É possível verificar que em ambas as análises a proporção em relação às variáveis são semelhantes em relação às internações por dengue, mesmo os resultados do coeficiente e qualidade do modelo serem diferentes.
+É possível verificar que em ambas as análises as maiores correlações em relação às internações por dengue são das mesmas variáveis, mesmo os resultados dos coeficientes e qualidade do modelo serem diferentes.
 ##### Qualidade de Regressão com o filtro das regiões desmatadas com população
 | Modelo               | MSE           | RMSE                 | MAE           | R2            |
 | -------------        | ------------- | -------------        | ------------- | ------------- |
@@ -552,7 +531,7 @@ O mesmo Workflow foi feito, porém alterando o banco de dados. Foi analisado que
 | -------------        | ------------- | -------------        | ------------- | ------------- |
 | Regressão Linear     | 287741.920    | 536.416              | 324.262       | 0.306         |
 
-Diante desses resultados, podemos observar que o feature que possui uma maior influência em relação às internações é o incremento. Não foi possível constatar que a densidade demográfica e extensão da rede de distribuição de esgoto possui correlação com as internações. Já a hidrografia por ser um dado constante, pode-se justificar o fato da não correlação. Desta forma, escolhemos um teste de hipótese averiguando as médias de dois grupos, em relação às internações no ano e internações no ano seguinte baseando-se no pressuposto de que o efeito do desmatamento pode ser mais observado no ano seguinte.
+Diante desses resultados, podemos observar que o feature que possui uma maior influência em relação às internações é o incremento (correlação moderada). Não foi possível constatar que a densidade demográfica e extensão da rede de distribuição de esgoto possui correlação com as internações. Já a hidrografia por ser um dado constante, pode-se justificar o fato da não correlação. Desta forma, escolhemos um teste de hipótese averiguando as médias de dois grupos, em relação às internações no ano e internações no ano seguinte baseando-se no pressuposto de que o efeito do desmatamento pode ser mais observado no ano seguinte.
 
 
 ## Teste de hipótese
