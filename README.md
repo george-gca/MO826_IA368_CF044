@@ -571,10 +571,11 @@ Diante desses resultados, podemos observar que o atributo que possui uma maior i
 
 ## Teste de hipótese
 
+### Desmatamento e Internações por Dengue (mesmo ano)
 
-A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
+A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento entre 2008 e 2019 também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
 
-Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em todos os estados avaliados. Dentre esses, os municípios dos estados do AC, AM, MA, MT e PA que apresentaram maiores índices de desmatamento, também tiveram maiores índices de  de internações por dengue ao longo dos 
+Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em todos os estados avaliados. Dentre esses, os municípios dos estados do AC, AM, MA, MT e PA que apresentaram maiores índices de desmatamento, também tiveram maiores índices de  de internações por dengue ao longo dos anos analisados. Em contrapartida, nos estado de RO e TO, observou-se que os municípios com menores índices de desmatamento tinham maiores índices de internações.
 
 
 | Estado   |   Média (Menor) |   Média (Maior) |  t-valor  |   p-valor   | W-valor |  p-valor    |
@@ -588,8 +589,9 @@ Já na análise estatística realizada a partir do teste não paramétrico de Ma
 | TO       |     10.5682     |     6.39815     |-1.35363   | 0.177683    |  8870.5 | 0.0004929   |
 
 
+### Desmatamento e Internações por Dengue (ano seguinte)
 
-Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
+Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento entre 2008 e 2018 também tiveram maiores índices de internações por dengue entre entre 2008 e 2019. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
 
 | Estado   |   Média (Menor) |   Média (Maior) |  t-valor  |   p-valor   | W-valor |  p-valor    |
 |----------|-----------------|-----------------|-----------|-------------|---------|-------------|
@@ -602,38 +604,42 @@ Já quando avaliamos os índices de internação por dengue no ano seguinte ao d
 | TO       |     11.1901     |     5.67677     |-1.69309   | 0.0926372   |  7280   | 0.00346     |
 
 
-Ao avaliarmos os dados por ano sem levarmos em consideração os estados, não foi possível observar resultados estatisticamente significativos entre os municípios com maiores e menores índices de desmatamento e internações por dengue.
-|   Ano |   Média (Menor) |   Média (Maior) |   t-valor |   p-valor | Existe diferença entre a média dos grupos   |
-|-------|-----------------|-----------------|-----------|-----------|---------------------------------------------|
-|  2008 |        16.2899  |        17.7246  |  0.148341 |  0.882372 | Não                                         |
-|  2009 |        25.2286  |        30.1471  |  0.407    |  0.684657 | Não                                         |
-|  2010 |        34       |        52.1     |  1.03647  |  0.301872 | Não                                         |
-|  2011 |        26.8261  |        37.7536  |  0.740015 |  0.460644 | Não                                         |
-|  2012 |        22.4058  |        26.058   |  0.327539 |  0.743764 | Não                                         |
-|  2013 |        27.2206  |        25.2     | -0.172716 |  0.863161 | Não                                         |
-|  2014 |        20.7714  |        16.1912  | -0.455021 |  0.65008  | Não                                         |
-|  2015 |        15.5147  |        16.2286  |  0.109181 |  0.913238 | Não                                         |
-|  2016 |        11.3043  |        19.6377  |  1.38602  |  0.168069 | Não                                         |
-|  2017 |         5.98529 |         7.52857 |  0.683845 |  0.49542  | Não                                         |
-|  2018 |         3.22857 |         5.25    |  1.24986  |  0.213923 | Não                                         |
-|  2019 |         6.2029  |        10.2609  |  1.41281  |  0.160121 | Não                                         |
+### Desmatamento de todos os estados somados e Internações por Dengue (por ano)
 
+Ao avaliarmos os dados por ano sem levarmos em consideração os estados, não foi possível observar resultados estatisticamente significativos entre os municípios com maiores e menores índices de desmatamento e internações por dengue.
+|   Ano |   Média (Menor) |   Média (Maior) |   t-valor |   p-valor |
+|-------|-----------------|-----------------|-----------|-----------|
+|  2008 |        16.2899  |        17.7246  |  0.148341 |  0.882372 |
+|  2009 |        25.2286  |        30.1471  |  0.407    |  0.684657 |
+|  2010 |        34       |        52.1     |  1.03647  |  0.301872 |
+|  2011 |        26.8261  |        37.7536  |  0.740015 |  0.460644 |
+|  2012 |        22.4058  |        26.058   |  0.327539 |  0.743764 |
+|  2013 |        27.2206  |        25.2     | -0.172716 |  0.863161 |
+|  2014 |        20.7714  |        16.1912  | -0.455021 |  0.65008  |
+|  2015 |        15.5147  |        16.2286  |  0.109181 |  0.913238 |
+|  2016 |        11.3043  |        19.6377  |  1.38602  |  0.168069 |
+|  2017 |         5.98529 |         7.52857 |  0.683845 |  0.49542  |
+|  2018 |         3.22857 |         5.25    |  1.24986  |  0.213923 |
+|  2019 |         6.2029  |        10.2609  |  1.41281  |  0.160121 |
+
+
+### Desmatamento de todos os estados somados e Internações por Dengue (por ano seguinte)
 
 Os mesmos achados se mantiveram quando avaliamos as internações por dengue no ano seguinte ao desmatamento.
 
-|   Ano |   Média (Menor) |   Média (Maior) |   t-valor |   p-valor | Existe diferença entre a média dos grupos   |
-|-------|-----------------|-----------------|-----------|-----------|---------------------------------------------|
-|  2008 |        25.3333  |        30.2754  |  0.408116 |  0.683848 | Não                                         |
-|  2009 |        33.1286  |        50.25    |  0.986951 |  0.325431 | Não                                         |
-|  2010 |        27.2059  |        38.3     |  0.748305 |  0.455675 | Não                                         |
-|  2011 |        22.4058  |        26.058   |  0.327539 |  0.743764 | Não                                         |
-|  2012 |        26.8261  |        25.4638  | -0.116957 |  0.907083 | Não                                         |
-|  2013 |        21.3824  |        15.7429  | -0.550268 |  0.583432 | Não                                         |
-|  2014 |        15.0714  |        16.6912  |  0.249946 |  0.803032 | Não                                         |
-|  2015 |        11.4706  |        19.3714  |  1.30983  |  0.192552 | Não                                         |
-|  2016 |         5.89855 |         7.63768 |  0.775252 |  0.439713 | Não                                         |
-|  2017 |         3.32353 |         5.1     |  1.11015  |  0.269164 | Não                                         |
-|  2018 |         6.17143 |        10.4265  |  1.47827  |  0.141822 | Não                                         |
+|   Ano |   Média (Menor) |   Média (Maior) |   t-valor |   p-valor |
+|-------|-----------------|-----------------|-----------|-----------|
+|  2008 |        25.3333  |        30.2754  |  0.408116 |  0.683848 |
+|  2009 |        33.1286  |        50.25    |  0.986951 |  0.325431 |
+|  2010 |        27.2059  |        38.3     |  0.748305 |  0.455675 |
+|  2011 |        22.4058  |        26.058   |  0.327539 |  0.743764 |
+|  2012 |        26.8261  |        25.4638  | -0.116957 |  0.907083 |
+|  2013 |        21.3824  |        15.7429  | -0.550268 |  0.583432 |
+|  2014 |        15.0714  |        16.6912  |  0.249946 |  0.803032 |
+|  2015 |        11.4706  |        19.3714  |  1.30983  |  0.192552 |
+|  2016 |         5.89855 |         7.63768 |  0.775252 |  0.439713 |
+|  2017 |         3.32353 |         5.1     |  1.11015  |  0.269164 |
+|  2018 |         6.17143 |        10.4265  |  1.47827  |  0.141822 |
 
 
 
@@ -641,7 +647,10 @@ Os mesmos achados se mantiveram quando avaliamos as internações por dengue no 
 
 Com o objetivo de analisar a relação entre o aumento do desmatamento na Amazônia e os números de internações de dengue na mesma região, realizamos as análises de correlações entre as duas variáveis. Adicionamos outras variáveis (área de hidrografia, densidade demográfica, total da população sem acesso a rede de esgoto, entre outros) para incrementar em modelos estatísticos de regressão linear multivariado, a fim de compreender se é possível construir um modelo linear para predizer ou até compreender quais eram  as variáveis mais influentes para os números de casos e se realmente seriam influentes para o número de internações por dengue. Durante a construção deste modelo notamos que, embora a variável da população total sem acesso a rede de esgoto tenha uma correlação muito forte com os casos de dengue, ela apresenta uma forte correlação com o incremento de desmatamento, o que prejudica a construção destes modelos de regressão, pois não estariam agregando pesos diferentes para a regressão.
 
-No teste de hipóteses, foi observada uma relação estatisticamente significativa entre os municípios com maiores índices de desmatamento e internações por dengue no mesmo ano, nos estados do AM, MA, MT e PA. Esses resultados também foram observados nos estados do AM, MT e PA quando utilizamos os casos de internação por dengue do ano seguinte. Não obtivemos nenhum resultado estatisticamente significativo quando avaliamos os casos de internação por dengue observados anualmente. Apesar da grande quantidade de ferramentas disponíveis, é necessário um maior conhecimento teórico para suportar as decisões de técnicas para abordar o problema.
+No teste de hipóteses, quando utilizamos um método paramétrico para análise, foi observada uma relação estatisticamente significativa entre os municípios com maiores índices de desmatamento e internações por dengue no mesmo ano, nos estados do AM, MA, MT e PA. Esses resultados também foram observados nos estados do AM, MT e PA quando utilizamos os casos de internação por dengue do ano seguinte. Já quando utilizamos o método não paramétrico para análise, foi possível observar uma relação estatisticamente significativa entre os municípios com maiores índices de desmatamento e internações por dengue no mesmo ano, nos estados do AC, AM, MA, MT e PA. Na análise considerando o ano seguinte de internação por dengue em relação ao ano do desmatamento, os estados de AC, AM, PA, RO e MT apresentaram esse mesmo padrão de relação estatística.
+Não obtivemos nenhum resultado estatisticamente significativo quando avaliamos, independentemente do estado, os casos anuais de internação por dengue.
+
+De forma geral, apesar da grande quantidade de métodos e ferramentas para análise disponíveis, compreende-se que se faz necessário um vasto conhecimento teórico para identificar problemas, suportar as decisões técnicas e executar com eficiência testes a fim de extrair respostas de problemas científicos.
 
 # Trabalhos Futuros
 
