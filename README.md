@@ -369,8 +369,6 @@ O processo de alinhamento dos municípios envolve remover de ambos os dados info
 
 #### Análise Exploratória na Base Integrada
 
-TODO
-
 Após unificarmos as bases, realizamos uma análise da mesma, iniciando dos dados faltantes. Estas análises podem ser visualizadas no [notebook](notebooks/An%C3%A1lise_Explorat%C3%B3ria_Dados_Conjuntos.ipynb) e [colab](https://colab.research.google.com/drive/1UKLckgEir1nVk5HG_beE4if4JnwhHsd8?usp=sharing) correspondentes. Por meio dessa análise, pudemos perceber que os estados do Amapá e Roraima possuem dados faltantes de internação em todos os seus municípios em alguns anos, inutilizando seus usos.
 
 | Estado   |   Qtde Municípios |   2008 |   2009 |   2010 |   2011 |   2012 |   2013 |   2014 |   2015 |   2016 |   2017 |   2018 |   2019 |
@@ -413,6 +411,9 @@ De fato, alguns municípios já iniciam o ano de 2008 com sua área completament
 # Análises Realizadas
 
 ## Regressão Linear Múltipla
+
+![](assets/dengue_hosp_san_estado_corr.svg)
+
 A partir da ferramenta Orange utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
 ![Workflow da Regressão de múltiplas variáveis](assets/Workflow_regressao_multipla.PNG)
 
