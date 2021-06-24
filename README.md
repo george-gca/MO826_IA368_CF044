@@ -1,5 +1,6 @@
-# Desmatamento e Doenças Emergentes: Novas Perspectivas dos Impactos Causados pela Exploração Ambiental em Zoonoses Emergentes
-# Deforestation and Emerging Diseases: New Perspectives on the Impacts Caused by Environmental Exploitation in Emerging Zoonoses
+# Desmatamento e Doenças Emergentes: Novas Perspectivas dos Impactos Causados pela Exploração Ambiental na Morbidade de Dengue
+
+# Deforestation and Emerging Diseases: New Perspectives on the Impacts Caused by Environmental Exploitation on Dengue Morbidity
 
 # Apresentação
 
