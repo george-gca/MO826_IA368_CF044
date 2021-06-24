@@ -434,8 +434,11 @@ Com isso, para análise por estado, cada grupo comparativo foi composto por um N
 # Resultados e discussão
 ## Regressão Linear Múltipla
 Como pode ser observado nos histogramas abaixo, em todas as variáveis não há uma distribuição normal, o que justifica a utilização do coeficiente de Spearman já que esse coeficiente não é sensível à assimetrias na distribuição. Outro ponto importante, é que esse coeficiente pode ser utilizado com a presença de outliers, já que é considerada a ordem e não os valores das variáveis. Como pode ser observado no [boxplot](#dados-hospitalares), esses dados contém outliers que poderiam afetar o cálculo do coeficiente de Pearson.
+
 ![](assets/dengue_hosp_san_estado_hist.svg)
-A figura abaixo apresenta a relação entre todas as variáveis utilizadas na análise. A tabela a seguir, também mostra essa correlação de forma numérica juntamente com o p-valor de cada relação. 
+
+A figura abaixo apresenta a relação entre todas as variáveis utilizadas na análise. A tabela a seguir, também mostra essa correlação de forma numérica juntamente com o p-valor de cada relação.
+
 ![](assets/dengue_hosp_san_estado_corr.svg)
 
 #### Correlação entre variáveis
