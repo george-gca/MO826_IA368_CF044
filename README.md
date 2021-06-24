@@ -433,7 +433,7 @@ A fim de avaliar a possível influência do desmatamento no número de internaç
 
 Com isso, para análise por estado, cada grupo comparativo foi composto por um N = 110 (10 municípios x 11 anos), enquanto na análise por ano, cada grupo comparativo foi composto por N = 70 (10 municípios x 7 estados).
 
-# Resultados
+# Resultados e discussão
 Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
 
 #### Correlação entre variáveis
@@ -556,19 +556,27 @@ Diante desses resultados, podemos observar que o feature que possui uma maior in
 A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
  
 
-| Estado   |   Média (Menor) |   Média (Maior) |   t-valor |     p-valor | Existe diferença entre a média dos grupos   |
+| Estado   |   Média (Menor) |   Média (Maior) |  t-valor  |   p-valor   | Existe diferença entre a média dos grupos   |
 |----------|-----------------|-----------------|-----------|-------------|---------------------------------------------|
-| AC       |     10.8487     |     21.8595     |   1.51252 | 0.131729    | Não                                         |
-| AM       |     0.333333    |     4.48333     |   3.09707 | 0.00220179  | Sim                                         |
-| MA       |     11.6417     |     17.7417     |   2.0323  | 0.0434698   | Sim                                         |
-| MT       |     3.99074     |     16.6083     |   4.14621 | 4.78304e-05 | Sim                                         |
-| PA       |     33.45       |     62.8417     |   2.06063 | 0.0404487   | Sim                                         |
-| RO       |     51.9667     |     22.7833     |  -3.02313 | 0.00277554  | Sim                                         |
-| TO       |     10.5682     |     6.39815     |  -1.35363 | 0.177683    | Não                                         |
-
-Na análise estatística a partir do teste de Mann-Whitney, os resultados se mostraram similares.....
+| AC       |     10.8487     |     21.8595     | 1.51252   | 0.131729    | Não                                         |
+| AM       |     0.333333    |     4.48333     | 3.09707   | 0.00220179  | Sim                                         |
+| MA       |     11.6417     |     17.7417     | 2.0323    | 0.0434698   | Sim                                         |
+| MT       |     3.99074     |     16.6083     | 4.14621   | 4.78304e-05 | Sim                                         |
+| PA       |     33.45       |     62.8417     | 2.06063   | 0.0404487   | Sim                                         |
+| RO       |     51.9667     |     22.7833     |-3.02313   | 0.00277554  | Sim                                         |
+| TO       |     10.5682     |     6.39815     |-1.35363   | 0.177683    | Não                                         |
 
 
+Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em 5/7 estados.
+| Estado   |   Mediana (Menor) |   Mediana (Maior) |   W-valor |  p-valor    | Existe diferença entre a mediana dos grupos   |
+|----------|-------------------|-------------------|-----------|-------------|-----------------------------------------------|
+| AC       |         1         |         3         |    9181   | 0.000168    | Sim                                           |
+| AM       |         0         |         0         |    8354   | 1.128e-06   | Sim                                           |
+| MA       |         3         |         8         |    8247   | 0.05067     | Sim                                           |
+| MT       |         0         |         3,5       |    8976   | 2.567e-07   | Sim                                           |
+| PA       |         0         |         20,5      |    11646  | < 2.2e-16   | Sim                                           |
+| RO       |         14,5      |         8,5       |    6150.5 | 0.05086     | Sim                                           |
+| TO       |         0         |         2         |    8870.5 | 0.0004929   | Sim                                           |
 
 
 Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
@@ -617,11 +625,7 @@ Os mesmos achados se mantiveram quando avaliamos as internações por dengue no 
 |  2017 |         3.32353 |         5.1     |  1.11015  |  0.269164 | Não                                         |
 |  2018 |         6.17143 |        10.4265  |  1.47827  |  0.141822 | Não                                         |
 
-# Resultados
-TODO
 
-# Discussão
-TODO
 
 # Conclusão
 TODO:
