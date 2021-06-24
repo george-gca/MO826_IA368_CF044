@@ -438,8 +438,6 @@ Como pode ser observado nos histogramas abaixo, em todas as variáveis não há 
 A figura abaixo apresenta a relação entre todas as variáveis utilizadas na análise. A tabela a seguir, também mostra essa correlação de forma numérica juntamente com o p-valor de cada relação. 
 ![](assets/dengue_hosp_san_estado_corr.svg)
 
-![](assets/dengue_hosp_san_estado_relat.svg)
-
 #### Correlação entre variáveis
 
 | Atributo 1                              | Atributo 2                 |   r Pearson |   p Pearson |   r Spearman |   p Spearman |
