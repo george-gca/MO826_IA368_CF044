@@ -4,7 +4,6 @@
 
 ## Zoonoses
 - [DATASUS](http://www2.datasus.gov.br/DATASUS/index.php?area=0203&id=34523091&VObj=http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/dengueb)
-- [Dados de localização das espécies](https://www.gbif.org/)
 - [DATASUS hospitalares](http://www2.datasus.gov.br/DATASUS/index.php?area=0203&id=6927&VObj=http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/nr)
 
 ## Saneamento
