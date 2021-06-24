@@ -576,6 +576,8 @@ Diante desses resultados, podemos observar que o atributo que possui uma maior i
 
 ## Teste de hipótese
 
+Os testes de hipótese realizados foram feitos em [R](src/analises_projeto_DSFH.r) e, posteriormente, replicados em Python neste [notebook](notebooks/Teste_de_Hip%C3%B3teses_Incremento_x_Interna%C3%A7%C3%B5es.ipynb) e no [colab](https://colab.research.google.com/drive/1chANrmfZ_gJzPBsUA0NIQd_PNKDqdNOq?usp=sharing).
+
 ### Desmatamento e Internações por Dengue (mesmo ano)
 
 A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento entre 2008 e 2019 também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
@@ -679,4 +681,4 @@ deforestation of the Brazilian Amazon. 2010 Environ. Res. Lett. 5 024002. https:
 - [11] Patz JA, Martens WJM, Focks DA, Jettend TH Dengue Fever Epidemic Potential as Projected by General Circulation Models of Global Climate Change. Environmental Health Perspectives  Vol 06, Num 3, March 1998 147-153
 - [12] Messina JP, Brady OJ, Pigott DM, Golding N, Kraemer MU, Scott TW, Wint GR, Smith DL, Hay SI. The many projected futures of dengue. Nat Rev Microbiol. 2015 Apr;13(4):230-9. doi: 10.1038/nrmicro3430. Epub 2015 Mar 2. PMID: 25730702.
 - [13] Kalbus A, de Souza Sampaio V, Boenecke J, Reintjes R. Exploring the influence of deforestation on dengue fever incidence in the Brazilian Amazonas state. PLoS One. 2021;16(1):e0242685. Published 2021 Jan 7. doi:10.1371/journal.pone.0242685
-- [14] 
+- [14] Usama Fayyad, Gregory Piatetsky-Shapiro, and Padhraic Smyth. 1996. Knowledge discovery and data mining: towards a unifying framework. In Proceedings of the Second International Conference on Knowledge Discovery and Data Mining (KDD'96). AAAI Press, 82–88.
