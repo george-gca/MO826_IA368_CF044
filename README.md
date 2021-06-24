@@ -410,16 +410,10 @@ De fato, alguns municípios já iniciam o ano de 2008 com sua área completament
 
 # Análises Realizadas
 
-## Regressão Linear Múltipla
-
-![](assets/dengue_hosp_san_estado_corr.svg)
-
-![](assets/dengue_hosp_san_estado_hist.svg)
-
 A partir da ferramenta Orange utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
 ![Workflow da Regressão de múltiplas variáveis](assets/Workflow_regressao_multipla.PNG)
 
-Antes da realização da regressão linear múltipla foi averiguado a correlação entre todas as variáveis a partir do coeficiente de Pearson, pois os dados já foram tratados anteriormente, e por conta disso não há a presença de outliers, caso contrário o coeficiente pode ser afetado pois utiliza a média em seu cálculo. Essa análise consiste em definir se várias variáveis se influenciam em relação à outra, e como é codificada essa influência. Se as variáveis se influenciam, haverá um tipo de correlação, podendo ser positiva ou negativa. Se a variável for correlacionada ela estará mais próxima do valor 1 (1º e 3º quadrante do eixo). Caso o valor do coeficiente estiver mais próximo de -1 significa que as variáveis são anti-correlacionadas (2º e 4º quadrantes do eixo). É importante destacar que uma correlação igual à zero não implica na independência de variáveis, e por isso não é possível inferir independência de variáveis por meio desse coeficiente, e mesmo as variáveis possuindo uma correlação, não implica que uma variável é a causa de outra variável ocorrer. A partir da ferramenta R foi calculado, também, o p-valor para cada conjunto de variáveis relacionadas para verificar o grau de certeza da correlação.
+Antes da realização da regressão linear múltipla foi averiguado a correlação entre todas as variáveis a partir do coeficiente de Pearson. Essa análise consiste em definir se várias variáveis se influenciam em relação à outra, e como é codificada essa influência. Se as variáveis se influenciam, haverá um tipo de correlação, podendo ser positiva ou negativa. Se a variável for correlacionada ela estará mais próxima do valor 1 (1º e 3º quadrante do eixo). Caso o valor do coeficiente estiver mais próximo de -1 significa que as variáveis são anti-correlacionadas (2º e 4º quadrantes do eixo).  Foi calculado, também, o p-valor para cada conjunto de variáveis relacionadas para verificar o grau de certeza da correlação. Outra análise realizada, é calcular o coeficiente de Spearman. Esse coeficiente avalia a relação monotônica entre duas variáveis contínuas ou ordinais. Em uma relação monotônica, as variáveis tendem a mudar juntas mas não necessariamente a uma taxa constante. E enquanto a correlação de Pearson mede relações lineares, a de Spearman mede apenas relações monotônicas (lineares ou não lineares). Por conta disso, serão calculados os dois tipos de coeficientes com os respectivos p-valores.
 
 A partir de testes estatísticos de hipótese é possível inferir, dentro de um certo nível de confiança e baseado dados amostrais, se a média visualizada nas amostras estudadas pode ser extrapolada para a média da população de onde as amostras foram retiradas. Os testes estatísticos não impedem o erro, mas calculam a probabilidade desse erro ocorrer na pesquisa, auxiliando na tomada de decisão.
 
@@ -436,6 +430,14 @@ A fim de avaliar a possível influência do desmatamento no número de internaç
 Com isso, para análise por estado, cada grupo comparativo foi composto por um N = 110 (10 municípios x 11 anos), enquanto na análise por ano, cada grupo comparativo foi composto por N = 70 (10 municípios x 7 estados).
 
 # Resultados e discussão
+## Regressão Linear Múltipla
+
+A próxima figura apresenta a relação entre todas as variáveis utilizadas na análise. A tabela a seguir, também mostra essa correlação de forma numérica juntamente com o p-valor de cada relação. 
+![](assets/dengue_hosp_san_estado_corr.svg)
+
+
+
+![](assets/dengue_hosp_san_estado_hist.svg)
 Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
 
 #### Correlação entre variáveis
