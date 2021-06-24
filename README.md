@@ -410,6 +410,8 @@ De fato, alguns municípios já iniciam o ano de 2008 com sua área completament
 
 # Análises Realizadas
 
+## Regressão Linear Múltipla
+
 A partir da ferramenta Orange utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
 ![Workflow da Regressão de múltiplas variáveis](assets/Workflow_regressao_multipla.PNG)
 
