@@ -238,7 +238,7 @@ Todos os estados apresentaram correlação positiva e com alto grau de confianç
 
 ![](assets/desmat_regressao_estados.svg)
 
-Apesar do decréscimo no incremento da área desmatada que houve de 2008 a 2012, podemos perceber que a mediana e 3o quartil das caixas foram crescendo a partir de 2012, indicando a tendência forte no aumento do desmatamento que se sucedeu nestes anos. A partir de 2015 o número de elementos acima da mediana aumentou consideravelmente em relação ao 1o quartil, indicando que a maior parte dos valores estão acima da mediana daquele período.
+Apesar do decréscimo no incremento da área desmatada que houve de 2008 a 2012, podemos perceber que a mediana e 3o quartil das caixas foram crescendo a partir de 2012, indicando a tendência forte no aumento do desmatamento que se sucedeu nestes anos. A partir de 2015 o 3o quartil aumentou consideravelmente em relação ao 1o quartil.
 
 ![](assets/desmat_boxplot_estados.svg)
 
