@@ -651,9 +651,7 @@ Apesar da grande quantidade de ferramentas disponíveis, é necessário um maior
 
 # Trabalhos Futuros
 
-Uma possibilidade de extensão deste trabalho é a utilização de variáveis adicionais para a criação de um modelo não linear de predição.
-Dados de temperatura e pluviosidade
-estavam separados por estações, e não por municípios
+Uma possibilidade de extensão deste trabalho é a utilização de variáveis adicionais para a criação de um modelo não linear de predição. Neste contexto, um dos bancos de dados que optamos não utilizar por exigir um processamento muito extenso, mas que poderia ser utilizado em análises futuras, foi o de dados meteorológicos ([Banco de Dados Meteorológicos do INMET](https://bdmep.inmet.gov.br)) que apresentam os valores diários de temperatura e pluviosidade das regiões de interesse ao longo dos anos. O maior problema que tivemos para lidar com estes dados foram as formas com que os dados estavam organizados, que não seguiam um padrão que poderíamos parametrizar com os nossos datasets. Os dados estavam separados por estação meteorológica e não por municípios, os dados pré-selecionados vinham por regiões, mas não separava os estados aos quais pertenciam, o que dificultou ainda mais o processamento. Para conseguir colocar nos mesmos parâmetros, precisaríamos conhecer as respectivas estações de cada região/município. Além disso, 63 de 200 arquivos retornaram dados vazios ou com algum dado faltante no intervalo de tempo selecionado. 
 
 Modelo não linear para predição do comportamento das internações de dengue com relação ao desmatamento.
 Utilizar outras variáveis
