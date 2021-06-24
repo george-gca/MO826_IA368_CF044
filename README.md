@@ -243,7 +243,7 @@ Todos os estados apresentaram correlação positiva e com alto grau de confianç
 
 ![](assets/desmat_regressao_estados.svg)
 
-Apesar do decréscimo no incremento da área desmatada que houve de 2008 a 2012, podemos perceber que a mediana e 3o quartil das caixas foram crescendo a partir de 2012, indicando a tendência forte no aumento do desmatamento que se sucedeu nestes anos. A partir de 2015 o 3o quartil aumentou consideravelmente em relação ao 1o quartil.
+Apesar do decréscimo no incremento da área desmatada que houve de 2008 a 2012, podemos perceber que a mediana e 3º quartil das caixas foram crescendo a partir de 2012, indicando a tendência forte no aumento do desmatamento que se sucedeu nestes anos. A partir de 2015 o 3º quartil aumentou consideravelmente em relação ao 1º quartil.
 
 ![](assets/desmat_boxplot_estados.svg)
 
@@ -353,7 +353,7 @@ Outra análise relevante, é que uma variação muito grande dos valores de inte
 
 ![Internações Municípios](assets/municipios_internacoes_anual.svg)
 
-Nos boxplots abaixo está representado o agrupamento de todos os estados por ano, onde podemos observar que nos anos de 2009 a 2013 tivemos uma maior quantidade de internações por dengue, o que está representado tanto pela mediana das caixas como pelos 1o e 3o quartis. Após esse período podemos perceber uma tendência à redução do número de casos, levando a redução tanto da mediana quando dos quartis das caixas, o que não se manteve para o ano de 2019.
+Nos boxplots abaixo está representado o agrupamento de todos os estados por ano, onde podemos observar que nos anos de 2009 a 2013 tivemos uma maior quantidade de internações por dengue, o que está representado tanto pela mediana das caixas como pelos 1º e 3º quartis. Após esse período podemos perceber uma tendência à redução do número de casos, levando a redução tanto da mediana quando dos quartis das caixas, o que não se manteve para o ano de 2019.
 
 ![Boxplot](assets/boxplot_internacoes_estados.svg)
 
