@@ -419,7 +419,7 @@ A partir de testes estatísticos de hipótese é possível inferir, dentro de um
 
 De forma geral, tais testes podem ser divididos entre testes paramétricos e não paramétricos, de acordo com as premissas de distribuição de freqüências amostrais, homogeneidade de variâncias, homogeneidade do N entre os grupos e erros independentes. Testes paramétricos possuem forte indicação para casos em que as amostras possuem distribuição homogênea/ normal, enquanto os testes não-paramétricos não possuem essa exigência.
 
-Apesar da premissa acerca da normalidade da distribuição, o cumprimento de algumas outras condições em situações de não normalidade amostral pode ser capaz de suportar também a utilização de testes paramétricos que, de forma geral, possuem métodos mais robustos e poderosos do que os da estatística não-paramétrica, mesmo em dados com esse tipo de distribuição. Logo, em nossa amostra, apesar da distribuição dos dados não ter sido simétrica, fatores como o N amostral elevado e homogêneo entre os grupos comparativos, associados a informação da homogeneidade foram levados em consideração para a aplicação do teste paramétrico `t de Student bicaudal`. Apesar dessa abordagem inicial utilizada, o teste não paramétrico de `Mann-Whitney` foi executado com os mesmos conjuntos amostrais para comparação dos resultados entre os testes.
+Apesar da premissa acerca da normalidade da distribuição, o cumprimento de algumas outras condições em situações de não normalidade amostral pode ser capaz de suportar também a utilização de testes paramétricos que, de forma geral, possuem métodos mais robustos e poderosos do que os da estatística não-paramétrica, mesmo em dados com esse tipo de distribuição. Logo, em nossa amostra, apesar da [distribuição](assets/teste_hip_hist.svg) dos dados não ter sido simétrica, fatores como o N amostral elevado e homogêneo entre os grupos comparativos, associados a informação da homogeneidade foram levados em consideração para a aplicação do teste paramétrico `t de Student bicaudal`. Apesar dessa abordagem inicial utilizada, o teste não paramétrico de `Mann-Whitney` foi executado com os mesmos conjuntos amostrais para comparação dos resultados entre os testes.
 
 Inicialmente, foi estabelecida uma hipótese nula H0 para ser testada. Com isso, a mesma foi confrontada com uma hipótese alternativa H1. Em nosso estudo, a hipótese H0 = não existe diferença entre as médias dos casos de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Em contrapartida, a H1 = existe diferença entre as médias dos casos de de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Além disso, também foi definido previamente o nível de significância = 0,05 para estudo.
 
@@ -557,44 +557,35 @@ Diante desses resultados, podemos observar que o feature que possui uma maior in
 
 ## Teste de hipótese
 
-![](assets/teste_hip_hist.svg)
 
 A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
- 
 
-| Estado   |   Média (Menor) |   Média (Maior) |  t-valor  |   p-valor   | Existe diferença entre a média dos grupos   |
-|----------|-----------------|-----------------|-----------|-------------|---------------------------------------------|
-| AC       |     10.8487     |     21.8595     | 1.51252   | 0.131729    | Não                                         |
-| AM       |     0.333333    |     4.48333     | 3.09707   | 0.00220179  | Sim                                         |
-| MA       |     11.6417     |     17.7417     | 2.0323    | 0.0434698   | Sim                                         |
-| MT       |     3.99074     |     16.6083     | 4.14621   | 4.78304e-05 | Sim                                         |
-| PA       |     33.45       |     62.8417     | 2.06063   | 0.0404487   | Sim                                         |
-| RO       |     51.9667     |     22.7833     |-3.02313   | 0.00277554  | Sim                                         |
-| TO       |     10.5682     |     6.39815     |-1.35363   | 0.177683    | Não                                         |
+Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em todos os estados avaliados. Dentre esses, os municípios dos estados do AC, AM, MA, MT e PA que apresentaram maiores índices de desmatamento, também tiveram maiores índices de  de internações por dengue ao longo dos 
 
 
-Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em todos os estados.
-| Estado   |   Mediana (Menor) |   Mediana (Maior) |   W-valor |  p-valor    | Existe diferença entre a mediana dos grupos   | W-valor |  p-valor    | Existe diferença entre a mediana dos grupos   |
-|----------|-------------------|-------------------|-----------|-------------|-----------------------------------------------|-----------|-------------|-----------------------------------------------|
-| AC       |         11        |         3         |    9181   | 0.000168    | Sim                                           |    9181   | 0.000168    | Sim                                           |
-| AM       |         0         |         0         |    8354   | 1.128e-06   | Sim                                           |    8354   | 1.128e-06   | Sim                                           
-| MA       |         3         |         8         |    8247   | 0.05067     | Sim                                           |    8247   | 0.05067     | Sim                                           |
-| MT       |         0         |         3,5       |    8976   | 2.567e-07   | Sim                                           |    8976   | 2.567e-07   | Sim                                           
-| PA       |         10        |         20,5      |    11646  | 2.2e-16     | Sim                                           |    11646  | 2.2e-16     | Sim                                           |
-| RO       |         14,5      |         8,5       |    6150.5 | 0.05086     | Sim                                           |    6150.5 | 0.05086     | Sim                                           |
-| TO       |         0         |         2         |    8870.5 | 0.0004929   | Sim                                           |    8870.5 | 0.0004929   | Sim                                           |
+| Estado   |   Média (Menor) |   Média (Maior) |  t-valor  |   p-valor   | W-valor |  p-valor    |
+|----------|-----------------|-----------------|-----------|-------------|---------|-------------|
+| AC       |     10.8487     |     21.8595     | 1.51252   | 0.131729    |  9181   | 0.000168    |
+| AM       |     0.333333    |     4.48333     | 3.09707   | 0.00220179  |  8354   | 1.128e-06   |
+| MA       |     11.6417     |     17.7417     | 2.0323    | 0.0434698   |  8247   | 0.05067     |  
+| MT       |     3.99074     |     16.6083     | 4.14621   | 4.78304e-05 |  8976   | 2.567e-07   |
+| PA       |     33.45       |     62.8417     | 2.06063   | 0.0404487   |  11646  | 2.2e-16     |
+| RO       |     51.9667     |     22.7833     |-3.02313   | 0.00277554  |  6150.5 | 0.05086     |
+| TO       |     10.5682     |     6.39815     |-1.35363   | 0.177683    |  8870.5 | 0.0004929   |
+
+
 
 Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
 
-| Estado   |   Média (Menor) |   Média (Maior) |   t-valor |     p-valor | Existe diferença entre a média dos grupos   |
-|----------|-----------------|-----------------|-----------|-------------|---------------------------------------------|
-| AC       |     11.7523     |     21.8739     |   1.29663 | 0.19613     | Não                                         |
-| AM       |     0.20202     |     4.74545     |   3.13384 | 0.00197565  | Sim                                         |
-| MA       |     11.9091     |     17.5909     |   1.76997 | 0.078435    | Não                                         |
-| MT       |     4.16162     |     16.7091     |   3.88925 | 0.000135471 | Sim                                         |
-| PA       |     30.1636     |     64.1273     |   2.32834 | 0.0208144   | Sim                                         |
-| RO       |     54.3        |     23.5364     |  -2.95714 | 0.0034471   | Sim                                         |
-| TO       |     11.1901     |     5.67677     |  -1.69309 | 0.0926372   | Não                                         |
+| Estado   |   Média (Menor) |   Média (Maior) |  t-valor  |   p-valor   | W-valor |  p-valor    |
+|----------|-----------------|-----------------|-----------|-------------|---------|-------------|
+| AC       |     11.7523     |     21.8739     | 1.29663   | 0.19613     |  7756   | 0.0002287   |
+| AM       |     0.20202     |     4.74545     | 3.13384   | 0.00197565  |  7029   | 2.763e-06   |
+| MA       |     11.9091     |     17.5909     | 1.76997   | 0.078435    |  6703   | 0.1651      |
+| MT       |     4.16162     |     16.7091     | 3.88925   | 0.000135471 |  7648.5 | 2.364e-07   |
+| PA       |     30.1636     |     64.1273     | 2.32834   | 0.0208144   |  10002  | 2.2e-16     |
+| RO       |     54.3        |     23.5364     |-2.95714   | 0.0034471   |  5147   | 0.05568     |
+| TO       |     11.1901     |     5.67677     |-1.69309   | 0.0926372   |  7280   | 0.00346     |
 
 
 Ao avaliarmos os dados por ano sem levarmos em consideração os estados, não foi possível observar resultados estatisticamente significativos entre os municípios com maiores e menores índices de desmatamento e internações por dengue.
