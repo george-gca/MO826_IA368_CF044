@@ -415,6 +415,20 @@ A partir da ferramenta Orange e R utilizamos a regressão linear múltipla para 
 
 Antes da realização da regressão linear múltipla foi averiguado a correlação entre todas as variáveis a partir do coeficiente de Pearson, pois os dados já foram tratados anteriormente, e por conta disso não há a presença de outliers, caso contrário o coeficiente pode ser afetado pois utiliza a média em seu cálculo. Essa análise consiste em definir se várias variáveis se influenciam em relação à outra, e como é codificada essa influência. Se as variáveis se influenciam, haverá um tipo de correlação, podendo ser positiva ou negativa. Se a variável for correlacionada ela estará mais próxima do valor 1 (1º e 3º quadrante do eixo). Caso o valor do coeficiente estiver mais próximo de -1 significa que as variáveis são anti-correlacionadas (2º e 4º quadrantes do eixo). É importante destacar que uma correlação igual à zero não implica na independência de variáveis, e por isso não é possível inferir independência de variáveis por meio desse coeficiente, e mesmo as variáveis possuindo uma correlação, não implica que uma variável é a causa de outra variável ocorrer. A partir da ferramenta R foi calculado, também, o p-valor para cada conjunto de variáveis relacionadas para verificar o grau de certeza da correlação.
 
+A partir de testes estatísticos de hipótese é possível inferir, dentro de um certo nível de confiança e baseado dados amostrais, se a média visualizada nas amostras estudadas pode ser extrapolada para a média da população de onde as amostras foram retiradas. Os testes estatísticos não impedem o erro, mas calculam a probabilidade desse erro ocorrer na pesquisa, auxiliando na tomada de decisão.
+
+De forma geral, tais testes podem ser divididos entre testes paramétricos e não paramétricos, de acordo com as premissas de distribuição de freqüências amostrais, homogeneidade de variâncias, homogeneidade do N entre os grupos e erros independentes. Testes paramétricos possuem forte indicação para casos em que as amostras possuem distribuição homogênea/ normal, enquanto os testes não-paramétricos não possuem essa exigência.
+
+Apesar da premissa acerca da normalidade da distribuição, o cumprimento de algumas outras condições em situações de não normalidade amostral pode ser capaz de suportar também a utilização de testes paramétricos que, de forma geral, possuem métodos mais robustos e poderosos do que os da estatística não-paramétrica, mesmo em dados com esse tipo de distribuição. Logo, em nossa amostra, apesar da distribuição dos dados não ter sido simétrica, fatores como o N amostral elevado e homogêneo entre os grupos comparativos, associados a informação da homogeneidade foram levados em consideração para a aplicação do teste paramétrico `t de Student bicaudal`. Apesar dessa abordagem inicial utilizada, o teste não paramétrico de `Mann-Whitney` foi executado com os mesmos conjuntos amostrais para comparação dos resultados entre os testes.
+
+Inicialmente, foi estabelecida uma hipótese nula H0 para ser testada. Com isso, a mesma foi confrontada com uma hipótese alternativa H1. Em nosso estudo, a hipótese H0 = não existe diferença entre as médias dos casos de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Em contrapartida, a H1 = existe diferença entre as médias dos casos de de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Além disso, também foi definido previamente o nível de significância = 0,05 para estudo.
+
+O resultado do teste baseia-se na decisão entre a H0 ou H1 estruturada nas informaões de probabilidade contidas na amostra. As hipóteses são mutuamente exclusivas, logo, um resultado de teste é estatisticamente significativo quando a probabilidade (p–valor) de obter–se uma estatística de teste igual ou mais extrema que o nível de significância definido nos leva a assumir a H0 como falsa e H1 como verdadeira. 
+
+A fim de avaliar a possível influência do desmatamento no número de internações por dengue na Amazônia, foram selecionados 10 municípios com maiores e 10 com menores índices de desmatamento dos 9 estados que compõem a região, entre os anos de 2008 e 2019. Posteriormente a essa seleção, foi identificada ausência de dados na amostra e dois estados (AP e RR) precisaram ser excluídos da análise.
+
+Com isso, para análise por estado, cada grupo comparativo foi composto por um N = 110 (10 municípios x 11 anos), enquanto na análise por ano, cada grupo comparativo foi composto por N = 70 (10 municípios x 7 estados).
+
 # Resultados
 Inicialmente, verificamos as correlações entre os atributos que estão representados na figura a seguir
 
@@ -535,22 +549,8 @@ Diante desses resultados, podemos observar que o feature que possui uma maior in
 
 ## Teste de hipótese
 
-A partir de testes estatísticos de hipótese é possível inferir, dentro de um certo nível de confiança e baseado dados amostrais, se a média visualizada nas amostras estudadas pode ser extrapolada para a média da população de onde as amostras foram retiradas. Os testes estatísticos não impedem o erro, mas calculam a probabilidade desse erro ocorrer na pesquisa, auxiliando na tomada de decisão.
-
-De forma geral, tais testes podem ser divididos entre testes paramétricos e não paramétricos, de acordo com as premissas de distribuição de freqüências amostrais, homogeneidade de variâncias, homogeneidade do N entre os grupos e os erros independentes. Testes paramétricos possuem forte indicação para casos em que as amostras possuem distribuição homogênea/ normal, enquanto os testes não-paramétricos não possuem essa exigência.
-
-O cumprimento de algumas condições em situações de não normalidade amostral pode suportar a escolha de testes paramétricos que, de forma geral, possuem métodos mais robustos e poderosos do que os da estatística não-paramétrica. Logo, em nossa amostra, apesar da distribuição dos dados não ter sido simétrica, fatores como o N amostral elevado e homogêneo entre os grupos comparativos, e a consideração da homogeneidade da variância na execução do teste foram levados em consideração para a aplicação do teste paramétrico t de Student bicaudal.
-
-Inicialmente, foi estabelecida uma hipótese nula H0 para ser testada. Com isso, a mesma foi confrontada com uma hipótese alternativa H1. Em nosso estudo, a hipótese H0 = não existe diferença entre as médias dos casos de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Em contrapartida, a H1 = existe diferença entre as médias dos casos de de internação por dengue na Amazônia entre os grupos de municípios de menor e maior desmatamento. Além disso, também foi definido previamente o nível de significância = 0,05 para estudo.
-
-O resultado do teste baseia-se na decisão entre a H0 ou H1 estruturada nas informaões de probabilidade contidas na amostra. As hipóteses são mutuamente exclusivas, logo, um resultado de teste é estatisticamente significativo quando a probabilidade (p–valor) de obter–se uma estatística de teste igual ou mais extrema que o nível de significância definido nos leva a assumir a H0 como falsa e H1 como verdadeira. 
-
-Logo, a fim de avaliar a possível influência do desmatamento no número de internações por dengue na Amazônia, foram selecionados 10 municípios com maiores e 10 com menores índices de desmatamento dos 9 estados que compõem a região, entre os anos de 2008 e 2019. Posteriormente a essa seleção, foi identificada ausência de dados na amostra e dois estados (AP e RR) precisaram ser excluídos da análise.
-
-Com isso, para análise por estado, cada grupo comparativo foi composto por um N = 110 (10 municípios x 11 anos), enquanto na análise por ano, cada grupo comparativo foi composto por N = 70 (10 municípios x 7 estados). 
-
-
 A partir do teste t de Student bicaudal, quando avaliamos os índices de internação por dengue e desmatamento no mesmo ano, foi possível observar diferenças entre médias estatisticamente significativas em 5/7 estados. Dentre esses, em 4 estados (AM, MA, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
+ 
 
 | Estado   |   Média (Menor) |   Média (Maior) |   t-valor |     p-valor | Existe diferença entre a média dos grupos   |
 |----------|-----------------|-----------------|-----------|-------------|---------------------------------------------|
@@ -561,6 +561,10 @@ A partir do teste t de Student bicaudal, quando avaliamos os índices de interna
 | PA       |     33.45       |     62.8417     |   2.06063 | 0.0404487   | Sim                                         |
 | RO       |     51.9667     |     22.7833     |  -3.02313 | 0.00277554  | Sim                                         |
 | TO       |     10.5682     |     6.39815     |  -1.35363 | 0.177683    | Não                                         |
+
+Na análise estatística a partir do teste de Mann-Whitney, os resultados se mostraram similares.....
+
+
 
 
 Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
