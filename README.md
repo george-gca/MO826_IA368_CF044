@@ -573,17 +573,16 @@ A partir do teste t de Student bicaudal, quando avaliamos os índices de interna
 | TO       |     10.5682     |     6.39815     |-1.35363   | 0.177683    | Não                                         |
 
 
-Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em 5/7 estados.
-| Estado   |   Mediana (Menor) |   Mediana (Maior) |   W-valor |  p-valor    | Existe diferença entre a mediana dos grupos   |
-|----------|-------------------|-------------------|-----------|-------------|-----------------------------------------------|
-| AC       |         1         |         3         |    9181   | 0.000168    | Sim                                           |
-| AM       |         0         |         0         |    8354   | 1.128e-06   | Sim                                           |
-| MA       |         3         |         8         |    8247   | 0.05067     | Sim                                           |
-| MT       |         0         |         3,5       |    8976   | 2.567e-07   | Sim                                           |
-| PA       |         0         |         20,5      |    11646  | < 2.2e-16   | Sim                                           |
-| RO       |         14,5      |         8,5       |    6150.5 | 0.05086     | Sim                                           |
-| TO       |         0         |         2         |    8870.5 | 0.0004929   | Sim                                           |
-
+Já na análise estatística realizada a partir do teste não paramétrico de Mann-Whitney, foi possível observar diferenças entre as medianas estatisticamente significativas em todos os estados.
+| Estado   |   Mediana (Menor) |   Mediana (Maior) |   W-valor |  p-valor    | Existe diferença entre a mediana dos grupos   | W-valor |  p-valor    | Existe diferença entre a mediana dos grupos   |
+|----------|-------------------|-------------------|-----------|-------------|-----------------------------------------------|-----------|-------------|-----------------------------------------------|
+| AC       |         11        |         3         |    9181   | 0.000168    | Sim                                           |    9181   | 0.000168    | Sim                                           |
+| AM       |         0         |         0         |    8354   | 1.128e-06   | Sim                                           |    8354   | 1.128e-06   | Sim                                           
+| MA       |         3         |         8         |    8247   | 0.05067     | Sim                                           |    8247   | 0.05067     | Sim                                           |
+| MT       |         0         |         3,5       |    8976   | 2.567e-07   | Sim                                           |    8976   | 2.567e-07   | Sim                                           
+| PA       |         10        |         20,5      |    11646  | 2.2e-16     | Sim                                           |    11646  | 2.2e-16     | Sim                                           |
+| RO       |         14,5      |         8,5       |    6150.5 | 0.05086     | Sim                                           |    6150.5 | 0.05086     | Sim                                           |
+| TO       |         0         |         2         |    8870.5 | 0.0004929   | Sim                                           |    8870.5 | 0.0004929   | Sim                                           |
 
 Já quando avaliamos os índices de internação por dengue no ano seguinte ao desmatamento, foi possível observar diferenças entre médias estatisticamente significativas em 4/7 estados. Dentre esses, em 3 estados (AM, MT, PA) os municípios com maiores índices de desmatamento também tiveram maiores índices de internações por dengue. Já no estado de RO foi observado que os municípios com menores índices de desmatamento tinham maiores índices de internações. Nos estados do AC e TO, não foram observadas relações estatisitcamente significativas entre as variáveis estudadas.
 
