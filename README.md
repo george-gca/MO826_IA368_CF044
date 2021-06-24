@@ -63,8 +63,6 @@ Nosso projeto propõe verificar se existe relação entre o aumento de desmatame
 
 # Metodologia
 
-TODO: citar os caras que fizeram antes algo parecido
-
 Para a realização deste trabalho os seguintes passos foram necessários, baseados no modelo KDD de Fayyad et al. [[14]](https://dl.acm.org/doi/10.5555/3001460.3001477):
 - análise do domínio do problema;
 - aquisição dos dados necessários para responder as perguntas de pesquisa;
