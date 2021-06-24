@@ -57,22 +57,29 @@ Interessantemente, foi encontrado um artigo de 2021 que buscou compreender a inf
   - Existe diferença no número de casos de internações em estados com maiores e menores índices de desmatamento?
 
 # Objetivos do Projeto
-TODO
+
+Nosso projeto propõe verificar se existe relação entre o aumento de desmatamento na Amazônia Legal e o aumento nos casos de internações por dengue.
 
 # Metodologia
-TODO
 
-Antiga
----
+TODO: citar os caras que fizeram antes algo parecido
+
 Para a realização deste trabalho os seguintes passos foram necessários:
 - análise dos dados, interpretação e seleção de subconjuntos de interesse;
 - limpeza e normalização dos dados;
-- análise de métodos de data mining aplicáveis ao problema;
-- realização de data mining;
+- análise exploratória dos dados;
+- análise de métodos de mineração de dados aplicáveis ao problema;
+- realização de mineração de dados;
 - avaliação e visualização dos resultados;
 - publicação dos resultados obtidos.
 
 O ciclo de análise dos dados à avaliação dos resultados poderá ser repetido diversas vezes, até o momento em que o conhecimento necessário para a resposta das perguntas de pesquisa seja obtido.
+
+# Ferramentas
+
+Durante o pré-processamento dos dados, assim como para a análise exploratória, foram utilizadas a linguagem [Python](https://www.python.org/) por meio do [Google Colab](https://colab.research.google.com/notebooks). Para a limpeza e tratamento dos dados foi utilizada a biblioteca [Pandas](https://pandas.pydata.org/), por facilitar o uso de dados tabulares, e durante sua exploração utilizamos também as bibliotecas [SciPy](https://www.scipy.org/) e [SKLearn](https://scikit-learn.org/). Estas bibliotecas possuem a implementação de várias técnicas estatísticas, como correlações e algoritmos de regressão linear. Para a visualização das informações utilizamos a biblioteca [python-tabulate](https://github.com/astanin/python-tabulate) para gerar tabelas e [Altair](https://altair-viz.github.io/) na geração de gráficos.
+
+Já no processo de análises como teste de hipóteses e análise de correlações entre outras variáveis, várias outras ferramentas foram utilizadas, de modo que cada integrante utilizou a ferramenta que possuia maior domínio. Dentre essas variáveis estavam o [Orange](https://orangedatamining.com/) e a linguagem [R](https://www.r-project.org/), com o auxílios das bibliotecas [dplyr](https://dplyr.tidyverse.org/) para testes estatísticos e [ggplot2](https://ggplot2.tidyverse.org/) para realizar algumas visualizações.
 
 ## Bases de Dados e Evolução
 
@@ -405,12 +412,8 @@ De fato, alguns municípios já iniciam o ano de 2008 com sua área completament
 
 # Análises Realizadas
 
-## Ferramentas
-TODO
-
-Para analisar e interpretar inicialmente os dados, poderemos utilizar a ferramenta [Data Studio](https://datastudio.google.com/) ou a linguagem [Python](https://www.python.org/) com o auxílio da biblioteca [Pandas](https://pandas.pydata.org/). Para limpeza e normalização dos dados, faremos isso programaticamente por meio das mesmas ferramentas. Para implementação dos métodos de data mining será utilizado a linguagem de programação [Python](https://www.python.org/) e bibliotecas como [Pandas](https://pandas.pydata.org/) e [SKLearn](https://scikit-learn.org/). Para a avaliação e visualização dos resultados poderão ser utilizadas soluções tanto programáticas, por meio de bibliotecas Python como [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Altair](https://altair-viz.github.io/) ou [Plotly](https://plotly.com/python/), quanto plataformas mais amigáveis, como o [PowerBI](https://powerbi.microsoft.com/pt-br/) ou o [Tableau](https://www.tableau.com/pt-br).
-
-A partir da ferramenta Orange e R utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
+## Regressão Linear Múltipla
+A partir da ferramenta Orange utilizamos a regressão linear múltipla para observar se algumas variáveis dentro do banco de dados influenciam de algum modo a taxa de internações de dengue ao longo dos anos. Para tal análise, foram escolhidas como variáveis independentes (variáveis de entrada) a população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, incremento de desmatamento entre o ano atual e o anterior, extensão da rede de distribuição de esgoto, população total que mora em domicílios sem acesso ao serviço de coleta de esgoto, densidade demográfica e área de hidrografia. Para a variável dependente (variável de saída) escolhemos o número de internações por dengue nos anos de 2008 até 2019. O fluxograma para a análise está representado a seguir.
 ![Workflow da Regressão de múltiplas variáveis](assets/Workflow_regressao_multipla.PNG)
 
 Antes da realização da regressão linear múltipla foi averiguado a correlação entre todas as variáveis a partir do coeficiente de Pearson, pois os dados já foram tratados anteriormente, e por conta disso não há a presença de outliers, caso contrário o coeficiente pode ser afetado pois utiliza a média em seu cálculo. Essa análise consiste em definir se várias variáveis se influenciam em relação à outra, e como é codificada essa influência. Se as variáveis se influenciam, haverá um tipo de correlação, podendo ser positiva ou negativa. Se a variável for correlacionada ela estará mais próxima do valor 1 (1º e 3º quadrante do eixo). Caso o valor do coeficiente estiver mais próximo de -1 significa que as variáveis são anti-correlacionadas (2º e 4º quadrantes do eixo). É importante destacar que uma correlação igual à zero não implica na independência de variáveis, e por isso não é possível inferir independência de variáveis por meio desse coeficiente, e mesmo as variáveis possuindo uma correlação, não implica que uma variável é a causa de outra variável ocorrer. A partir da ferramenta R foi calculado, também, o p-valor para cada conjunto de variáveis relacionadas para verificar o grau de certeza da correlação.
@@ -620,7 +623,26 @@ TODO
 TODO
 
 # Conclusão
-TODO
+TODO:
+Destacar as principais conclusões obtidas no desenvolvimento do projeto.
+Principais lições aprendidas.
+
+Este projeto tinha por objetivo avaliar se há alguma relação entre o aumento do desmatamento na Amazônia e o aumento nos casos de dengue nos municípios que a compõem. Procuramos utilizar, além de dados de desmatamento, dados como área de hidrografia, densidade demográfica, total da população sem acesso a rede de esgoto, entre outros. Foi feita uma regressão linear multivariável para verificar a influência de cada uma das variáveis no número de internações por dengue. Embora a variável da população total sem acesso a rede de esgoto tenha uma correlacao muito forte com os casos de dengue, ela tá muito correlacioanda ocm o incremento, o que nao ajuda num modeo de regressaso multivariavel
+
+hidrografia é constante, mas fortemente relacionada com incremento (0.683) (ou seja, crescimento quase constante do desmatamento)
+
+incremento com internações
+
+No teste de hipóteses, foi observada uma relação estatisticamente significativa entre os municípios com maiores índices de desmatamento e internações por dengue no mesmo ano, nos estados do AM, MA, MT e PA. Esses resultados também foram observados nos estados do AM, MT e PA quando utilizamos os casos de internação por dengue do ano seguinte.
+Não obtivemos nenhum resultado estatisticamente significativo quando avaliamos os casos de internação por dengue observados anualmente.
+
+Apesar da grande quantidade de ferramentas disponíveis, é necessário um maior conhecimento teórico para suportar as decisões de técnicas para abordar o problema.
 
 # Trabalhos Futuros
-TODO
+
+Uma possibilidade de extensão deste trabalho é a utilização de variáveis adicionais para a criação de um modelo não linear de predição.
+Dados de temperatura e pluviosidade
+estavam separados por estações, e não por municípios
+
+Modelo não linear para predição do comportamento das internações de dengue com relação ao desmatamento.
+Utilizar outras variáveis
