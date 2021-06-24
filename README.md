@@ -607,9 +607,6 @@ Os mesmos achados se mantiveram quando avaliamos as internações por dengue no 
 
 
 # Conclusão
-TODO:
-Destacar as principais conclusões obtidas no desenvolvimento do projeto.
-Principais lições aprendidas.
 
 Com o objetivo de analisar a relação entre o aumento do desmatamento na Amazônia e os números de internações de dengue na mesma região, realizamos as análises de correlações entre as duas variáveis. Adicionamos outras variáveis (área de hidrografia, densidade demográfica, total da população sem acesso a rede de esgoto, entre outros) para incrementar em modelos estatísticos de regressão linear multivariado, a fim de compreender se é possível construir um modelo linear para predizer ou até compreender quais eram  as variáveis mais influentes para os números de casos e se realmente seriam influentes para o número de internações por dengue. Durante a construção deste modelo notamos que, embora a variável da população total sem acesso a rede de esgoto tenha uma correlação muito forte com os casos de dengue, ela apresenta uma forte correlação com o incremento de desmatamento, o que prejudica a construção destes modelos de regressão, pois não estariam agregando pesos diferentes para a regressão.
 
